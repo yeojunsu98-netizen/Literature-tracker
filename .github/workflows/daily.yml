@@ -1,0 +1,77 @@
+name: Daily literature tracker
+
+on:
+  schedule:
+    # 13:00 UTC daily = 8:00 AM Chicago during daylight time, 7:00 AM during standard time.
+    - cron: "0 13 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  track:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Collect new papers
+        env:
+          # Optional. The tracker works without this key; adding one can improve S2 rate limits.
+          SEMANTIC_SCHOLAR_API_KEY: ${{ secrets.SEMANTIC_SCHOLAR_API_KEY }}
+        run: python tracker.py
+
+      - name: Read run metadata
+        id: meta
+        shell: bash
+        run: |
+          python - <<'PY' >> "$GITHUB_OUTPUT"
+          import json
+          m = json.load(open('reports/run_meta.json', encoding='utf-8'))
+          print(f"run_day={m['run_day']}")
+          print(f"report_path={m['report_path']}")
+          print(f"kept_count={m['kept_count']}")
+          print(f"candidate_count={m['new_candidate_count']}")
+          print(f"create_issue={'true' if m['create_github_issue'] else 'false'}")
+          print(f"issue_body_path={m['issue_body_path']}")
+          PY
+
+      - name: Commit report and state
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports state/seen.json
+          if git diff --cached --quiet; then
+            echo "No repository changes to commit."
+          else
+            git commit -m "Daily literature report ${{ steps.meta.outputs.run_day }}"
+            git push
+          fi
+
+      - name: Create GitHub issue for new relevant papers
+        if: steps.meta.outputs.kept_count != '0' && steps.meta.outputs.create_issue == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TITLE: "Literature report — ${{ steps.meta.outputs.run_day }} (${{ steps.meta.outputs.kept_count }} papers)"
+          REPORT: ${{ steps.meta.outputs.issue_body_path }}
+        shell: bash
+        run: |
+          if gh issue list --state all --limit 100 --json title --jq '.[].title' | grep -Fxq "$TITLE"; then
+            echo "Issue already exists: $TITLE"
+          else
+            gh issue create --title "$TITLE" --body-file "$REPORT"
+          fi

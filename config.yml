@@ -1,0 +1,75 @@
+# $0 Literature Tracker configuration
+# Edit this file to tune what gets collected.
+
+project_name: "OLED / TADF Daily Literature Tracker"
+
+# First run checks this many days back. Later runs use lookback_hours.
+bootstrap_days: 7
+lookback_hours: 40
+
+# Queries are sent to Semantic Scholar, Crossref, and arXiv.
+# Keep individual queries fairly broad; local keyword scoring below removes noise.
+queries:
+  - "thermally activated delayed fluorescence"
+  - "TADF OLED"
+  - "polymer TADF"
+  - "blue TADF OLED"
+  - "crosslinkable OLED"
+  - "photocrosslinkable OLED"
+  - "photopatternable OLED"
+  - "solution processed OLED"
+  - "stretchable OLED"
+  - "solvent resistant OLED"
+  - "crosslinked emissive layer OLED"
+  - "polymer host OLED"
+
+# A paper is kept if it reaches min_score.
+# Matching is case-insensitive against title + abstract + venue.
+# Phrase weights can be tuned. Higher = more important.
+keywords:
+  "thermally activated delayed fluorescence": 6
+  "tadf": 5
+  "oled": 3
+  "organic light-emitting diode": 3
+  "organic light emitting diode": 3
+  "stretchable": 5
+  "intrinsically stretchable": 7
+  "crosslink": 5
+  "cross-link": 5
+  "photocrosslink": 7
+  "photo-crosslink": 7
+  "photopattern": 6
+  "photo-pattern": 6
+  "solution processed": 4
+  "solution-processed": 4
+  "solvent resistant": 5
+  "solvent-resistant": 5
+  "polymer tadf": 7
+  "polymer host": 4
+  "host guest": 3
+  "host-guest": 3
+  "blue oled": 5
+  "rgb oled": 5
+  "emissive layer": 2
+  "emitting layer": 2
+  "sequential deposition": 4
+
+min_score: 5
+
+# Optional noise filters. Use sparingly.
+exclude_phrases:
+  - "machine learning"
+  - "deep learning"
+
+# Hard caps protect free GitHub Actions time and public APIs.
+max_pages_per_query:
+  semantic_scholar: 3
+  crossref: 5
+  arxiv: 3
+
+# Crossref recommends identifying automated clients with a mailto address.
+# Put your email here if you want; leaving it blank still works.
+crossref_mailto: ""
+
+# If true, the GitHub workflow opens one issue for a daily report when >=1 new paper is found.
+create_github_issue: true
