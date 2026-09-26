@@ -1,9 +1,9 @@
 {
-  "run_day": "2026-09-25",
-  "report_path": "reports/2026-09-25.md",
-  "csv_path": "reports/2026-09-25.csv",
-  "new_candidate_count": 1,
-  "kept_count": 1,
+  "run_day": "2026-09-26",
+  "report_path": "reports/2026-09-26.md",
+  "csv_path": "reports/2026-09-26.csv",
+  "new_candidate_count": 0,
+  "kept_count": 0,
   "create_github_issue": true,
   "issue_body_path": "reports/issue_body.md"
 }
