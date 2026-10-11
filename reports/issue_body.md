@@ -1,20 +1,8 @@
-# OLED / TADF Daily Literature Tracker — 2026-10-10
+# OLED / TADF Daily Literature Tracker — 2026-10-11
 
-- **New candidate records across sources:** 1
-- **Papers passing keyword filter:** 1
+- **New candidate records across sources:** 0
+- **Papers passing keyword filter:** 0
 - **Sources:** Semantic Scholar, Crossref, arXiv
 - **Cost:** $0 (no paid API / no LLM)
 
-## New papers
-
-### 1. [Static vs Herzberg-Teller spin-orbit coupling under symmetry-reducing distortion in multi-resonance TADF emitters.](https://www.semanticscholar.org/paper/b49e5dd2e46c900b68fd015e471ebba8f649def9)
-
-**Authors:** Lu Wang, Xiao-Li Wang, Xue-Ju Lv, Li-Chun Liu, Jian Wang  
-**Venue/category:** Journal of Chemical Physics  
-**Date:** 2026-10-14  
-**DOI:** `10.1063/5.0350590`  
-**Source(s):** Semantic Scholar  
-**Keyword score:** 7  
-**Matched:** tadf  
-
----
+No new papers passed the configured relevance threshold today.
