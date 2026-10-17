@@ -1,7 +1,7 @@
 {
-  "run_day": "2026-10-16",
-  "report_path": "reports/2026-10-16.md",
-  "csv_path": "reports/2026-10-16.csv",
+  "run_day": "2026-10-17",
+  "report_path": "reports/2026-10-17.md",
+  "csv_path": "reports/2026-10-17.csv",
   "new_candidate_count": 0,
   "kept_count": 0,
   "create_github_issue": true,
