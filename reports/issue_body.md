@@ -1,4 +1,4 @@
-# OLED / TADF Daily Literature Tracker — 2026-10-20
+# OLED / TADF Daily Literature Tracker — 2026-10-21
 
 - **New candidate records across sources:** 0
 - **Papers passing keyword filter:** 0
