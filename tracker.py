@@ -150,7 +150,12 @@ def request_json(url: str, *, params: dict[str, Any] | None = None, headers: dic
         try:
             r = SESSION.get(url, params=params, headers=merged_headers, timeout=timeout)
             if r.status_code == 429:
-                wait = min(60, 2 ** (attempt + 2))
+                last_exc = RuntimeError(f"HTTP 429 rate limit from {r.url}")
+                retry_after = r.headers.get("Retry-After", "")
+                try:
+                    wait = min(90, max(1, int(retry_after)))
+                except (TypeError, ValueError):
+                    wait = min(90, 15 * (attempt + 1))
                 print(f"  rate limited (429); sleeping {wait}s", file=sys.stderr)
                 time.sleep(wait)
                 continue
@@ -248,8 +253,10 @@ def crossref_search(query: str, cutoff: datetime, now: datetime, max_pages: int,
     url = "https://api.crossref.org/works"
     cursor = "*"
     out: list[Paper] = []
-    from_ts = cutoff.strftime("%Y-%m-%dT%H:%M:%SZ")
-    until_ts = now.strftime("%Y-%m-%dT%H:%M:%SZ")
+    # Crossref from-index-date/until-index-date filters require date strings;
+    # an ISO timestamp causes HTTP 400 (seen in the 2026-10-24 recovery run).
+    from_ts = cutoff.strftime("%Y-%m-%d")
+    until_ts = now.strftime("%Y-%m-%d")
 
     for _page in range(max_pages):
         params: dict[str, Any] = {
@@ -531,6 +538,9 @@ def main() -> int:
                 continue
             try:
                 results = collector(query)
+                # Anonymous Semantic Scholar calls may be rate-limited at a low frequency.
+                if provider == "Semantic Scholar" and not s2_key:
+                    time.sleep(5.0)
                 provider_queries[provider] += 1
                 provider_counts[provider] += len(results)
                 all_papers.extend(results)
