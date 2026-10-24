@@ -25,7 +25,7 @@ from typing import Any
 
 from google.oauth2 import service_account
 from googleapiclient.discovery import build
-from googleapiclient.http import MediaIoBaseDownload
+from googleapiclient.http import MediaIoBaseDownload, MediaIoBaseUpload
 
 ROOT_FOLDER_ID = os.environ.get(
     "LITERATURE_BOX_FOLDER_ID",
@@ -180,6 +180,31 @@ def export_sheet_csv(service, sheet_id: str) -> str:
     return buf.getvalue().decode("utf-8-sig")
 
 
+def sync_topic_csv(service, folder_id: str, folder_name: str,
+                   csv_file: dict[str, Any] | None, sheet_text: str) -> None:
+    """Update the existing CSV in place from the authoritative native Sheet."""
+    if csv_file:
+        old_text = download_text_file(service, csv_file["id"])
+        if old_text.replace("\\r\\n", "\\n").strip() == sheet_text.replace("\\r\\n", "\\n").strip():
+            return
+    name = folder_name.replace("/", " ") + ".csv"
+    print(f"  sync CSV mirror: {name}")
+    if DRY_RUN:
+        return
+    media = MediaIoBaseUpload(io.BytesIO(sheet_text.encode("utf-8")),
+                             mimetype=CSV_MIME, resumable=False)
+    if csv_file:
+        service.files().update(
+            fileId=csv_file["id"], media_body=media,
+            fields="id,name", supportsAllDrives=True,
+        ).execute()
+    else:
+        service.files().create(
+            body={"name": name, "mimeType": CSV_MIME, "parents": [folder_id]},
+            media_body=media, fields="id,name", supportsAllDrives=True,
+        ).execute()
+
+
 def parse_csv(text: str) -> list[dict[str, str]]:
     reader = csv.DictReader(io.StringIO(text))
     return [{k: (v or "").strip() for k, v in row.items()} for row in reader]
@@ -328,8 +353,13 @@ def main() -> int:
 
         try:
             if sheet_file:
-                rows = parse_csv(export_sheet_csv(service, sheet_file["id"]))
+                sheet_text = export_sheet_csv(service, sheet_file["id"])
+                rows = parse_csv(sheet_text)
                 print(f"[{folder_name}] reading live Google Sheet")
+                try:
+                    sync_topic_csv(service, folder_id, folder_name, csv_file, sheet_text)
+                except Exception as sync_error:
+                    print(f"[{folder_name}] CSV sync failed (continuing): {sync_error}")
             else:
                 rows = parse_csv(download_text_file(service, csv_file["id"]))
                 print(f"[{folder_name}] reading fallback CSV")
