@@ -1,453 +1,761 @@
 # OLED / TADF Daily Literature Tracker — 2026-10-24
 
-- **New candidate records across sources:** 33
-- **Papers passing keyword filter:** 30
+- **New candidate records across sources:** 74
+- **Papers passing keyword filter:** 68
 - **Sources:** Semantic Scholar, Crossref, arXiv
 - **Cost:** $0 (no paid API / no LLM)
 
 ## New papers
 
-### 1. [Achieving high efficiency in stretchable OLEDs](https://www.semanticscholar.org/paper/8c0ea63238f71ec7ba8b3447e5a5e1ad1c692553)
+### 1. [Intrinsically Stretchable Ortho‐Steric Engineered MR‐TADF Polymers With in Situ Hypercrosslinking for Narrowband Deep‐Blue OLEDs](https://doi.org/10.1002/adom.71967)
 
-**Authors:** Si-Hong Wang  
-**Venue/category:** Organic and Hybrid Light Emitting Materials and Devices XXX  
-**Date:** 2026-10-09  
-**DOI:** `10.1117/12.3113922`  
-**Source(s):** Semantic Scholar  
-**Keyword score:** 37  
-**Matched:** thermally activated delayed fluorescence, tadf, oled, organic light-emitting diode, stretchable, intrinsically stretchable, host-guest, emitting layer  
-
-**Abstract**
-
-The seamless integration of electronics with biological systems, particularly for wearable and implantable applications, requires devices that combine biomimetic mechanical properties with high electronic performance. For organic light-emitting diodes (OLEDs), stretchability is essential for conformable displays and implantable light sources for photo-modulation, yet maintaining high electroluminescence efficiency under deformation remains a key challenge. In this talk, I will present our efforts to realize intrinsically stretchable OLEDs based on thermally activated delayed fluorescence (TADF) materials. To achieve higher efficiency, there are two central bottlenecks: triplet exciton concentration quenching in stretchable emitting layers and inefficient electron injection in full OLED devices. To suppress triplet quenching, we developed stretchable host-guest architectures and molecular spacer strategies to regulate exciton distribution and chain packing. To improve injection, we engineered stretchable electron-transport layers and low-work-function cathodes. These materials and device innovations substantially enhance efficiency while preserving stretchability.
-
----
-
-### 2. [Intrinsically stretchable, highly efficient OLEDs with narrow-band emission](https://www.semanticscholar.org/paper/dca0d4338e50b94d3ad9b190c68cb4fbc46243a4)
-
-**Authors:** Zhi-Ming Zhang, Si-Hong Wang, Cheng Zhang  
-**Venue/category:** Organic and Hybrid Light Emitting Materials and Devices XXX  
-**Date:** 2026-10-09  
-**DOI:** `10.1117/12.3113984`  
-**Source(s):** Semantic Scholar  
-**Keyword score:** 32  
-**Matched:** thermally activated delayed fluorescence, tadf, oled, stretchable, intrinsically stretchable  
+**Authors:** Hai Zhou, Xinxin Ban, Xiaoyue Wang, Tao Xu, Youqiang Qian, Shilong Feng, Jingxian Qiu, Zhaoxiang Han, Zekai Wu, Youdong Sun, Jiangqi Jiang, Wenli Shi et al.  
+**Venue/category:** Advanced Optical Materials  
+**Date:** 2026-10-24  
+**DOI:** `10.1002/adom.71967`  
+**Source(s):** Crossref  
+**Keyword score:** 42  
+**Matched:** tadf, oled, stretchable, intrinsically stretchable, crosslink, blue oled  
 
 **Abstract**
 
-Light-emitting devices are essential for emerging wearable and bio-integrated human–machine interfaces where mechanical compliance and high electroluminescent performance must coexist. In practical applications such as high-definition displays and precision optogenetic tools, high color purity enabled by narrow-band emission is equally critical. However, currently reported intrinsically stretchable OLEDs typically exhibit broad emission spectra, necessitating external optical filtering and consequently reducing overall device efficiency. Therefore, achieving intrinsically narrow-band emission while maintaining high efficiency and mechanical stretchability remains a major challenge. Here, we report fully intrinsically stretchable OLEDs based on a host–guest design. The elastic host polymer is rationally designed to enable the uniform dispersion of multiple resonance thermally activated delayed fluorescence (MR-TADF) emitters. The devices deliver narrow-band green emission with a full width at half maximum (FWHM) of 26 nm and CIE coordinates of (0.13, 0.71), achieving a high electroluminescent performance and a crack-onset strain exceeding 150%.
+ABSTRACT Intrinsically stretchable organic light‐emitting diodes (OLEDs) are the core building blocks for next‐generation wearable electronics and flexible ultra‐high‐definition (UHD) displays. However, intrinsically stretchable deep‐blue polymers with narrowband emission and ultra‐high color purity (CIE y
 
 ---
 
-### 3. [Helical Multi-Resonance Thermally Activated Delayed Fluorescence Emitters for High-Performance Anti-Quenching Narrowband Blue OLEDs.](https://www.semanticscholar.org/paper/453106f836eed5771dc09e83ad24b4ed7cb4113f)
+### 2. [Sliding-ring interpenetrating TADF network as sensitizer for intrinsically stretchable narrowband organic light-emitting diodes](https://doi.org/10.1016/j.cej.2026.180747)
 
-**Authors:** Shuai Tang, Wei Ping, Jin-Yang Zhao, Lei Hua, Jun-Jie Wang, Shian Ying, Yu-Chao Liu, Zhong-Jie Ren  
-**Venue/category:** Angewandte Chemie  
-**Date:** 2026-10-20  
-**DOI:** `10.1002/anie.9731976`  
-**Source(s):** Semantic Scholar  
+**Authors:** Jiangqi Jiang, Shilong Feng, Youqiang Qian, Tao Xu, Aiyun Zhu, Bo Zou, Wenli Shi, Hai Zhou, Xinxin Ban  
+**Venue/category:** Chemical Engineering Journal  
+**Date:** 2026-11-01  
+**DOI:** `10.1016/j.cej.2026.180747`  
+**Source(s):** Crossref  
 **Keyword score:** 28  
-**Matched:** thermally activated delayed fluorescence, tadf, oled, organic light emitting diode, blue oled  
-
-**Abstract**
-
-Multi-resonance thermally activated delayed fluorescence (MR-TADF) has established a new approach for narrowband blue organic light emitting diodes (OLEDs), yet effectively suppressing intermolecular interactions especially at high doping concentrations while preserving the intrinsic narrowband emission remains a formidable challenge. Herein, a novel designing paradigm is proposed for achieving anti-quenching narrowband emission in MR-TADF molecules by embedding the indeno[2,1-b]carbazole unit into the polycyclic aromatic hydrocarbon skeleton. The proof-of-concept emitter DT-BON1 reveals a favorable twist angle of 31.8°, manifesting formation of helical architecture within MR core. As a result, the emission peaks and full width at half maximum show virtually no variation with changing doping concentration from 1 wt% to 20 wt%. Moreover, the photoluminance quantum yields exceed 90% even at 20 wt% doping concentration endowed by the outstanding anti-quenching characteristics. The DT-BON1 based OLEDs can achieve maximum external quantum efficiency (EQEmax) of exceeding 30%. Especially, the alleviated exciton quenching effects can be firmly demonstrated by marginally decreased EQEmax values, attaining 29.2% in 10 wt%-based OLEDs and 27.3% even in heavily doped devices (20 wt%), which is at a record high for MR-TADF with blue emission at such high doping concentration.
+**Matched:** tadf, organic light-emitting diode, stretchable, intrinsically stretchable  
 
 ---
 
-### 4. [Electroluminescent photoresists: Extending Moore's Law to full-color OLEDs](https://www.semanticscholar.org/paper/5f73ca1a0b86434a825a645baa7d97557039665c)
+### 3. [Cross-linkable hole-transport materials for solution-processed organic light-emitting diodes: From molecular design to OLED applications](https://doi.org/10.1016/j.dyepig.2026.114206)
 
-**Authors:** Chih-Jen Shih  
-**Venue/category:** Organic and Hybrid Light Emitting Materials and Devices XXX  
-**Date:** 2026-10-09  
-**DOI:** `10.1117/12.3111933`  
-**Source(s):** Semantic Scholar  
+**Authors:** S.V. Prabhakar Vattikuti, Deepti Kolli, Ramarao Abburi, Sajad Ali, Chagam Koteswara Reddy, Rajavaram Ramaraghavulu, Ravi Arukula, Mallesham Godumala  
+**Venue/category:** Dyes and Pigments  
+**Date:** 2027-02-01  
+**DOI:** `10.1016/j.dyepig.2026.114206`  
+**Source(s):** Crossref  
 **Keyword score:** 21  
-**Matched:** tadf, oled, crosslink, photocrosslink  
-
-**Abstract**
-
-The miniaturization of OLEDs is critical for next-generation ultrahigh-resolution displays and integrated photonics. However, traditional vacuum evaporation and inkjet printing methods are incompatible with the lithographic scaling processes that underpin silicon electronics, hindering true monolithic integration with CMOS circuits. Here, we present electroluminescent photoresists (ELPRs) synthesized via atom transfer radical polymerization (ATRP) that can be directly patterned by UV and electron beam lithography. These multi-arm star polymers feature a core-shell architecture designed to embed the TADF emitters within a protective host shell, segregating them from the reactive photocrosslinking moieties on the surface. We demonstrate robust processing orthogonality in sequential multilayer ELPR photolithography, enabling sub-diffraction fluorescence nanopatterns with critical dimensions down to 110 nm. We validate their device performance with full-color, UV-patterned OLEDs exhibiting external quantum efficiencies (EQEs) exceeding 13%.
+**Matched:** oled, organic light-emitting diode, cross-link, solution-processed  
 
 ---
 
-### 5. [Sterically Shielded Heavy-Atom Strategy for Constructing Narrowband Pure-Green MR-TADF Emitters With Concentration-Quenching Resistance and Fast Reverse Intersystem Crossing.](https://www.semanticscholar.org/paper/9f2da35f844170d4ff5383347829cf71207436de)
+### 4. [Preserving the Mesophase in the Solution‐Processed OLED Emissive Layer Through Liquid‐Crystalline Host–Guest Engineering](https://doi.org/10.1002/agt2.70465)
 
-**Authors:** Yang-Ze Xu, Yi-Xuan Jiang, Xiao-Bo Ma, Wei Dong, Ma-Qian Shi, Fu-Tong Liu, Ping Lu  
-**Venue/category:** Angewandte Chemie  
-**Date:** 2026-10-12  
-**DOI:** `10.1002/anie.5721424`  
-**Source(s):** Semantic Scholar  
-**Keyword score:** 19  
-**Matched:** thermally activated delayed fluorescence, tadf, oled, organic light-emitting diode  
-
-**Abstract**
-
-Multiple resonance thermally activated delayed fluorescence (MR-TADF) emitters with superior color purity and high photoluminescence quantum yields (PLQYs) hold great promise for organic light-emitting diodes (OLEDs). Nevertheless, the rigid planar structures and intrinsically slow reverse intersystem crossing rates (kRISC) of these materials lead to pronounced aggregation-caused quenching and significant efficiency roll-off. Here, we propose a sterically shielded heavy-atom strategy that simultaneously suppresses detrimental π-π stacking, accelerates kRISC, and reinforces the rigidity of the conjugated framework to retain narrowband emission. The proof-of-concept emitters BN-FLS, BN-FLSe, and BN-FLSSe show the green emission at 508-517 nm with the narrow full width at half maximums (FWHMs) of 25-26 nm in solution. Notably, BN-FLSSe achieves rapid kRISC of 4.2 × 106 s-1, maintains high PLQYs above 95%, and stable emission profiles over 1-30 wt% broad doping range. Non-sensitized OLEDs based on BN-FLS, BN-FLSe, and BN-FLSSe show pure-green electroluminescence with CIEy coordinates exceeding 0.70, high maximum external quantum efficiencies (EQEmaxs) of 41.7%, 41.1%, and 38.5%, and well-suppressed efficiency roll-offs, maintaining EQEs of 21.9%, 30.9%, and 32.7% at 1000 cd m-2, respectively. Impressively, even at high doping concentration of 30 wt%, these devices retain high EQEmaxs of 30.7%-33.1% with virtually unchanged emission spectra.
-
----
-
-### 6. [Centrosymmetric Molecular Strategy With Quadruple Boron-Nitrogen Heteroarenes Enabling Efficient Ultra-Narrowband Emission.](https://www.semanticscholar.org/paper/92c72abcf107eac00426aaa5729513fbe06d0937)
-
-**Authors:** Lei Hua, Ze-Kun Xia, Kai Huang, Xin-Yi Qian, Wei-Guo Zhu, Ya-Fei Wang  
-**Venue/category:** Angewandte Chemie  
-**Date:** 2026-10-19  
-**DOI:** `10.1002/anie.9341082`  
-**Source(s):** Semantic Scholar  
-**Keyword score:** 18  
-**Matched:** thermally activated delayed fluorescence, tadf, organic light-emitting diode, solution-processed  
-
-**Abstract**
-
-Realizing ultra-narrowband multiple-resonance thermally activated delayed fluorescence (MR-TADF) with long-wavelength emission remains a formidable challenge due to the increased vibronic coupling and excited-state relaxation with the extension of π-conjugated framework. In this contribution, a proof-of-concept of centrosymmetric molecular strategy fused with quadruple boron-nitrogen heteroarenes is proposed to develop ultra-narrowband long-wavelength MR-TADF emitters. Thus, two MR-TADF emitters, called DCz-MR and DAn-MR, are prepared and characterized. Compounds DCz-MR and DAn-MR exhibit the emission peaks at 562 nm and 518 nm in toluene solution, respectively. Small full-width at half-maximum (FWHM) of only 16 nm (0.063 eV) for DCz-MR and 12 nm (0.055 eV) for DAn-MR are obtained in toluene, especially 14.2 nm (0.058 eV) for DCz-MR and 8.2 nm (0.040 eV) for DAn-MR in hexane. In solution-processed phosphorescence-sensitized organic light-emitting diodes, DAn-MR delivers a maximum external quantum efficiency of 24.8% with an electroluminescence FWHM of 27 nm. This research work provides a new method for designing ultra-narrowband long-wavelength MR-TADF emitters.
-
----
-
-### 7. [High-Performance Narrowband Green OLEDs Enabled by Indolocarbazole Isomer Engineering and Steric Shielding.](https://www.semanticscholar.org/paper/097b6e0372756f7752a5bd72ff9d86bc23ae05f8)
-
-**Authors:** Qiang Zhang, Xiang Zhang, Heng Xu, Zhao-Ying Wang, Hong-Bo Shao, Shan Huang, Jia-Jun Luo, Run-Da Guo, Ke Ding, Lei Wang  
-**Venue/category:** Small  
-**Date:** 2026-10-13  
-**DOI:** `10.1002/smll.76228`  
-**Source(s):** Semantic Scholar  
-**Keyword score:** 18  
-**Matched:** thermally activated delayed fluorescence, tadf, oled, organic light-emitting diode  
-
-**Abstract**
-
-The development of emitters complying with the BT.2020 standard is crucial for ultra-high-definition (UHD) displays. However, achieving green multiple resonance thermally activated delayed fluorescence (MR-TADF) emitters with both high efficiency and high color purity remains challenging. Here, two narrowband green MR-TADF emitters, Mes-b-ICzBN and Mes-c-ICzBN, are developed via a molecular engineering strategy combining ICz isomer engineering and peripheral steric shielding. Both emitters fuse a rigid indolocarbazole (ICz) fragment and incorporate bulky mesitylene groups, with the ICz fragment extending the MR framework and limiting structural relaxation, and the mesitylene groups minimizing aggregation-induced spectral broadening. Notably, isomer engineering of the ICz moiety enables fine-tuning of the emission peak, yielding narrowband green emission closer to the BT.2020 green standard. Consequently, organic light-emitting diodes (OLEDs) based on Mes-b-ICzBN and Mes-c-ICzBN exhibit CIE coordinates of (0.25, 0.70) and (0.22, 0.71), full widths at half maximum (FWHMs) of 26 nm and 27 nm, and maximum external quantum efficiencies (EQEmax) of 33.3% and 30.6%, respectively. Furthermore, by integrating these OLEDs with backplane drivers to construct active-matrix (AM) OLED display panels, a high-dynamic-range pico-projector prototype is successfully demonstrated. This synergistic molecular engineering strategy shows great potential for high-color-purity green MR-TADF emitters in UHD displays.
-
----
-
-### 8. [Synergistic enhancement of ultra-pure blue OLEDs: Vibration-suppressed Pt(II) sensitizers and structural optimization of MR-TADF emitters for efficient energy transfer](https://www.semanticscholar.org/paper/049f7c1955293b470ecedc3d2656d0e54f8aabb7)
-
-**Authors:** Taekyung Kim  
-**Venue/category:** Organic and Hybrid Light Emitting Materials and Devices XXX  
-**Date:** 2026-10-09  
-**DOI:** `10.1117/12.3112262`  
-**Source(s):** Semantic Scholar  
-**Keyword score:** 18  
-**Matched:** tadf, oled, blue oled  
-
-**Abstract**
-
-Realizing high-performance ultrapure blue OLEDs is a critical challenge due to efficiency roll-off and operational stability. This presentation proposes a synergistic strategy by integrating vibration-suppressed phosphorescent sensitizers with structurally optimized multi-resonance TADF (MR-TADF) emitters. First, we report a novel tetradentate Pt(II) complex, Pt-SPCz, featuring a spirofluorene-modified carbazole unit. This design induces a "vibration suppression effect" that minimizes structural relaxation. This modification leads to an extremely narrow FWHM of 22 nm and a maximum EQE of 25.1%, with a significantly enhanced LT50 of 451 h at 1,000 cd/m2. Second, we investigate the impact of MR-TADF emitter structures on phosphor-sensitized TADF (PST) systems. By comparing emitters such as DPA-DtCzB and DMAC-DtCzB, we demonstrate that precise spectral alignment and charge-trap engineering are essential. Using thermal admittance spectroscopy, we show that localizing hole traps on the sensitizer suppresses non-radiative quenching, achieving stable ultrapure blue emission. These findings provide a robust framework for next-generation blue OLEDs.
-
----
-
-### 9. [Design of thermally activated delayed fluorescence materials for high-performance solution-processed electroluminescent devices](https://www.semanticscholar.org/paper/ce5fb00ea3e9717b2250a1a8add55b043b1b7235)
-
-**Authors:** E. Zysman-Colman  
-**Venue/category:** Organic and Hybrid Light Emitting Materials and Devices XXX  
-**Date:** 2026-10-09  
-**DOI:** `10.1117/12.3113005`  
-**Source(s):** Semantic Scholar  
-**Keyword score:** 18  
-**Matched:** thermally activated delayed fluorescence, oled, solution-processed  
-
-**Abstract**
-
-Solution-processed OLEDs (SP-OLEDs) are a potentially attracted alternative to vacuum-deposited devices as they can be fabricated at reduced cost. Device performance has consistently lagged vacuum-deposited OLEDs, even in cases where the emitter is the same. Here, I will present our recent work where we address issues of efficiency, roll-off and color purity by designing next-generation thermally activated delayed fluorescence emitters explicitly conceived to be used in SP-OLEDs. I will also demonstrate how large-area light-emitting electrochemical cells (LECs) can be fabricated using the same family of emitters.
-
----
-
-### 10. [Peripheral Para ‐Chalcogen‐π‐Oxygen Fusion Strategy for High‐Performance Deep‐Blue Narrowband MR‐TADF OLEDs](https://www.semanticscholar.org/paper/95b087e0d5ec19eb8e3daf25484fde6c51614e04)
-
-**Authors:** Xue-Wei Nie, Zhi-Hai Yang, Tong Wang, Zhi-Zhi Li, Zi-Jian Chen, Yu Fu, Yong-Xia Ren, Pei-Yi Chen, Si-Wei Chen, Ying-Rui Tian, Guo-Xi Yang, Deng-Hui Liu et al.  
-**Venue/category:** Laser & Photonics Reviews  
-**Date:** 2026-10-12  
-**DOI:** `10.1002/lpor.72013`  
-**Source(s):** Semantic Scholar  
-**Keyword score:** 17  
-**Matched:** thermally activated delayed fluorescence, tadf, oled  
-
-**Abstract**
-
-Narrowband deep‐blue emitters featuring a targeted emission peak (465 ± 3 nm) and high reverse intersystem crossing (RISC) rate are highly desirable for ultra‐high‐definition displays. Herein, guided by the para ‐chalcogen‐π‐oxygen alignment strategy, two novel derivatives ( para ‐O‐BN and para ‐S‐BN ) are constructed by peripherally fusing rigid five‐membered chalcogen‐containing (O, S) heterocycles into a classical double‐boron multi‐resonance thermally activated delayed fluorescence (MR‐TADF) skeleton. The extended π‐conjugation and enhanced molecular rigidity yield nearly identical ultra‐narrow deep‐blue emission band at ∼465 nm, with a full width at half maximum below 20 nm in solution. Also, the para ‐arranged chalcogens localize electron density on the central benzene ring inserted between heteroatoms, thereby weakening central boron‐oxygen charge transfer and subtly tuning the HOMO. Importantly, the small singlet‐triplet energy gap (Δ E ST ) delivers a fast RISC rate ( k RISC ∼10 5 s − 1 ) and high photoluminescence quantum yield exceeding 90%. Substituting oxygen with sulfur further accelerates RISC process in para ‑S‑BN with negligible spectral shift. OLEDs incorporating para ‑O‑BN / para ‑S‑BN demonstrate maximum external quantum efficiencies ( EQE max ) of 34.1% and 40.2%, respectively. Notably, sensitizing devices with exciplex host and phosphorescent sensitizer achieve EQE max of 34.5/35.2% and retain 23.7%/23.8% even at 10 000 cd m −2 , with lifetimes of 121.5/244.1 h to 50% of 1000 cd m −2 .
-
----
-
-### 11. [Understanding efficiency roll-off in TADF OLEDs](https://www.semanticscholar.org/paper/16ac9c2d225eba4a72066315985d33eea0ee97db)
-
-**Authors:** Liam G. King, Kou Yoshida, A. Ruseckas, Ifor D. W. Samuel  
-**Venue/category:** Organic and Hybrid Light Emitting Materials and Devices XXX  
-**Date:** 2026-10-09  
-**DOI:** `10.1117/12.3114449`  
-**Source(s):** Semantic Scholar  
-**Keyword score:** 17  
-**Matched:** thermally activated delayed fluorescence, tadf, oled  
-
-**Abstract**
-
-Thermally activated delayed fluorescence offers an attractive way of harvesting triplets and making efficient OLEDs. However, such OLEDs often suffer substantial reduction of efficiency (roll-off) as the brightness is increased. We have developed in-operando measurements of photoluminescence to understand efficiency roll-off. We show that it arises from an interplay of singlet-triplet annihilation, singlet-polaron annihilation and triplet-polaron annihilation and quantify the contributions of each process. We measure the bimolecular rate constants for these processes and discuss the implications for molecular design to maintain high efficiency at high brightness.
-
----
-
-### 12. [Molecular design principles for multiphoton-active TADF materials](https://www.semanticscholar.org/paper/42069c7e6eea3b021f197d76bc6abade0efd0ad9)
-
-**Authors:** Youhei Chitose, Gomathi Vinayakam Mageswari, Ryota Zenke, Toshiharu Ide, Shintaro Kohata, Jasmine Lin, Tzu-Chau Lin, Chihaya Adachi  
-**Venue/category:** Organic and Hybrid Light Emitting Materials and Devices XXX  
-**Date:** 2026-10-09  
-**DOI:** `10.1117/12.3113058`  
-**Source(s):** Semantic Scholar  
-**Keyword score:** 16  
-**Matched:** thermally activated delayed fluorescence, tadf, oled  
-
-**Abstract**
-
-Achieving simultaneous enhancement of multiphoton absorption (MPA) and thermally activated delayed fluorescence (TADF) in purely organic emitters is challenging due to the intrinsic trade-off between strong charge-transfer (CT) character and large transition dipole moments (µ 01 ). Here, we present a molecular design strategy based on acceptor centered orbital separation that overcomes this limitation without relying on highly twisted donor units, and demonstrate its extension from two-photon absorption (2PA) to intrinsic three-photon absorption (3PA). In CzTRZ derivatives, electron-withdrawing substituents are introduced into a planar triazine acceptor, enhancing CT character while preserving ground-state orbital overlap. This enables a favorable balance between µ 01 and Δ E ST , resulting in a monotonic increase in 2PA cross-sections (up to 200 GM for CzTRZCN ) while maintaining nearly constant µ 01 . The HLCT character supports strong MPA and efficient triplet harvesting, leading to high PLQY (87%), small Δ E ST (0.13 eV), fast RISC (3.37×10 5 s −1 ), and OLEDs with EQE up to 13.5%. Extending this concept, a rigid tetrabenzo[a,c]phenazine (TBPZ) acceptor enables intrinsic 3PA-active TADF emitters. The quadrupolar architecture provides large transition dipole moments and extended conjugation, yielding high PLQYs (up to 71%), small Δ E ST (~0.15 eV), and relatively fast RISC (~10 4 s −1 ). TBPZ2TPA shows cubic power dependence under 1200 nm excitation, confirming intrinsic 3PA (σ 3 = 2.05×10 −79 cm 6 s 2 photon −2 ), along with a large 2PA cross-section of 892 GM.
-
----
-
-### 13. [Sky-Blue Thermally Activated Delayed Fluorescence from a Zirconium(IV) Complex](https://www.semanticscholar.org/paper/5a277b15ecd5fe6576aa141fa1b41f9002104b69)
-
-**Authors:** G. N. Jackson, Noura O. Ghader, Alexandra T. Barth, Brian S. Dolinar, Felix N. Castellano, Carsten Milsmann  
-**Venue/category:** Journal of the American Chemical Society  
+**Authors:** Praveen Choudhary, Džiugas Litvinas, Falk Feucht, Franziska Müller, Daniel Rück, Bettina Lutz, Sabine Laschat, Malte C. Gather, Eli Zysman‐Colman  
+**Venue/category:** Aggregate  
 **Date:** 2026-10-21  
-**DOI:** `10.1021/jacs.6c17453`  
-**Source(s):** Semantic Scholar  
-**Keyword score:** 14  
-**Matched:** thermally activated delayed fluorescence, tadf  
+**DOI:** `10.1002/agt2.70465`  
+**Source(s):** Crossref  
+**Keyword score:** 18  
+**Matched:** thermally activated delayed fluorescence, tadf, oled, emissive layer  
 
 **Abstract**
 
-Earth-abundant early transition-metal complexes with luminescent ligand-to-metal charge-transfer (LMCT) excited states remain an attractive yet underexplored alternative to widely used precious-metal emitters. A fundamental understanding of the molecular design principles governing the photophysical properties of LMCT emitters is critical to further developing cost-effective and sustainable photochemical applications using this compound class. Here, we report the synthesis of a novel bis(4,5-ditolylamido-9,9-dimethylxanthene)zirconium complex, Zr(TolXDA)2, that shows efficient photoluminescence due to thermally activated delayed fluorescence (TADF) at room temperature. Steady-state and time-resolved spectroscopic studies at room temperature reveal highly efficient and long-lived emission in the sky-blue and green wavelength range for solid samples (λPL = 480 nm, ΦPL = 0.60, τPL = 4–14 μs) and THF solutions (λPL = 548 nm, ΦPL = 0.30, τPL = 8 μs) of Zr(TolXDA)2, respectively. Despite the relatively large singlet–triplet energy gap (ΔEST ≥ 0.26 eV), TADF emission in Zr(TolXDA)2 is unambiguously confirmed by temperature-dependent emission studies. This is likely facilitated by the high LMCT character of the S1 and T1 states, a consequence of strategic ligand design, which allows for rapid forward and reverse intersystem crossing. This hypothesis is supported by femtosecond transient absorption spectroscopy, which confirms facile forward and reverse intersystem crossing in Zr(TolXDA)2 (τISC = 15 ± 5 ps, τrISC = 0.48 ± 0.39 μs), and TD-DFT calculations, which establish significant negative charge transfer to zirconium in the lowest energy excited states.
+ABSTRACT The fabrication of organic light‐emitting diodes (OLEDs) typically proceeds via vacuum deposition (VD); however, solution‐processed (SP) devices hold the promise for a much more cost‐effective and less energy‐intense fabrication. Their performance, however, lags behind vacuum‐deposited devices, in part because there is poor control of the orientation of the transition dipole moment (TDM) of the emitter in the SP‐OLED, leading to lower external quantum efficiencies. Liquid crystals (LCs) have long‐range order and thus introduce molecular anisotropy in films. LC multi‐resonant thermally activated delayed fluorescence (MR‐TADF) emitters have been designed to enhance the preferential horizontal alignment of the TDM. However, neat films of LC MR‐TADF lose the attractive photophysical properties of the isolated molecules due to aggregation‐caused quenching (ACQ). Herein, we propose a strategy of host:guest films wherein both the host and guest are LC. First, we developed the LC host, mCPLC , which showed a high triplet energy of 2.73 eV and exhibited the smectic A (SmA) mesophase from 121°C to 180°C as its neat film. Upon doping the LC MR‐TADF emitter DiKTa‐Meso into mCPLC at concentrations of 1, 2, and 5 wt%, the SmA mesophase is retained. Spin‐coated films containing 5 wt% DiKTa‐Meso in mCPLC showed a high photoluminescence quantum yield ( Φ PL ) of 75% and a modest preferential horizontal orientation of the TDM, with an anisotropy factor ( a ) of 0.30. The SP‐OLED fabricated using 5 wt% DiKTa‐Meso in mCPLC achieved a maximum external quantum efficiency (EQE max ) of 12.2% and exhibited low efficiency roll‐off, with an EQE of 11.8% at 1000 cd m −2 .
 
 ---
 
-### 14. [Highly sensitive and selective Fe3+ fluorescence probes based on thermally activated delayed fluorescence materials.](https://www.semanticscholar.org/paper/6b428679229775964c44c0499448348562648645)
+### 5. [Quantitative Fracture Analysis of All‐Polymer Active Layers for Intrinsically Stretchable Organic Solar Cells](https://doi.org/10.1002/cjoc.70845)
 
-**Authors:** Chang-Jiang Zhou, Zai-Mai Tu, Kong-Qing Zhang, Ji-Yuan Liu, Yang-Tian Ma, Zhi-Chao Qiu, Suraj Kumar Pathak, Hong-Wei Ma, Ke Sun  
-**Venue/category:** Dalton Transactions  
+**Authors:** Junfei Zhu, Hao Wang, Shuhan Yang, Boyao Zhang, Youdi Zhang, Bing Sun, Bei Li, Shuiwang Lv, Congli Chen, Long Ye  
+**Venue/category:** Chinese Journal of Chemistry  
+**Date:** 2026-10-23  
+**DOI:** `10.1002/cjoc.70845`  
+**Source(s):** Crossref  
+**Keyword score:** 17  
+**Matched:** stretchable, intrinsically stretchable  
+
+**Abstract**
+
+Comprehensive Summary Stretchy organic solar cells require active layers that can not only tolerate large tensile deformation but also resist crack propagation after damage initiation. However, conventional mechanical descriptors such as crack‐onset strain and fracture strain provide limited information on how cracks evolve and dissipate energy in deformable photovoltaic films. Here, we provide a quantitative fracture‐analysis framework for elastomer‐toughened all‐polymer photovoltaic active layers by combining optical crack tracking, crack‐aspect‐ratio analysis, film‐on‐water fracture testing, crack‐tip atomic force microscopy, and finite‐element analysis. Using PM6:PYF‐T‐o:SEBS films as a model system, we show that increasing SEBS content transforms fracture from rapid propagation of a few dominant cracks into distributed microcracking. The crack‐growth slope decreases markedly with increasing SEBS loading and film thickness, while the steady‐state fracture energy rises by a factor of ~5 across the investigated composition and thickness range. Crack‐tip microscopy and numerical simulations further reveal progressively enhanced crack blunting, tortuous crack paths, distributed deformation, and stress redistribution. These results demonstrate that crack initiation and crack propagation should be evaluated separately in stretchable photovoltaic films. Crack‐growth slope, steady‐state fracture energy, crack‐tip morphology, and stress redistribution provide complementary descriptors for assessing damage tolerance and for guiding the design of mechanically reliable stretchable organic photovoltaic materials.
+
+---
+
+### 6. [Closing the Gap: Multiresonant TADF Emitters and TADF Dendrimers in Solution-Processed OLEDs](https://doi.org/10.1021/accountsmr.6c00190.s001)
+
+**Date:** 2026-10-23  
+**DOI:** `10.1021/accountsmr.6c00190.s001`  
+**Source(s):** Crossref  
+**Keyword score:** 17  
+**Matched:** tadf, oled, solution-processed  
+
+---
+
+### 7. [Controlled crosslink cleavage and phase separation enable highly stretchable and strong 3D-printed hydrogel for soft robotics](https://doi.org/10.1038/s41467-026-78658-8)
+
+**Authors:** Liangshen Zhao, Jianrong Cai, Qilin Qian, Shengming Zhang, Chenhao Wang, Ting Chen, Chaonan Xiao, Chunling Ren, Qingmei Zeng, Bingkun Bao, Qiuning Lin, Hongen Liao et al.  
+**Venue/category:** Nature Communications  
+**Date:** 2026-10-13  
+**DOI:** `10.1038/s41467-026-78658-8`  
+**Source(s):** Crossref  
+**Keyword score:** 14  
+**Matched:** stretchable, crosslink  
+
+---
+
+### 8. [Powering the Wearable Era: The Quest for High‐Strain Stretchable Polymer Solar Cells](https://doi.org/10.1002/solr.70463)
+
+**Authors:** Xin Li, Huizhen Ke, Saimeng Li, Chunlong Sun, Yimin Yang, Diyora Urazkulova, Vakhobjon Kuvondikov, Long Ye  
+**Venue/category:** Solar RRL  
+**Date:** 2026-10-14  
+**DOI:** `10.1002/solr.70463`  
+**Source(s):** Crossref  
+**Keyword score:** 12  
+**Matched:** stretchable, crosslink  
+
+**Abstract**
+
+The rise of wearable electronics is driving demand for new forms of solar cells with both high power conversion efficiency (PCE) and high strain tolerance. However, these properties are often inherently conflicting: state‐of‐the‐art organic/polymeric photovoltaic materials often rely on rigid or highly fused conjugated backbones, yielding fracture strains below 10% in high‐efficiency systems with PCEs above 21%. This article critically examines mechanical optimization strategies for emerging high‐strain stretchable polymer solar cells (HS‐PSCs), comparing two common polymeric blend architectures: polymer:small‐molecule and all‐polymer systems. We benchmark mechanical characterization techniques, from elastomer‐based methods to free‐standing tensile testing, and dissect recent strategies to overcome the efficiency–stretchability trade‐off, including molecular engineering (flexible spacers and hydrogen‐bonding chains) and morphological control (ternary blending, layer‐by‐layer assembly, and cocontinuous networks). After surveying over 100 reported systems, several advanced all‐polymer and layer‐by‐layer systems have reached fracture strain >30% while maintaining PCE >15%. Finally, we offer a forward‐looking perspective on three priority routes (entanglement‐controlled polymer design, elastomer‐based networks, and crosslinked systems) that promise to simultaneously deliver >20% PCE and >50% fracture strain. This review provides a structured inventory of current achievements and a strategic roadmap toward stretchable, commercially viable solar cells.
+
+---
+
+### 9. [High-efficiency near-infrared TADF OLEDs with dipole moment selective matching and exciton management strategy for polar hosts](https://doi.org/10.1016/j.dyepig.2026.114251)
+
+**Authors:** Zhuolin Zhan, Fengwei Guo, Jie Hua, Chunyu Wei, He Dong, Haipeng Jiang, Lijun Qi, Yue Wang, Xuefei Li  
+**Venue/category:** Dyes and Pigments  
+**Date:** 2027-03-01  
+**DOI:** `10.1016/j.dyepig.2026.114251`  
+**Source(s):** Crossref  
+**Keyword score:** 11  
+**Matched:** tadf, oled  
+
+---
+
+### 10. [Phenanthrene- and anthracene-substituted carbazole-benzonitrile D–A molecules as red/green phosphorescent OLED hosts and non-doped blue OLED emitters](https://doi.org/10.1016/j.dyepig.2026.114205)
+
+**Authors:** Jisheng Liang, Guangyao Li, Wei Shi, Bin Wei, Jinhai Huang, Haitao Zhou, Zhiyun Zhang  
+**Venue/category:** Dyes and Pigments  
+**Date:** 2027-02-01  
+**DOI:** `10.1016/j.dyepig.2026.114205`  
+**Source(s):** Crossref  
+**Keyword score:** 11  
+**Matched:** oled, blue oled  
+
+---
+
+### 11. [A new molecular configuration of TADF hexahydroxanthene dione (HHXD) derivatives for the fabrication of OLEDs and LEECs](https://doi.org/10.1016/j.cej.2026.182335)
+
+**Authors:** Sohrab Nasiri, Mageshwari Anandan, Praveen B. Managutti, Sharmarke Mohamed, Jean Michel Nunzi, Venkatramaiah Nutalapati, Pavel Starha, Saeed Maleksaeedi  
+**Venue/category:** Chemical Engineering Journal  
+**Date:** 2026-12-01  
+**DOI:** `10.1016/j.cej.2026.182335`  
+**Source(s):** Crossref  
+**Keyword score:** 11  
+**Matched:** tadf, oled  
+
+---
+
+### 12. [Breaking Trade‑Offs in Electro‑Optical Materials: Dendritic Crosslinkable Multichromophore for Ultrahigh Electro‐Optic Activity and Thermal Stability](https://doi.org/10.1002/adom.71895)
+
+**Authors:** Xingtao Wang, Guibin Luo, Jiayan Xu, Zhihan Huang, Qiming Xie, Fenggang Liu, Xiubin Xu  
+**Venue/category:** Advanced Optical Materials  
+**Date:** 2026-10-22  
+**DOI:** `10.1002/adom.71895`  
+**Source(s):** Crossref  
+**Keyword score:** 10  
+**Matched:** oled, crosslink  
+
+**Abstract**
+
+ABSTRACT We report the first design and synthesis of multichromophore‐containing dendritic cross‐linked materials (DLD1–DLD3) that combine an ultrahigh electro‐optic coefficient, high poling efficiency, and a high glass transition temperature. Anthracene and acrylate groups were introduced into three‐branched multichromophores DLD1 and DLD3 and two‐branched multichromophore DLD2, respectively. The configuration of the multichromophore can effectively minimize unwanted attenuation of nonlinear optical materials at high chromophore loading, thereby enhancing the polarization efficiency of the cross‐linked system. The average poling efficiency (r 33 /Ep) of the cross‐linked 2:1 DLD1:DLD3) was as high as 2.80 ± 0.10 nm 2 /V 2 , which was much higher than a common binary cross‐linking system with the same donor. These materials exhibit excellent performance, including a glass transition temperature (T g ) up to 182°C and an electro‐optical coefficient (r 33 ) of 287–301 pm/V. This performance is attributed not only to the chromophore concentration (5.30–5.31 × 10 2 0 molecules•cm − 3 ) but also to the hyperbranched structure of the materials. Long‐term thermal stability experiments fully demonstrate that the cross‐linked and poled electro‐optical films DLD1‐DLD3 can retain over 99% of their initial r 33 values after being stored at 85°C for more than 500 h. The outstanding performance of DLD1‐DLD3 provides a potential solution for their application in high‐performance electro‐optical modulators and other Advanced optoelectronic devices.
+
+---
+
+### 13. [Piezoelectric sensor based on MWCNTs/SEBS stretchable composite electrode for human motion monitoring](https://doi.org/10.1016/j.materresbull.2026.114516)
+
+**Authors:** Wenxiu Gao, Miaoxuan Liu, Chuan Cao, Tianzhi Wang, Jingyi Yang, Yifan Liu, Peng Zhou, Tianjin Zhang, Yajun Qi  
+**Venue/category:** Materials Research Bulletin  
+**Date:** 2027-03-01  
+**DOI:** `10.1016/j.materresbull.2026.114516`  
+**Source(s):** Crossref  
+**Keyword score:** 7  
+**Matched:** stretchable  
+
+---
+
+### 14. [Tuning of emitting colors and mimicking advanced Boolean logic functions via stimuli-responsive luminescence behavior of bimetallic lanthanide complexes comprising a TADF-active ligand](https://doi.org/10.1016/j.saa.2026.128857)
+
+**Authors:** Toushique Ahmed, Sk Firoj Haque  
+**Venue/category:** Spectrochimica Acta Part A: Molecular and Biomolecular Spectroscopy  
+**Date:** 2027-02-01  
+**DOI:** `10.1016/j.saa.2026.128857`  
+**Source(s):** Crossref  
+**Keyword score:** 7  
+**Matched:** tadf  
+
+---
+
+### 15. [Rational design of two-photon near-infrared TADF emitters via acceptor modulation: A theoretical investigation](https://doi.org/10.1016/j.saa.2026.128900)
+
+**Authors:** Jing Li, Yiquan Wang, Jianzhong Fan, Dengwang Li, Kai Zhang  
+**Venue/category:** Spectrochimica Acta Part A: Molecular and Biomolecular Spectroscopy  
+**Date:** 2027-02-01  
+**DOI:** `10.1016/j.saa.2026.128900`  
+**Source(s):** Crossref  
+**Keyword score:** 7  
+**Matched:** tadf  
+
+---
+
+### 16. [A systematic review of hydrogen bonding in TADF materials: Correlating structure, interactions, and emission behaviour](https://doi.org/10.1016/j.dyepig.2026.114190)
+
+**Authors:** Bethel Pereira, Pratham Bahirat, Vishwakarma Kumar, Kirti Kumar Tiwari, Pratima Yadav, Atul Chaskar  
+**Venue/category:** Dyes and Pigments  
+**Date:** 2027-02-01  
+**DOI:** `10.1016/j.dyepig.2026.114190`  
+**Source(s):** Crossref  
+**Keyword score:** 7  
+**Matched:** tadf  
+
+---
+
+### 17. [A self-crosslinkable, adhesive intestine-derived extracellular matrix hydrogel enhances organoid retention and restores intestinal barrier integrity](https://doi.org/10.1016/j.bioactmat.2026.09.006)
+
+**Authors:** Ye-Seul Kim, Seung Yeop Han, Soohwan An, Mi Jeong Lee, Tae-Gyeong Oh, Ha Jin Kim, Mi-Young Son, Seung-Woo Cho  
+**Venue/category:** Bioactive Materials  
+**Date:** 2027-02-01  
+**DOI:** `10.1016/j.bioactmat.2026.09.006`  
+**Source(s):** Crossref  
+**Keyword score:** 7  
+**Matched:** crosslink  
+
+---
+
+### 18. [High-strength, highly stretchable, and reversibly adhesive ionogel enabled by multiple interactions suppressed micro-phase separation](https://doi.org/10.1016/j.jmst.2026.04.036)
+
+**Authors:** Jie Liu, Furui Ma, Hailong Liu, Congde Qiao, Xingxiang Ji, Libin Liu  
+**Venue/category:** Journal of Materials Science & Technology  
+**Date:** 2027-01-01  
+**DOI:** `10.1016/j.jmst.2026.04.036`  
+**Source(s):** Crossref  
+**Keyword score:** 7  
+**Matched:** stretchable  
+
+---
+
+### 19. [Flexible and stretchable bioelectronics for sports wearable monitoring: Materials, Device Engineering, and Intelligent Wearable Platforms](https://doi.org/10.1016/j.bios.2026.119323)
+
+**Authors:** Junseok Lee, Yena Lee, Jongwoon Shin, Doohyun J. Lee, Hyosang Yoon, Ju Young Lee, Ki Jun Yu, Mingyu Sang  
+**Venue/category:** Biosensors and Bioelectronics  
+**Date:** 2027-01-01  
+**DOI:** `10.1016/j.bios.2026.119323`  
+**Source(s):** Crossref  
+**Keyword score:** 7  
+**Matched:** stretchable  
+
+---
+
+### 20. [Direct-written stretchable textile electrochemical sensor array for deformation-tolerant monitoring of sodium and glucose in sweat](https://doi.org/10.1016/j.snb.2026.140938)
+
+**Authors:** Yuanfen Chen, Xiang Liu, Kaiwen Zhang, Ping Wang, Ke Xu, Lin Lin, Jingyao Gai, Xiangfu Wei, Hui You  
+**Venue/category:** Sensors and Actuators B: Chemical  
+**Date:** 2027-01-01  
+**DOI:** `10.1016/j.snb.2026.140938`  
+**Source(s):** Crossref  
+**Keyword score:** 7  
+**Matched:** stretchable  
+
+---
+
+### 21. [Ultra-strong, highly stretchable, and conductive ionic elastomers with tailored dynamic networks for ambient self-healing flexible sensors](https://doi.org/10.1016/j.cej.2026.183077)
+
+**Authors:** Xinlei Xiao, Da Song, Xiuyu Zhang  
+**Venue/category:** Chemical Engineering Journal  
+**Date:** 2026-12-01  
+**DOI:** `10.1016/j.cej.2026.183077`  
+**Source(s):** Crossref  
+**Keyword score:** 7  
+**Matched:** stretchable  
+
+---
+
+### 22. [Synthetic-polymer-free stretchable conductive starch gel for graphite sheet-reinforced wearable triboelectric nanogenerator](https://doi.org/10.1016/j.cej.2026.182379)
+
+**Authors:** Jia Yang, Zhiwen Liu, Xiuchun Wang, Yanzhe Duan, Yue Xiao, Jingyu Ma, Shuzheng Liu, Gang Qin, Qiang Chen  
+**Venue/category:** Chemical Engineering Journal  
+**Date:** 2026-12-01  
+**DOI:** `10.1016/j.cej.2026.182379`  
+**Source(s):** Crossref  
+**Keyword score:** 7  
+**Matched:** stretchable  
+
+---
+
+### 23. [Stretchable electrochemical sensor based on a non-planar two-dimensional conductive metal-organic framework for in-situ detection of NO released from cells under mechanical deformation](https://doi.org/10.1016/j.electacta.2026.149924)
+
+**Authors:** Shi Wang, Jinrong Lang, Mingyuan Li, Ping Li, Qiqing Cheng, Mingli Hu, Ping Xue, Lingjun Kong  
+**Venue/category:** Electrochimica Acta  
+**Date:** 2026-12-01  
+**DOI:** `10.1016/j.electacta.2026.149924`  
+**Source(s):** Crossref  
+**Keyword score:** 7  
+**Matched:** stretchable  
+
+---
+
+### 24. [Relationship between monomer reactivity, hydrophobic domain dynamics, and mechanical large deformation in highly Stretchable Ethyl acrylate /N-vinylamide /acrylamide hydrogels](https://doi.org/10.1016/j.polymer.2026.130958)
+
+**Authors:** Noriko Kurihara, Ryohei Ikura, Hiroaki Yoshida, Hiroharu Ajiro  
+**Venue/category:** Polymer  
+**Date:** 2026-12-01  
+**DOI:** `10.1016/j.polymer.2026.130958`  
+**Source(s):** Crossref  
+**Keyword score:** 7  
+**Matched:** stretchable  
+
+---
+
+### 25. [Recyclable, self-healing, and stable stretchable electrodes based on dynamic polyurethane elastomers](https://doi.org/10.1016/j.polymer.2026.130953)
+
+**Authors:** Mengwei Wu, Shuangyu Yang, Pengyuan Zhao, Qinying Yang, Enqi Yang, Chengjun Mo, Yuanyuan Yang, Xuetong Ge, Qiuying Liao, Haiyang Bao, Han Song, Lixia Bao et al.  
+**Venue/category:** Polymer  
+**Date:** 2026-12-01  
+**DOI:** `10.1016/j.polymer.2026.130953`  
+**Source(s):** Crossref  
+**Keyword score:** 7  
+**Matched:** stretchable  
+
+---
+
+### 26. [Deamidation-enabled fabrication of tough, stretchable, and transparent plant protein hydrogels](https://doi.org/10.1016/j.foodchem.2026.151639)
+
+**Authors:** Tang-Hao Li, Yao-Qin Yang, Jian Guo, Kun-Lun Liu, Xiao-Quan Yang  
+**Venue/category:** Food Chemistry  
+**Date:** 2026-12-01  
+**DOI:** `10.1016/j.foodchem.2026.151639`  
+**Source(s):** Crossref  
+**Keyword score:** 7  
+**Matched:** stretchable  
+
+---
+
+### 27. [Crosslinkable xanthene-based polymer enabling cascade-aligned bilayer hole transport for high-performance QLEDs](https://doi.org/10.1016/j.cej.2026.182580)
+
+**Authors:** Seon Lee Kwak, Yeyun Bae, Hyeon Joo Lee, Yunhee Kwon, Jaehoon Lim, Jeongkyun Roh, Do-Hoon Hwang  
+**Venue/category:** Chemical Engineering Journal  
+**Date:** 2026-12-01  
+**DOI:** `10.1016/j.cej.2026.182580`  
+**Source(s):** Crossref  
+**Keyword score:** 7  
+**Matched:** crosslink  
+
+---
+
+### 28. [Co-engineering pore architecture and particle size in interconnected porous carbon spheres for high-energy stretchable Ionogel supercapacitors](https://doi.org/10.1016/j.cej.2026.182990)
+
+**Authors:** Incheol Heo, Bogeun Jeon, Min Su Kim, Jeho Suh, Min Seok Kang, Jaeseong Kim, Chanyoung Lee, Yejun Ham, Kyung Gook Cho, Andreas Stein, Keun Hyung Lee, Won Cheol Yoo  
+**Venue/category:** Chemical Engineering Journal  
+**Date:** 2026-12-01  
+**DOI:** `10.1016/j.cej.2026.182990`  
+**Source(s):** Crossref  
+**Keyword score:** 7  
+**Matched:** stretchable  
+
+---
+
+### 29. [A stretchable liquid-metal bioelectric catheter for active management of catheter-associated urinary tract infections](https://doi.org/10.1016/j.mtbio.2026.103764)
+
+**Authors:** Jianyou Zhao, Jizheng Zhang, Longfei Zhang, Xinyu Wang, Yuchao Sun, Dongyue Guo, Jianzhe Li, Zhenming Chu, Yan Li, Guoqiang Li, Benkang Shi  
+**Venue/category:** Materials Today Bio  
+**Date:** 2026-12-01  
+**DOI:** `10.1016/j.mtbio.2026.103764`  
+**Source(s):** Crossref  
+**Keyword score:** 7  
+**Matched:** stretchable  
+
+---
+
+### 30. [A flexible node-welding strategy to achieve highly transparent and super-stretchable conductors](https://doi.org/10.1016/j.cej.2026.182810)
+
+**Authors:** Dongfang Zhao, Zhengwang Liu, Xiucun Li, Fei Chen, Wenjie Zhu, Jiahe Zhang, Yufeng Song, Jian Huang, Shuo Yang, Yang Liu, Bowen Cheng  
+**Venue/category:** Chemical Engineering Journal  
+**Date:** 2026-12-01  
+**DOI:** `10.1016/j.cej.2026.182810`  
+**Source(s):** Crossref  
+**Keyword score:** 7  
+**Matched:** stretchable  
+
+---
+
+### 31. [Flexible and Stretchable Electronics for E-Textiles](https://doi.org/10.4018/979-8-2600-2393-8.ch002)
+
+**Authors:** Sumit Kumar Kapoor  
+**Venue/category:** Advances in Computational Intelligence and Robotics  
+**Date:** 2026-11-17  
+**DOI:** `10.4018/979-8-2600-2393-8.ch002`  
+**Source(s):** Crossref  
+**Keyword score:** 7  
+**Matched:** stretchable  
+
+**Abstract**
+
+The evolution of flexible and stretchable electronics has reshaped traditional textiles into intelligent wearable devices that have benefits such as sensing, communicating, computing, and making decisions in real-time. Currently, e-textile technologies are still disparate, lacking integration of the smart features of e-textiles, which include sensing, energy management, adaptive communications, and Edge AI. This chapter discusses and reviews the latest advancements in functional materials for e-textiles, fabrication technologies for e-textiles, architectural design of smart textiles, Edge AI, and applications of wearables. The chapter proposes a six-layer HFTIF for intelligent e-textiles, integrating sensing, energy management, communication, Edge AI, TinyML, Federated Learning, Explainable AI, and decision support. Lastly, the chapter presents a comparative evaluation of e-textile technologies using TRL, SWOT, and PESTLE analyses and identifies future research directions for secure, scalable, energy-efficient, and human-centered intelligent e-textile ecosystems.
+
+---
+
+### 32. [Ultra-stretchable supramolecular liquid crystal elastomers with hierarchical hydrogen bonds: High energy dissipation and programmable actuation](https://doi.org/10.1016/j.cej.2026.180805)
+
+**Authors:** Tonghui Zhao, Shaorui Wang, Chao Luo, Bowen Hu, Liang Yue  
+**Venue/category:** Chemical Engineering Journal  
+**Date:** 2026-11-01  
+**DOI:** `10.1016/j.cej.2026.180805`  
+**Source(s):** Crossref  
+**Keyword score:** 7  
+**Matched:** stretchable  
+
+---
+
+### 33. [Stretchable composites with high initiation fatigue threshold comparable to soft tissues](https://doi.org/10.1016/j.ijfatigue.2026.109762)
+
+**Authors:** Xi Chen, Yidi Lu, Wanqi Zhang, Simin Zheng, Fengkai Liu, Jingda Tang  
+**Venue/category:** International Journal of Fatigue  
+**Date:** 2026-11-01  
+**DOI:** `10.1016/j.ijfatigue.2026.109762`  
+**Source(s):** Crossref  
+**Keyword score:** 7  
+**Matched:** stretchable  
+
+---
+
+### 34. [Stretchable antibacterial hydrogel with sodium alginate, hydroxyethyl cellulose, and sodium lignosulfonate for stabilized MXene/liquid metal-based patient health monitoring](https://doi.org/10.1016/j.ijbiomac.2026.154829)
+
+**Authors:** Guo Chen, Yuhao Wang, Wenli Zhang, Zhaoqing Li, Zifan Lu, Hanjie Ji, Zelong Sun, Xinlong Dun, Lei Zhang, Di Wei  
+**Venue/category:** International Journal of Biological Macromolecules  
+**Date:** 2026-11-01  
+**DOI:** `10.1016/j.ijbiomac.2026.154829`  
+**Source(s):** Crossref  
+**Keyword score:** 7  
+**Matched:** stretchable  
+
+---
+
+### 35. [Reliability analysis of serpentine interconnects on soft elastomers for stretchable electronics](https://doi.org/10.1016/j.microrel.2026.116311)
+
+**Authors:** Zuguang Bian, Chengwu Chen, Jiayan Zhao, Xiaoliang Zhou, Jizhou Song  
+**Venue/category:** Microelectronics Reliability  
+**Date:** 2026-11-01  
+**DOI:** `10.1016/j.microrel.2026.116311`  
+**Source(s):** Crossref  
+**Keyword score:** 7  
+**Matched:** stretchable  
+
+---
+
+### 36. [Multi-Input Mechanical Sensing via Wavelength-Encoding in Stretchable Optoelectronic Sensors](https://doi.org/10.1109/lra.2026.3734813)
+
+**Authors:** Gyohyeon Song, Jiseong Shin, Yong-Jae Park, Dong Hyun Oh, Hugo Rodrigue  
+**Venue/category:** IEEE Robotics and Automation Letters  
+**Date:** 2026-11-01  
+**DOI:** `10.1109/lra.2026.3734813`  
+**Source(s):** Crossref  
+**Keyword score:** 7  
+**Matched:** stretchable  
+
+---
+
+### 37. [Multi-functional performance of injectable ultra-stretchable nickel ion-mediated polyacrylic acid/DMSO hydrogels for flexible electronic sensor](https://doi.org/10.1016/j.jmst.2026.02.014)
+
+**Authors:** Yang Luo, Zixuan Wang, Zhongying Zhao, Mingtao Zhu  
+**Venue/category:** Journal of Materials Science & Technology  
+**Date:** 2026-11-01  
+**DOI:** `10.1016/j.jmst.2026.02.014`  
+**Source(s):** Crossref  
+**Keyword score:** 7  
+**Matched:** stretchable  
+
+---
+
+### 38. [Molecular locking and heavy atom synergistic effect for construction of green MR-TADF materials](https://doi.org/10.1016/j.cej.2026.181147)
+
+**Authors:** Yi Wei, Xian-Fang Hong, Li Yuan, Yong-Hui Zhou, You-Xuan Zheng  
+**Venue/category:** Chemical Engineering Journal  
+**Date:** 2026-11-01  
+**DOI:** `10.1016/j.cej.2026.181147`  
+**Source(s):** Crossref  
+**Keyword score:** 7  
+**Matched:** tadf  
+
+---
+
+### 39. [Investigation on stretchable eddy current array sensor for crack inspection in steel curved structures of offshore platforms](https://doi.org/10.1016/j.oceaneng.2026.128404)
+
+**Authors:** Baokai Zhang, Liquan Xiao, Yingkui Chang, Guitong Jiang, Haibo Diao, Long Ding, Shuhai Liu  
+**Venue/category:** Ocean Engineering  
+**Date:** 2026-11-01  
+**DOI:** `10.1016/j.oceaneng.2026.128404`  
+**Source(s):** Crossref  
+**Keyword score:** 7  
+**Matched:** stretchable  
+
+---
+
+### 40. [Intrinsically flexible polymer semiconductors based on diimides containing non‑conjugated linkers for stretchable n-channel organic field-effect transistors](https://doi.org/10.1016/j.eurpolymj.2026.115119)
+
+**Authors:** Tianhao Zhang, Qian Che, Jiadi Chen, Zhihui Chen, Weifeng Zhang, Liping Wang, Gui Yu  
+**Venue/category:** European Polymer Journal  
+**Date:** 2026-11-01  
+**DOI:** `10.1016/j.eurpolymj.2026.115119`  
+**Source(s):** Crossref  
+**Keyword score:** 7  
+**Matched:** stretchable  
+
+---
+
+### 41. [Highly resilient stretchable hydrogels at ultra-low temperatures by hydrogen bonding regulation](https://doi.org/10.1016/j.cej.2026.180771)
+
+**Authors:** Kexin Zhou, Baibin Yang, Hui Chen, Qiang Zhao, Caihong Wang, Yong Wu, Fang Wan, Shuai Tan  
+**Venue/category:** Chemical Engineering Journal  
+**Date:** 2026-11-01  
+**DOI:** `10.1016/j.cej.2026.180771`  
+**Source(s):** Crossref  
+**Keyword score:** 7  
+**Matched:** stretchable  
+
+---
+
+### 42. [Fully flexible, in-plane stretchable n-p type ionic thermoelectric gel devices for low grade heat harvesting](https://doi.org/10.1016/j.esci.2026.100550)
+
+**Authors:** Chunxia Xie, Yongbin Zhu, Jiawei Chen, Minqi Chen, Shengjie Liu, Tianren Liu, Zhenbang Liu, Yu Bao, Yingming Ma, Cheng-Gong Han, Li Niu  
+**Venue/category:** eScience  
+**Date:** 2026-11-01  
+**DOI:** `10.1016/j.esci.2026.100550`  
+**Source(s):** Crossref  
+**Keyword score:** 7  
+**Matched:** stretchable  
+
+---
+
+### 43. [Development of sustainable, stretchable bioactive packaging films based on PVA containing starch nanoparticles doped with in situ synthesized ZnO@Se nanostructures](https://doi.org/10.1016/j.fbio.2026.109906)
+
+**Authors:** Mohamed S. Hasanin, Agata Goszczyńska, Ahmed M. Youssef, Miroslawa El Fray  
+**Venue/category:** Food Bioscience  
+**Date:** 2026-11-01  
+**DOI:** `10.1016/j.fbio.2026.109906`  
+**Source(s):** Crossref  
+**Keyword score:** 7  
+**Matched:** stretchable  
+
+---
+
+### 44. [Benzimidazole functionalization enables efficient multi-resonance TADF with accelerated spin-flipping and balanced charge transport](https://doi.org/10.1016/j.cej.2026.181047)
+
+**Authors:** Ji-Hua Tan, Si-Wei Chen, Xin-Lu Li, Han-Nan Shi, Xiao-Long Liu, Yao-Zu Su, Xiaofeng Wang, Jun-Hua Zhuang, Chengxiang Shi, Jia-Ming Jin, Shaoyun Yin, Jia-Xiong Chen et al.  
+**Venue/category:** Chemical Engineering Journal  
+**Date:** 2026-11-01  
+**DOI:** `10.1016/j.cej.2026.181047`  
+**Source(s):** Crossref  
+**Keyword score:** 7  
+**Matched:** tadf  
+
+---
+
+### 45. [Polyethylene-based thermo-mechanically recyclable stretchable yarns for circular sustainable textiles](https://doi.org/10.1021/acsmaterialslett.6c00337.s005)
+
+**Date:** 2026-10-24  
+**DOI:** `10.1021/acsmaterialslett.6c00337.s005`  
+**Source(s):** Crossref  
+**Keyword score:** 7  
+**Matched:** stretchable  
+
+---
+
+### 46. [Fatigue‐Resistant Biaxially Stretchable Micro‐Origami Structured Electrodes](https://doi.org/10.1002/adfm.79271)
+
+**Authors:** Yifei Huang, Yujun Deng, Peiyun Yi, Linfa Peng  
+**Venue/category:** Advanced Functional Materials  
+**Date:** 2026-10-24  
+**DOI:** `10.1002/adfm.79271`  
+**Source(s):** Crossref  
+**Keyword score:** 7  
+**Matched:** stretchable  
+
+**Abstract**
+
+ABSTRACT Stretchable electrodes are essential for next generation wearable electronics, but simultaneously achieving high conductivity, large stretchability, and long‐term reliability remains challenging. This work proposes a micro‐origami structured electrode (MOSE) that mitigates the conflicts between stretchability, conductivity and fatigue resistance. By prefabricating valley creases of origami pattern on an EcoFlex substrate, the Platinum (Pt) film/EcoFlex substrate bilayer undergoes bending deformation along the creases upon release of biaxial pre‐stretch, forming regular and controllable micro‐origami structures. Benefiting from the surface metal film, the initial conductivity reaches 19600 S·cm −1 . Furthermore, the micro‐origami structure enables the electrode to withstand biaxial tensile strains over 80%, and the high regularity of the origami structure provides excellent fatigue resistance (after 10000 cycles at 50% strain, the sheet resistance remains below 20 Ω/sq). Based on this electrode, a capacitive pressure sensor with high signal repeatability is fabricated. Utilizing the anisotropy of the micro‐origami structure, handwriting signal classification using one single small pressure sensor (approximately 2 cm 2 ) instead of large‐area sensor array is achieved, with an accuracy of 96%. The proposed MOSE provides a design route for metal‐film‐based stretchable electrodes.
+
+---
+
+### 47. [Constructing Stretchable Superhydrophobic Perovskite Quantum Dot Films via Dual‐Phase Synergistic Engineering](https://doi.org/10.1002/adma.75486)
+
+**Authors:** Jianqiang Xiao, Kai Yin, Lingxiao Wang, Hao Song, Bin Zhou, Jun He, Ji‐An Duan  
+**Venue/category:** Advanced Materials  
+**Date:** 2026-10-24  
+**DOI:** `10.1002/adma.75486`  
+**Source(s):** Crossref  
+**Keyword score:** 7  
+**Matched:** stretchable  
+
+**Abstract**
+
+ABSTRACT Perovskite quantum dots (PQDs) films intended for flexible optical applications are required not only to exhibit excellent luminescence performance, but also to simultaneously possess high stretchability, superhydrophobicity, patterned luminescence, and multicolor programmability under complex conditions such as large deformation, liquid intrusion, and long‐term service. Here we propose a dual‐phase synergistic engineering strategy, and in combination with replica molding and femtosecond laser direct writing technologies, achieve the construction of a biomimetic superhydrophobic surface and the controllable precipitation of PQDs while endowing the film with superelasticity. Benefiting from the dual‐phase structure and biomimetic surface design, the film still retains more than 52% of its initial luminescence intensity and a water contact angle above 150° under 800% tensile deformation. This strategy is applicable to full‐spectrum luminescent systems spanning 470–688 nm and supports proof‐of‐concept binary optical encoding. After continuous immersion in water for 240 days, the film still retains more than 90% of its initial luminescence intensity and more than 95% machine‐learning recognition accuracy. This work provides a new strategy for the design of multifunctional flexible PQDs films with stable luminescence under deformation and water exposure.
+
+---
+
+### 48. [Enhanced heat transfer in methanol-based magnetic hybrid nanofluids: Influence of thermal radiation, viscous heating, and velocity slip on stretchable cylindrical surfaces](https://doi.org/10.1142/s0217979226502851)
+
+**Authors:** Shiva Shankar Cherala, Nagaraju Gajjela, G. Swamy Reddy, Thirupathi Thumma  
+**Venue/category:** International Journal of Modern Physics B  
+**Date:** 2026-10-23  
+**DOI:** `10.1142/s0217979226502851`  
+**Source(s):** Crossref  
+**Keyword score:** 7  
+**Matched:** stretchable  
+
+**Abstract**
+
+Hybrid nanofluids (HNFs) have become important for improving heat transfer in various engineering fields, especially in rotating cylinders, energy conversion systems and efficient heat exchangers. Motivated by the need to elevate heat transfer efficacy, this research explores the thermal transport behavior of a hydromagnetic HNF composed of methanol enriched with nanoparticles coursing over a stretchable cylindrical surface. The flow regime is defined by the inclusion of viscous and Joule heating, linear thermal radiation and slip-flow phenomena, governed by velocity slip and temperature jump conditions (Smoluchowski) at the boundary. The model also integrates the role of variable electrical conductivity, dynamic viscosity and thermal conductivity, critical factors inspired by their real-world relevance in temperature-sensitive microfluidic systems, energy-efficient thermal insulation and smart fluidic cooling technologies. The nonlinear partial differential equations were converted into ordinary differential equations (ODEs) through similarity transformations, then solved with the reliable fourth-order Runge–Kutta method and a shooting technique. Graphical insights elucidate how key parameters such as thermal radiation intensity, viscous heating and boundary slip phenomena intricately influence velocity and temperature fields. Notably, enhanced fluid momentum is associated with higher Maxwell slip and Reynolds numbers, while elevated Eckert and radiation parameters amplify thermal diffusion. Quantitatively, the wall shear stress exhibits a 23.6% reduction with increasing magnetic parameter (M) and a 17.8% decrease under suction enhancement (S), while HNFs outperform conventional nanofluids in drag reduction. The HNF achieves a Nusselt number (Nu) that is up to 8.71% higher than the conventional Nanofluid (NF) at [Formula: see text], confirming its superior heat transfer capability. Validation against established benchmark scenarios confirms the robustness and accuracy of the numerical formulation. This study is vital for advancing magnetic-assisted thermal regulation and thermal energy storage solutions in high-performance engineering systems where precise thermal control is critical for operational efficiency.
+
+---
+
+### 49. [Design of Liquid Metal/Ionic Liquid Composite Gel Electrodes for Stretchable Li-Ion Battery Applications](https://doi.org/10.1021/acsaem.6c02451)
+
+**Authors:** Hikaru Fujimoto, Natsuka Usami, Yuma Fukao, Moeka Kanto, Monami Iyori, Hiroki Ota, Masayoshi Watanabe, Md. Sharif Hossain, Kazuhide Ueno  
+**Venue/category:** ACS Applied Energy Materials  
+**Date:** 2026-10-23  
+**DOI:** `10.1021/acsaem.6c02451`  
+**Source(s):** Crossref  
+**Keyword score:** 7  
+**Matched:** stretchable  
+
+**Abstract**
+
+Abstract Stretchable Li-ion batteries are promising power sources for next-generation wearable and deformable electronics; however, designing battery electrodes that simultaneously provide electronic conductivity, ionic conductivity, and mechanical stretchability remains challenging. Here, we develop liquid metal/ionic liquid composite gel electrodes containing Li4Ti5O12 as stretchable mixed electronic–ionic conducting electrodes for Li-ion batteries. Ag powder was introduced as a filler for Ga-In liquid metal, enabling partial alloying at the Ag/LM interface; the resulting improved wettability enhanced the continuity of the metallic conductive network. Consequently, the electronic conductivity reached the order of 103 S cm–1, substantially higher than that of Ni-based counterparts. Tensile and electromechanical measurements showed that the liquid metal (LM) phase maintained stretchability (&gt;50% strain) and suppressed resistance increases during deformation by bridging gaps between metallic particles. Selection of the ionic liquid (IL) component further improved ionic conductivity and charge–discharge performance. Using a thermoplastic polyurethane (TPU)-based composite gel electrode, reversible charge–discharge operation was demonstrated even under 50% strain. However, post-cycling analysis revealed electrochemically induced degradation of TPU, accompanied by deterioration in mechanical integrity. These results demonstrate IL/LM composite gel electrodes as a promising materials platform for stretchable Li-ion battery electrodes while identifying polymer electrochemical stability as a key requirement for durable deformable energy-storage devices.
+
+---
+
+### 50. [Strain‐Insensitive Conductors for Stretchable Electronics](https://doi.org/10.1002/adma.75360)
+
+**Authors:** Tong Zheng, Shengxin Xiang, Jianqiang Gao, Qiongfeng Shi, Xinkai Xie, La Li, Guozhen Shen, Jun Wu  
+**Venue/category:** Advanced Materials  
+**Date:** 2026-10-21  
+**DOI:** `10.1002/adma.75360`  
+**Source(s):** Crossref  
+**Keyword score:** 7  
+**Matched:** stretchable  
+
+**Abstract**
+
+ABSTRACT Stretchable electronics are rapidly evolving from simple planar configurations to complex, three‐dimensional (3D) multifunctional architectures. However, traditional stretchable conductors frequently suffer from severe resistance fluctuations under mechanical deformation. To address this challenge, this review systematically summarizes two core design paradigms for achieving robust strain insensitivity. The first paradigm, corresponding to structurally strain‐insensitive conductors, relies on a top–down geometric decoupling strategy that physically dissipates strain through 3D buckling or kirigami structures. The second paradigm, corresponding to intrinsically strain‐insensitive conductors, employs a bottom–up network reconstruction strategy that leverages the fluidic adaptability of liquid metals or the dynamic sliding of nanofillers to sustain continuous percolation networks under stress. Beyond these fundamental paradigms, we comprehensively evaluate precise fabrication processes and critical system‐level integration challenges, with a particular focus on in‐plane modulus mismatch and Z ‐axis interlayer shear failure. Importantly, this review highlights the indispensable role of strain‐insensitive conductors in advanced applications, demonstrating their unique capability to eliminate motion artifacts in bioelectronics, lock resonant frequencies in wireless communications, and ensure thermal safety in high‐power actuation platforms. Finally, we outline future trajectories for large‐scale industrial manufacturing and long‐term in vivo stability, aiming to accelerate the commercialization of technologies within this interdisciplinary field.
+
+---
+
+### 51. [Refractive index tuning of terahertz photonic materials based on a stretchable silicon effective medium](https://doi.org/10.1364/optica.596183)
+
+**Authors:** Hidemasa Yamane, Yoshiharu Yamada, Yusuke Kondo, Ken Miyajima, Masayuki Fujita, Shuichi Murakami  
+**Venue/category:** Optica  
 **Date:** 2026-10-20  
-**DOI:** `10.1039/d6dt01810f`  
-**Source(s):** Semantic Scholar  
-**Keyword score:** 14  
-**Matched:** thermally activated delayed fluorescence, tadf  
+**DOI:** `10.1364/optica.596183`  
+**Source(s):** Crossref  
+**Keyword score:** 7  
+**Matched:** stretchable  
 
 **Abstract**
 
-Iron ions play a significant role in the biological metabolism of the human body. Both the deficiency and excess of iron ions can lead to various diseases. Herein, two novel fluorescent probes, DMAC-BP-MD and DMAC-BPTAZ, were designed and synthesized for the detection of Fe3+ ions based on thermally activated delayed fluorescence (TADF) emitters. Attributed to the formation of complexes and a competitive absorption mechanism, the two sensors demonstrate excellent selectivity and high sensitivity towards Fe3+ in a water/tetrahydrofuran (9 : 1, v/v) mixture. Among the two probes, DMAC-BP-MD achieves superior detection sensitivity with a lower limit of detection (LOD) of 2.45 × 10-6 mol L-1. This research contribution presents a novel molecular design strategy for high-performance fluorescent probes.
+High-resistivity single-crystal silicon (Si) is a low-loss and microfabrication-compatible platform for terahertz (THz) photonics, but its brittleness has largely limited Si THz components to mechanically rigid structures. Here, we demonstrate a structurally stretchable Si effective medium in which the optical properties of a Si/air dielectric composite are mechanically tuned by deforming the Si framework itself. A 200µm-thick high-resistivity Si slab was patterned by MEMS micromachining into a subwavelength spiral-spring through-hole lattice, converting bulk Si into a mechanically compliant, substrate-free photonic medium. In this architecture, the same monolithic Si microstructure provides both mechanical compliance and electromagnetic functionality: Uniaxial elongation changes the Si/air filling fraction and structural anisotropy, thereby tuning the effective permittivity and birefringence of the medium. THz time-domain spectroscopy verifies this concept by showing high transmission below 0.6 THz and a monotonic, polarization-dependent decrease in the retrieved effective refractive index; at 12.6% elongation, the effective index decreases by approximately 6%–8% without a detectable increase in extinction. These results establish structurally flexibilized bulk Si as a MEMS-compatible platform for mechanically tunable and structurally flexible all-dielectric THz effective media, providing a basis for future deformable THz photonic components after device-specific optical and mechanical optimization.
 
 ---
 
-### 15. [Constructing Efficient Narrow‐Spectrum Circularly Polarized Organic Light‐Emitting Diodes with Near‐Ultraviolet Chiral Assistant Dopants](https://www.semanticscholar.org/paper/3fc9aa197d8aa7dbd546594b596e5ea81fdff7b9)
+### 52. [Triazine Substitution Accelerates Reverse Intersystem Crossing in a Multi-Resonance TADF Material with Narrowband Emission](https://doi.org/10.1360/nso/20260064)
 
-**Authors:** Jia-Jie Zeng, Rui-Qi Sun, Ting Guo, Fang-Fang Luo, Guo-Xia Hao, Xing Wu, Le-Tian Xu, B. Tang, Zu-Jin Zhao  
-**Venue/category:** Advanced Optical Materials  
+**Authors:** Changfeng Si, Zachary Hudson  
+**Venue/category:** National Science Open  
 **Date:** 2026-10-19  
-**DOI:** `10.1002/adom.71961`  
-**Source(s):** Semantic Scholar  
-**Keyword score:** 14  
-**Matched:** thermally activated delayed fluorescence, tadf, oled  
-
-**Abstract**
-
-Ultraviolet (UV) and near‐ultraviolet (NUV) chiral materials are viable candidates as assistant dopants for constructing narrow‐spectrum circularly polarized organic light‐emitting diodes (CP‐OLEDs), which can be applied in next‐generation three‐dimensional displays. However, UV/NUV materials that fully satisfy the stringent requirements for chiral assistant dopants remain scarce. Herein, a pair of enantiomers, ( S )/( R )‐OBNPCN‐SFIAC, were designed, synthesized and characterized, which exhibit efficient NUV circularly polarized luminescence (CPL) with high‐level reverse intersystem crossing (hRISC) properties. They function efficiently as emitters in non‐doped and doped CP‐OLEDs, providing maximum external quantum efficiencies ( EQE max s) of 6.72% and 7.47%, respectively, along with absolute electroluminescence dissymmetry factors (| g EL |s) of up to 7.35 × 10 −3 . Also, they can serve as assistant dopants in narrow‐spectrum blue, green and orange multi‐resonance thermally activated delayed fluorescence (MR‐TADF) OLEDs, furnishing impressive EQE max s and | g EL |s of 38.65% and 8.67 × 10 −3 , respectively. To the best of our knowledge, the above results are amongst the best of the reported narrow‐spectrum CP‐OLEDs so far.
+**DOI:** `10.1360/nso/20260064`  
+**Source(s):** Crossref  
+**Keyword score:** 7  
+**Matched:** tadf  
 
 ---
 
-### 16. [Achieving White Electroluminescence from a Single‐Component Emitter by Harnessing Aggregation‐Induced Dual Delayed Fluorescence](https://www.semanticscholar.org/paper/7a7b81dfe312c0329dacaf4691b82625d8ecd1d1)
+### 53. [MOF‐Derived Transition Metal Carbide@Electroactive Polypyrrole Nanohybrid‐Based High‐Performance and Stretchable Multimodal Patch for Perspiration Analysis (Adv. Funct. Mater. 83/2026)](https://doi.org/10.1002/adfm.78656)
 
-**Authors:** Hao-Ze Li, Feng-Ming Xie, Yu-Tao Yang, Yi-Chen Zhao, Yan-Qing Li, Jian-Xin Tang  
-**Venue/category:** Advanced Optical Materials  
-**Date:** 2026-10-13  
-**DOI:** `10.1002/adom.71931`  
-**Source(s):** Semantic Scholar  
-**Keyword score:** 14  
-**Matched:** thermally activated delayed fluorescence, tadf, oled  
-
-**Abstract**
-
-Aggregation‐induced white emission (AIWE) organic light‐emitting diodes (OLEDs) represent a compelling platform for next‐generation display and lighting technologies, as they circumvent both the electroluminescence (EL) spectral instability and the fabrication complexity inherent in multi‐emitter architectures. Herein, we report a novel strategy for achieving spectrally stable white EL based on an AIWE system, in which white‐light generation does not rely on conventional unimolecular emission but instead arises from aggregation‐induced white emission in a single‐component thermally activated delayed fluorescence (TADF) emitter. The designed molecule, 2tCz‐2tBO, comprises a planar donor (D) and two multi‐resonance acceptors (A), which are connected via spirofluorene linkers to form a near‐parallel A–D–A configuration. This geometry enforces steric separation between the donor and acceptor units, thereby facilitating efficient multiple through‐space charge transfer (TSCT). A pivotal characteristic of this material is its capacity for simultaneous blue and yellow emission in the aggregated state. The optimized white OLED incorporating 2tCz‐2tBO achieves a maximum external quantum efficiency of 8.4%. Furthermore, the device exhibits spectral stability, maintaining consistent white light emission across a range of operating voltages. This work establishes a new paradigm for AIWE systems by employing a dual‐emissive TSCT‐TADF material, providing an effective strategy toward high‐performance and spectrally stable white electroluminescence.
-
----
-
-### 17. [Thermally activated delayed fluorescence in neutral and cationic stages of aza-nanographene decorated with 6.6.6 defects](https://www.semanticscholar.org/paper/b16a54b61559b05aaa864efe992b652661c361e8)
-
-**Authors:** Rohith Valavil Suku, I. Serdiuk, Krzysztof Dzieszkowski, Ł. Orzeł, Monika Kijewska, T. Muzioł, M. Siczek, Miłosz Pawlicki  
-**Venue/category:** Chemical Science  
-**Date:** 2026-10-09  
-**DOI:** `10.1039/d6sc06038b`  
-**Source(s):** Semantic Scholar  
-**Keyword score:** 14  
-**Matched:** thermally activated delayed fluorescence, tadf  
-
-**Abstract**
-
-Heteroatom-doped polycyclic aromatic hydrocarbons (PAHs) show substantially modified electron distribution caused by the presence of either an electron-rich or electron-poor element that significantly influences the optical properties of final molecules. A novel synthetic approach with a PBr3 coupling agent, applied to precisely designed monomers and followed by intramolecular fusion, incorporates a tetraaza-dibenzo[g,p]chrysene decorated with two 6.6.6 defects into a nanographene-like system. The final derivative shows an efficient green fluorescence emission (λPF = 530 nm) accompanied by phosphorescence (λphos = 565 nm). The emission is tuned with simple protonation and shifted bathochromically to λPF = 620 nm and λphos = 640 nm. Both forms show thermally activated delayed fluorescence (TADF) with PLQYs of 93% for the green band and 50% for the red one, showing a unique ability to sustain the TADF behaviour after protonation.
-
----
-
-### 18. [Effects of geometric isomerism and regioisomerism on photophysical properties of iridium(iii) complexes](https://www.semanticscholar.org/paper/f68f5b5a70d13dddef60bef79cc5ffd3e91e0714)
-
-**Authors:** Zheng-Kun Qin, Si-Tong Liu, Yi-Xuan Liu, Yu-Xin Zhang, Jia-He Zuo, Shuai Chen, Yun-Long Sun, Ming-Xing Song  
-**Venue/category:** RSC Advances  
-**Date:** 2026-10-09  
-**DOI:** `10.1039/d6ra07317d`  
-**Source(s):** Semantic Scholar  
-**Keyword score:** 14  
-**Matched:** thermally activated delayed fluorescence, tadf, oled  
-
-**Abstract**
-
-Herein, six cyclometalated Ir(iii) complexes have been systematically designed and investigated via density functional theory (DFT) and time-dependent DFT (TD-DFT) to unravel the effects of geometric and regional isomerism on the optoelectronic properties of organic electroluminescent materials. The complexes comprise three isomers each of Ir(tfmppy)2(tpip) and Ir(ptfmpy)2(tpip), where tfmppy = 2-[4-(trifluoromethyl)phenyl]pyridine, ptfmpy = 2-fluoro-5-trifluoromethylpyridine, and tpip = tetraphenylimidodiphosphate. Geometric isomerism arises from the cis/trans configurations of N and C donor atoms in the two C^N chelating ligands, whereas regional isomerism stems from different substitution positions of the trifluoromethyl group on the phenylpyridine main ligand. Comprehensive calculations of geometric structures, absorption and emission spectra, frontier molecular orbitals (FMOs), spin–orbit coupling (SOC) constants, and a series of radiative and non-radiative rate constants reveal that geometric isomerism modulates the FMO energy gap by altering the spatial arrangement of ligands around the Ir metal center, thereby tuning the emission energy and wavelength through modifications of the microscopic electronic structure. Regional isomerism fine-tunes the FMO energy levels via substituent positional variations on the ligand framework, significantly influencing the absorption spectral profiles and optical bandgap. Analysis of spin–orbit coupling and key rate constants reveals that the studied complexes are predominantly phosphorescent emitters, with complex 6 showing a certain tendency towards thermally activated delayed fluorescence (TADF). This work may provide a theoretical reference for experimental synthesis, and the relevant luminescent materials are expected to find applications in OLEDs, thereby supporting their subsequent use in organic electroluminescence.
-
----
-
-### 19. [Positional Isomerism Reveals Intrinsic Decoupling of Structural Relaxation and Vibrational Frequency in MR-TADF Emitters.](https://www.semanticscholar.org/paper/f602e52304d15a1a0882d2e32da9de07fd485c20)
-
-**Authors:** Xiao-Juan Song, Yang-Yang Xin, Xiao-Ning Li, Xi-Yun Ye, Yu-Jun Xie, Yue-Wei Zhang, Lian Duan, B. Tang, Zhen Li  
-**Venue/category:** Angewandte Chemie  
-**Date:** 2026-10-15  
-**DOI:** `10.1002/anie.2538716`  
-**Source(s):** Semantic Scholar  
-**Keyword score:** 13  
-**Matched:** tadf, oled, organic light-emitting diode  
-
-**Abstract**
-
-The pursuit of high-color-purity organic light-emitting diodes (OLEDs) has spurred the development of multiple resonance (MR) emitters. Yet a long-standing assumption in the field holds that minimizing excited-state structural displacement (ΔQ) is essential for achieving narrow emission bandwidth. Here we challenge this notion by demonstrating that ΔQ and molecular vibrational frequency (ω) act as independent, rather than coupled, determinants of the emission full width at half maximum (FWHM). Through systematic ortho (oDB-BN), meta (mDB-BN), and para (pDB-BN) positional isomerism of a sterically bulky dimesitylboryl acceptor on an archetypal MR scaffold, we reveal that small ΔQ reduces the Stokes shift but does not guarantee narrow FWHM; instead, low ω emerges as the decisive factor. The meta-substituted isomer, despite exhibiting the smallest ΔQ, displays the broadest FWHM owing to a prominent low-frequency torsional vibration. Conversely, the ortho- and para-isomers retain ultranarrow emission despite pronounced molecular distortion. The resulting OLEDs achieve excellent external quantum efficiencies of up to 33.3% with suppressed roll-off, and pDB-BN delivers a remarkable luminance of 109 600 cd m-2. This work provides an alternative perspective on the design of narrowband emitters, suggesting that controlling vibrational coupling, in addition to minimizing structural displacement, is a valuable consideration in molecular engineering.
-
----
-
-### 20. [Hydrogen‐Bond‐Anchored Metal‐Free Cationic TADF Glassy Scintillators for High‐Resolution Dynamic X‐Ray Imaging](https://www.semanticscholar.org/paper/5b3ddb744259e22d8f8dfbb40e450d575cc6d0d1)
-
-**Authors:** Xiao-Cong Xu, Qiang-Wen Qiu, Shan-Yuan Zhong, Ya-Nan Zhu, Hong-Ming Chen, Xin Fang, Mei-Jin Lin  
+**Authors:** Zahidul Islam, Md Selim Reza, M. Robiul Islam, Ahmad Abdus Samad, Md Johurul Islam, Jiwon Go, Md Shofiul Alam, Safi Ahmed, Jae Yeong Park  
 **Venue/category:** Advanced Functional Materials  
+**Date:** 2026-10-17  
+**DOI:** `10.1002/adfm.78656`  
+**Source(s):** Crossref  
+**Keyword score:** 7  
+**Matched:** stretchable  
+
+---
+
+### 54. [Stretchable and flame-retardant organic long-persistent luminescent ionogels for life-saving communication](https://doi.org/10.1007/s11426-026-3620-3)
+
+**Authors:** Nianjie Zhang, Yu Zhou, Kun Gong, Tiantian Wang, Man Zheng, Yimeng Liang, Min Wu, Dongzhi Liu, Ruihong Liu, Tianyang Wang  
+**Venue/category:** Science China Chemistry  
+**Date:** 2026-10-16  
+**DOI:** `10.1007/s11426-026-3620-3`  
+**Source(s):** Crossref  
+**Keyword score:** 7  
+**Matched:** stretchable  
+
+---
+
+### 55. [Highly Stretchable Polyrotaxane Thin‐Film Substrates for Printed Electronics](https://doi.org/10.1002/smsc.70412)
+
+**Authors:** Vivek Manish, Roberto Baretta, Giada Bombardelli, Guglielmo Trentini, Chiara Morano, Andrea Gaiardo, Luisa Petti, Alvise Bagolini, Leonardo Pagnotta, Marco Frasconi, Maria F. Pantano  
+**Venue/category:** Small Science  
+**Date:** 2026-10-16  
+**DOI:** `10.1002/smsc.70412`  
+**Source(s):** Crossref  
+**Keyword score:** 7  
+**Matched:** stretchable  
+
+**Abstract**
+
+Thin polymeric films with high mechanical robustness and stretchability are essential for the development of flexible and stretchable electronic devices. Here, we present a versatile strategy for fabricating freestanding polymer films with tunable mechanical properties while maintaining large stretchability. The films are fabricated by chemically cross‐linking multi‐arm poly(ethylene glycol) acrylate (4‐arm‐PEG‐A) with polyrotaxane (PR) units composed of α‐cyclodextrins (α‐CDs) threaded along a linear PEG backbone. By varying the degree of PR functionalization and its content, the mechanical properties of the films can be systematically tuned, enabling simultaneous enhancement of strength, toughness, and stiffness, with failure strains exceeding 150%. The resulting films were used as substrates for stretchable temperature sensors, which maintained stable performance under an applied strain of ~60%. These results demonstrate that polyrotaxane‐based thin films provide mechanically robust and functionally compatible substrates for stretchable electronics operating under large deformations.
+
+---
+
+### 56. [Stretchable h‐BN/TPU Fibers for Passive‐Active Dual‐Mode Thermal Management and Wearable Haptic Interfaces](https://doi.org/10.1002/advs.78162)
+
+**Authors:** Yiwei Zhou, Shanshan Long, Bo Chen, Maohua Li, Linhong Li, Yue Qin, Rongjie Yang, Hanxi Chen, Cheng‐Te Lin, Yixiang Xu, Kean How Cheah, Nan Jiang et al.  
+**Venue/category:** Advanced Science  
 **Date:** 2026-10-15  
-**DOI:** `10.1002/adfm.79103`  
-**Source(s):** Semantic Scholar  
-**Keyword score:** 13  
-**Matched:** thermally activated delayed fluorescence, tadf  
+**DOI:** `10.1002/advs.78162`  
+**Source(s):** Crossref  
+**Keyword score:** 7  
+**Matched:** stretchable  
 
 **Abstract**
 
-Organic glassy scintillators offer a promising platform for scalable X‐ray imaging owing to their optical transparency and melt processability. However, their performance is often limited by inefficient triplet‐exciton utilization and poor condensed‐phase stability. Although flexible side chains or rotatable units facilitate glass formation, they also increase molecular relaxation and nonradiative energy dissipation. Herein, we develop three single‐component metal‐free ionic thermally activated delayed fluorescence (TADF) scintillators (C2‐HI, C2‐OHI, and C2‐OMeI) using a hydrogen‐bond‐assisted side‐chain anchoring strategy. Compared with the non‐hydrogen‐bonded analogues C2‐HI and C2‐OMeI, hydroxyl‐functionalized C2‐OHI forms directional O─H···I − interactions that rigidify the local molecular environment, suppress nonradiative relaxation, and stabilize the condensed phase without disturbing the emissive framework. Consequently, C2‐OHI achieves a photoluminescence quantum yield of 93.69%, a radioluminescence intensity of 522% relative to commercial BGO, and an estimated relative light yield of 6.24 × 10 4 photons MeV −1 . Its melt‐quenched glass retains efficient TADF scintillation with an estimated relative light yield of 2.00 × 10 4 photons MeV −1 , enabling X‐ray imaging at 22.7 lp mm −1 and real‐time imaging at 60 fps. This work establishes hydrogen‐bond‐assisted side‐chain anchoring as a molecular design strategy for simultaneously regulating excited‐state dynamics and condensed‐phase stability in metal‐free organic glass scintillators.
+ABSTRACT Wearable thermal interfaces require rapid, spatially confined thermal feedback together with mechanical compliance, yet existing passive thermal‐management textiles and active thermal‐haptic devices remain largely separate. Here, a stretchable h ‐BN/TPU composite fiber is developed by coupling microfluidic spinning with non‐solvent‐induced phase separation. Rectangular‐channel confinement aligns hexagonal boron nitride plates within a microporous thermoplastic polyurethane matrix, constructing directional heat‐conduction pathways while preserving large deformation. The optimized 30 wt.% h ‐BN/TPU fiber achieves a dry‐state thermal conductivity of 2.08 and 4.14 W·m −1 ·K −1 under humid conditions, together with 9.67 MPa tensile strength and 422% elongation at break. Pareto‐front analysis identifies the 30 wt.% composition as the thermal‐mechanical knee, arising from the coupled effects of filler orientation, low void fraction, and deformable TPU domains. Woven h ‐BN/TPU fabrics provide passive thermal management, reducing surface temperature by 5.7°C under simulated solar irradiation and maintaining performance after 2000 bending cycles. When integrated into a thermal feedback glove, the fabric enables localized fingertip actuation with a heating rate of +29.55°C·s −1 and a thermal relaxation time of ∼20 s (returning below the warm perception threshold of 35°C). This fiber platform bridges passive heat regulation and active thermal haptics for next‐generation thermally interactive wearables.
 
 ---
 
-### 21. [Halogen-Regulated Luminescence in Heteroleptic Cu(I) Complexes with Pyrazine and Xantphos: Synthesis, Structure, and TADF Properties](https://www.semanticscholar.org/paper/be788bc82cc82cc06d517ac9179ed58843929b4c)
+### 57. [Stretchable fabric electrodes with gel electrolyte for high-performance wearable zinc-ion batteries](https://doi.org/10.34133/energymatadv.0599)
 
-**Authors:** Qin-Wei Chen, Xiao-Fei Kuang, Yu-Ting Zhu, Su-Yuan Feng, Yangpeipei Chen, Xian-Lu Gan, Can-Zhong Lu  
-**Venue/category:** Inorganic Chemistry  
-**Date:** 2026-10-13  
-**DOI:** `10.1021/acs.inorgchem.6c04343`  
-**Source(s):** Semantic Scholar  
-**Keyword score:** 13  
-**Matched:** thermally activated delayed fluorescence, tadf  
-
-**Abstract**
-
-Cu(I) complexes have attracted considerable attention due to their abundance, low cost, and distinctive photophysical properties, making them promising candidates for thermally activated delayed fluorescence (TADF) applications. We synthesized two mononuclear Cu(I) halide complexes using 2-ethylpyrazine and the diphosphine 4,5-bis(diphenylphosphino)-9,9-dimethylxanthene (Xantphos). At room temperature, Complex 1 exhibits yellow emission at 575 nm with a photoluminescence quantum yield (PLQY) of 68%, while Complex 2 exhibits orange-red emission at 612 nm with a PLQY of 28%. Temperature-dependent luminescence measurements combined with decay lifetimes demonstrate that both complexes exhibit TADF characteristics with small singlet–triplet energy gaps (ΔEST) of 0.09 eV for 1 and 0.07 eV for 2. Theoretical calculations reveal that the emission primarily originates from mixed metal-to-ligand (MLCT), halide-to-ligand (XLCT), and ligand-to-ligand (LLCT) charge-transfer transitions. The stronger heavy-atom effect of iodine in 1 enhances spin–orbit coupling (SOC), promoting reverse intersystem crossing (RISC), while its more rigid coordination environment suppresses nonradiative decay. Conversely, the red-shifted emission of 2 increases nonradiative decay via the energy-gap law. These findings highlight that TADF efficiency is governed by the balance between SOC-facilitated RISC and nonradiative decay suppression, rather than ΔEST alone, providing insights for designing high-performance, low-cost luminescent materials.
+**Authors:** Zhaolei Ma, Ruoning Bai, Yuanrui An, Yankai Zhu, Zhixin Liu, He Chen, Guoxian Li, Chuizhou Meng  
+**Venue/category:** Energy Material Advances  
+**Date:** 2026-10-14  
+**DOI:** `10.34133/energymatadv.0599`  
+**Source(s):** Crossref  
+**Keyword score:** 7  
+**Matched:** stretchable  
 
 ---
 
-### 22. [Charge accumulation and exciton quenching behaviors in 4CzIPN-based OLED emission layers revealed by DCM-PL measurements](https://www.semanticscholar.org/paper/39d8b2eebb85178767a0e67150fdf4af3168b19b)
+### 58. [Deformation‐Tolerant Functional Elastomer Overlayers for Haze‐Assisted Light Extraction and Color Conversion in Stretchable Mechanoluminescent Films](https://doi.org/10.1002/adfm.79098)
 
-**Authors:** Yutaka Noguchi, Kotaro Kudo, Girish K. Hanumantharaju, W. Brütting  
-**Venue/category:** Organic and Hybrid Light Emitting Materials and Devices XXX  
-**Date:** 2026-10-09  
-**DOI:** `10.1117/12.3112609`  
-**Source(s):** Semantic Scholar  
-**Keyword score:** 13  
-**Matched:** thermally activated delayed fluorescence, oled, organic light-emitting diode  
-
-**Abstract**
-
-We investigate charge accumulation and exciton dynamics in 1,2,3,5-tetrakis(carbazol-9-yl)-4,6-dicyanobenzene (4CzIPN)-based emission layers (EMLs) of organic light-emitting diodes using a simultaneous measurement technique of displacement current and photoluminescence (DCM-PL). The measurements reveal not only exciton-polaron quenching (EPQ), but also a pronounced charge-dissociation behavior, which is likely associated with the small exciton binding energy of 4CzIPN. Furthermore, by directly correlating the accumulated charge density obtained from the DCM-PL characteristics, the singlet-polaron and triplet-polaron quenching rate constants in the 4CzIPN-based EML were estimated. Although further refinement is required for more quantitative analysis, these results demonstrate that DCM-PL is a useful technique for investigating charge-exciton interactions in thermally activated delayed fluorescence-based EMLs.
-
----
-
-### 23. [Solution-Processable Semi-Aromatic Polyimide MR-TADF Materials for High-Efficiency Narrowband OLEDs.](https://www.semanticscholar.org/paper/e84a03038eb1ba8ce787646da21abf9d542f74f5)
-
-**Authors:** Jin-Kun Bian, Yuxuan Li, Qian Liu, Yao-Hui Liang, Yan-Wei He, Yu-Bo Long, Wen-Hui Wang, Si-Wei Liu, Yi Zhang  
-**Venue/category:** Angewandte Chemie  
-**Date:** 2026-10-21  
-**DOI:** `10.1002/anie.7062566`  
-**Source(s):** Semantic Scholar  
-**Keyword score:** 11  
-**Matched:** tadf, oled  
-
----
-
-### 24. [Fluorene‐Linked Single‐Molecule Exciplex Hosts With Acceptor‐Dependent Energy Transfer and Exciplex Formation for TADF OLEDs](https://www.semanticscholar.org/paper/08170e8336818d5974217796d1e7d96b2db3c711)
-
-**Authors:** Ha Yeon Kim, Yeseo Lee, Simhyeon Lee, Shinyoung Kim, Ju-Cho Min, Dong-Hoon Choi, Sungnam Park  
-**Venue/category:** Advanced Optical Materials  
-**Date:** 2026-10-13  
-**DOI:** `10.1002/adom.71952`  
-**Source(s):** Semantic Scholar  
-**Keyword score:** 11  
-**Matched:** tadf, oled  
-
-**Abstract**
-
-Single‐molecule exciplex hosts offer a promising route to overcome the solubility mismatch, morphological instability, and phase separation often encountered in conventional binary exciplex systems for solution‐processed organic light‐emitting diodes (OLEDs). Here, two cardo‐type fluorene‐linked single‐molecule exciplex hosts, FL‐PN1 and FL‐PN2, are developed by covalently connecting an identical donor unit ( p ‐type) to different acceptor units ( n ‐type) through a non‐conjugated linker. This molecular platform enables direct elucidation of acceptor‐structure effects on excited‐state dynamics and device performance. In solution, FL‐PN1 and FL‐PN2 exhibit distinct intramolecular energy‐transfer behavior governed by Förster resonance energy transfer. In the solid state, both hosts form intermolecular charge‐transfer exciplexes with small singlet‐triplet energy gaps, while displaying markedly different photophysical properties depending on the acceptor structure. Solution‐processed green OLEDs based on FL‐PN1 achieve a maximum external quantum efficiency of 23.6%, outperforming FL‐PN2 (19.7%), owing to its higher photoluminescence quantum yield (84.3% vs. 79.9%) and more balanced charge transport. These results identify acceptor molecular design as a decisive factor governing exciplex photophysics and OLED efficiency and establish a versatile strategy for developing high‐performance single‐molecule exciplex hosts.
-
----
-
-### 25. [Luminescent copper(i) coordination clusters: structure–property relationships, transformation into hybrid functional materials, and emerging optoelectronic applications](https://www.semanticscholar.org/paper/868a604a333f022d5f46728cc6ee4983516d33c3)
-
-**Authors:** L. Anjo, N. Ananikian, G. Amatuni, V. Avagyan, M. Ivanyan, G. Davoodi  
-**Venue/category:** RSC Advances  
-**Date:** 2026-10-12  
-**DOI:** `10.1039/d6ra07011f`  
-**Source(s):** Semantic Scholar  
-**Keyword score:** 11  
-**Matched:** thermally activated delayed fluorescence, tadf  
-
-**Abstract**
-
-Atomically precise luminescent copper(i) coordination clusters have emerged as a sustainable, earth-abundant, and structurally versatile class of materials, offering a compelling alternative to noble-metal (Au, Ag) luminophores. This review comprehensively addresses recent advances spanning the period 2020 to 2026 in the rational design, photophysical characterization, and functional hybridization of these clusters. We systematically discuss nuclearity control (Cu2 to Cu22), ligand engineering strategies, and the structure–property relationships that govern emission color and quantum yield, with particular emphasis on Cu⋯Cu metallophilic interactions, tetrahedral distortion parameter (Δθ), and ligand rigidity. The roles of metal to ligand charge transfer (MLCT), ligand to metal charge transfer (LMCT), cluster-centered (CC) transitions, and thermally activated delayed fluorescence (TADF) are critically analyzed. Sonochemical synthesis is evaluated as a potentially useful laboratory-scale approach for accelerating nucleation and facilitating in situ hybridization; however, its scalability, passivation efficiency and ability to suppress aggregation-caused quenching remain to be demonstrated through matched comparisons with conventional routes. The review further explores the transformation of discrete Cu(i) clusters into advanced hybrid functional materials incorporating polymer matrices, metal–organic frameworks (MOFs), oxide supports, and carbon-based scaffolds. Emerging applications in chemical sensing, TADF-based optoelectronics (ΦPL up to 99.9%, EQE >35%), and visible-light photocatalysis are critically evaluated. Challenges including Cu(i) oxidation susceptibility, ACQ, and synthetic scalability are addressed, and future directions including defect engineering, machine-learning-assisted design, and sonochemical hybridization are proposed.
-
----
-
-### 26. [Tuning the photo-physics of molecules for opto-electronic applications using plasmonic and dielectric effects](https://www.semanticscholar.org/paper/1cca4d8687ad6081cc5a6f84bec8b987cdbe0c7e)
-
-**Authors:** L. Peteanu, Abhrojyoti Muzumder, R. Jin  
-**Venue/category:** Organic and Hybrid Light Emitting Materials and Devices XXX  
-**Date:** 2026-10-09  
-**DOI:** `10.1117/12.3114017`  
-**Source(s):** Semantic Scholar  
-**Keyword score:** 11  
-**Matched:** thermally activated delayed fluorescence, tadf  
-
-**Abstract**
-
-Plasmonic effects are a very promising avenue to improve the stabilities and efficiencies of materials used in opto-electronic devices. Our group has shown that careful engineering of a plasmonic film properties can yield increases in stabilities of over an order of magnitude with a concomitant increase in the radiative rate in conjugated organic molecules that have been used in so-called first generation organic LEDs. Here we extend this work to other types of organic and inorganic emitters with applications in light sources and displays. In addition, the effects of the local dielectric imposed by plasmonic substrates on the photo-physics is explored. This is of particular importance as many molecules used in lighting applications, such as those that undergo thermally activated delayed fluorescence (TADF), are highly sensitive to subtle changes in the dielectric environment due to the importance of low-lying charge transfer states to their function.
-
----
-
-### 27. [Probing polaron transport and dynamics in OLEDs](https://www.semanticscholar.org/paper/16381888f4b2f7982edc9a75e9bf0abfeef08b45)
-
-**Authors:** Jeong-Hwan Lee  
-**Venue/category:** Organic and Hybrid Light Emitting Materials and Devices XXX  
-**Date:** 2026-10-09  
-**DOI:** `10.1117/12.3113297`  
-**Source(s):** Semantic Scholar  
-**Keyword score:** 11  
-**Matched:** tadf, oled, emissive layer  
-
-**Abstract**
-
-Despite the widespread adoption of OLEDs, efficiency roll-off and blue device stability remain significant challenges, primarily driven by residual polaron accumulation at emissive layers and interfaces. This accumulation triggers quenching and electrical losses, necessitating precise analysis of polaron dynamics. Traditional steady-state methods often fail to capture complex, time-dependent interactions. This study introduces a generalized methodology for analyzing the full range (initial to terminal) of transient electroluminescence (Tr-EL) signals. By investigating six emitters in single and exciplex-host systems, we categorized Tr-EL responses into three overshoot types. Combined with time-resolved electrical simulations, we confirmed that these patterns directly correlate with shifts in charge balance and polaron concentration. Our findings provide essential physical guidelines for device architecture and offer a robust analytical framework for optimizing next-generation TADF and hyperfluorescence OLEDs, ensuring both high efficiency and extended operational lifetimes.
-
----
-
-### 28. [Managing Charge Transport and Exciton Generation for Highly Efficient, Bright, and Stable Near‐Infrared Organic Radical Light‐Emitting Diodes](https://www.semanticscholar.org/paper/3efe1912cae240afd61bfdf8daae43a1d46f3df3)
-
-**Authors:** Hwan-Hee Cho, Min Chang, Yi-Syun Chen, T. Kusamoto, Emrys W. Evans, Yuh-Renn Wu, R. Friend  
+**Authors:** Gyudam Jeon, Seongkyu Song, Soon Moon Jeong, Na Young Ha  
 **Venue/category:** Advanced Functional Materials  
-**Date:** 2026-10-09  
-**DOI:** `10.1002/adfm.78903`  
-**Source(s):** Semantic Scholar  
-**Keyword score:** 11  
-**Matched:** thermally activated delayed fluorescence, tadf  
+**Date:** 2026-10-14  
+**DOI:** `10.1002/adfm.79098`  
+**Source(s):** Crossref  
+**Keyword score:** 7  
+**Matched:** stretchable  
 
 **Abstract**
 
-Near‐infrared (NIR) organic light‐emitting diodes based on open‐shell radical emitters offer a spin‐allowed pathway to high‐brightness emission. However, their practical implementation has been hindered by efficiency roll‐off at high current densities. Here, we demonstrate that simultaneously achieving balanced charge transport and high emission efficiency is key to overcoming this limitation in radical‐based electroluminescence. By contrasting conventional exciplex‐based reference systems with a thermally activated delayed fluores
+ABSTRACT Mechanoluminescence (ML), which converts mechanical stimuli into light without an external power supply, offers opportunities for self‐powered optical sensing, wearable displays, soft robotics, and adaptive light‐emitting systems. ZnS:Cu particles embedded in a poly(dimethylsiloxane) matrix (ZnS:Cu‐PDMS) represent an attractive stretchable ML platform because they generate strong emission under mechanical deformation. However, most strategies for improving ML performance rely on modifying the emissive composite itself, limiting independent control over postemission photon extraction and spectral conversion. Here, a modular functional elastomer overlayer strategy is presented to decouple ML generation from photon extraction and color conversion in ZnS:Cu‐PDMS composite films. Polyurethane (PU), nematic liquid crystal (NLC)‐loaded PU (NLC‐PU), 4‐(dicyanomethylene)‐2‐methyl‐6‐(p‐dimethylaminostyryl)‐4H‐pyran (DCM)‐doped PU, and DCM‐ and NLC‐loaded PU (DCM‐NLC‐PU) overlayers are integrated as independently tunable optical layers. NLC‐PU forms birefringent NLC‐rich domains that provide visible‐range haze, strain‐responsive op
 
 ---
 Full report is saved in `reports/2026-10-24.md`.

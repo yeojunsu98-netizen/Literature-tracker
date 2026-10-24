@@ -2,25 +2,22 @@
   "run_day": "2026-10-24",
   "report_path": "reports/2026-10-24.md",
   "csv_path": "reports/2026-10-24.csv",
-  "new_candidate_count": 33,
-  "fetched_count": 52,
+  "new_candidate_count": 74,
+  "fetched_count": 197,
   "lookback_hours": 384,
   "source_query_counts": {
-    "Semantic Scholar": 3,
-    "Crossref": 0,
+    "Semantic Scholar": 12,
+    "Crossref": 12,
     "arXiv": 12
   },
   "source_record_counts": {
-    "Semantic Scholar": 52,
-    "Crossref": 0,
+    "Semantic Scholar": 68,
+    "Crossref": 129,
     "arXiv": 0
   },
-  "source_errors": {
-    "Crossref": "Crossref query 'thermally activated delayed fluorescence' failed: Request failed after retries: https://api.crossref.org/works: 400 Client Error: Bad Request for url: https://api.crossref.org/works?query.bibliographic=thermally+activated+delayed+fluorescence&filter=from-index-date%3A2026-10-08T19%3A59%3A57Z%2Cuntil-index-date%3A2026-10-24T19%3A59%3A57Z&rows=1000&cursor=%2A",
-    "Semantic Scholar": "Semantic Scholar query 'blue TADF OLED' failed: Request failed after retries: https://api.semanticscholar.org/graph/v1/paper/search/bulk: None"
-  },
-  "health_degraded": true,
-  "kept_count": 30,
+  "source_errors": {},
+  "health_degraded": false,
+  "kept_count": 68,
   "create_github_issue": true,
   "issue_body_path": "reports/issue_body.md"
 }
