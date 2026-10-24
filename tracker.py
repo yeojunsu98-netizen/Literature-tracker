@@ -277,6 +277,12 @@ def crossref_search(query: str, cutoff: datetime, now: datetime, max_pages: int,
         if not items:
             break
         for item in items:
+            # Index-date tracks metadata updates, including old publications.
+            # A literature catch-up must only add recently published articles.
+            pub_date = crossref_date(item)
+            publication_dt = parse_dt(pub_date)
+            if publication_dt is None or publication_dt < cutoff:
+                continue
             titles = item.get("title") or []
             title = clean_text(titles[0] if titles else "")
             if not title:
@@ -293,7 +299,7 @@ def crossref_search(query: str, cutoff: datetime, now: datetime, max_pages: int,
                 abstract=clean_text(item.get("abstract")),
                 authors=authors,
                 venue=clean_text(containers[0] if containers else ""),
-                publication_date=crossref_date(item),
+                publication_date=pub_date,
                 doi=doi,
                 url=(f"https://doi.org/{doi}" if doi else clean_text(item.get("URL"))),
                 sources=["Crossref"],
