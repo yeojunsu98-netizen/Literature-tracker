@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Convert secondary literature copies into Google Drive native shortcuts.
 
-This script expects each topic CSV to include:
+This script reads each topic's live native Google Sheet (CSV fallback) with:
 - Storage role: Canonical or Shortcut
 - Canonical folder
 - Canonical file ID
@@ -157,6 +157,29 @@ def find_topic_csv(service, folder_id: str, folder_name: str) -> dict[str, Any] 
     return candidates[0] if candidates else None
 
 
+def find_topic_sheet(service, folder_id: str, folder_name: str) -> dict[str, Any] | None:
+    """Prefer the live native Google Sheet to a potentially stale CSV mirror."""
+    files = list_all(
+        service,
+        f"'{folder_id}' in parents and trashed=false and "
+        "mimeType='application/vnd.google-apps.spreadsheet'",
+        fields="id,name,mimeType,parents",
+    )
+    preferred = folder_name.replace("/", " ")
+    matches = [f for f in files if f.get("name") == preferred]
+    return matches[0] if matches else (files[0] if len(files) == 1 else None)
+
+
+def export_sheet_csv(service, sheet_id: str) -> str:
+    request = service.files().export_media(fileId=sheet_id, mimeType="text/csv")
+    buf = io.BytesIO()
+    downloader = MediaIoBaseDownload(buf, request)
+    done = False
+    while not done:
+        _, done = downloader.next_chunk()
+    return buf.getvalue().decode("utf-8-sig")
+
+
 def parse_csv(text: str) -> list[dict[str, str]]:
     reader = csv.DictReader(io.StringIO(text))
     return [{k: (v or "").strip() for k, v in row.items()} for row in reader]
@@ -282,15 +305,23 @@ def main() -> int:
         folder_id = folder["id"]
         folder_name = folder.get("name", folder_id)
 
+        # The Sheet is authoritative; CSV mirrors can lag when connector egress
+        # restrictions prevent in-place CSV replacement.
+        sheet_file = find_topic_sheet(service, folder_id, folder_name)
         csv_file = find_topic_csv(service, folder_id, folder_name)
-        if not csv_file:
-            print(f"[{folder_name}] no topic CSV; skip")
+        if not sheet_file and not csv_file:
+            print(f"[{folder_name}] no topic index; skip")
             continue
 
         try:
-            rows = parse_csv(download_text_file(service, csv_file["id"]))
+            if sheet_file:
+                rows = parse_csv(export_sheet_csv(service, sheet_file["id"]))
+                print(f"[{folder_name}] reading live Google Sheet")
+            else:
+                rows = parse_csv(download_text_file(service, csv_file["id"]))
+                print(f"[{folder_name}] reading fallback CSV")
         except Exception as e:
-            print(f"[{folder_name}] cannot read CSV: {e}")
+            print(f"[{folder_name}] cannot read index: {e}")
             continue
 
         if not rows:
