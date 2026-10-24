@@ -185,7 +185,7 @@ def sync_topic_csv(service, folder_id: str, folder_name: str,
     """Update the existing CSV in place from the authoritative native Sheet."""
     if csv_file:
         old_text = download_text_file(service, csv_file["id"])
-        if old_text.replace("\\r\\n", "\\n").strip() == sheet_text.replace("\\r\\n", "\\n").strip():
+        if old_text.replace("\r\n", "\n").strip() == sheet_text.replace("\r\n", "\n").strip():
             return
     name = folder_name.replace("/", " ") + ".csv"
     print(f"  sync CSV mirror: {name}")
