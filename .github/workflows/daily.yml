@@ -5,6 +5,13 @@ on:
     # 13:00 UTC daily = 8:00 AM Chicago during daylight time, 7:00 AM during standard time.
     - cron: "0 13 * * *"
   workflow_dispatch:
+  # A code/config change also runs the tracker once to validate repairs.
+  push:
+    branches: [main]
+    paths:
+      - "tracker.py"
+      - "config.yml"
+      - ".github/workflows/daily.yml"
 
 permissions:
   contents: write
@@ -32,7 +39,20 @@ jobs:
         env:
           # Optional. The tracker works without this key; adding one can improve S2 rate limits.
           SEMANTIC_SCHOLAR_API_KEY: ${{ secrets.SEMANTIC_SCHOLAR_API_KEY }}
+          # One-off 16-day recovery on the repair push; normal daily schedule keeps 40 hours.
+          LITERATURE_LOOKBACK_HOURS: ${{ github.event_name == 'push' && '384' || '' }}
         run: python tracker.py
+
+      - name: Alert if every literature provider failed
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          TITLE="Literature tracker health — API failure"
+          if ! gh issue list --state open --limit 100 --json title --jq '.[].title' | grep -Fxq "$TITLE"; then
+            gh issue create --title "$TITLE" --body "All literature providers failed during a workflow run. The collector refused to publish an empty report. Inspect the latest Actions job logs."
+          fi
 
       - name: Read run metadata
         id: meta
@@ -46,9 +66,43 @@ jobs:
           print(f"kept_count={m['kept_count']}")
           print(f"candidate_count={m['new_candidate_count']}")
           print(f"create_issue={'true' if m['create_github_issue'] else 'false'}")
+          print(f"health_degraded={'true' if m.get('health_degraded') else 'false'}")
           print(f"issue_body_path={m['issue_body_path']}")
           PY
 
+
+      - name: Alert if literature sources are degraded
+        if: steps.meta.outputs.health_degraded == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          TITLE="Literature tracker health — degraded sources"
+          if ! gh issue list --state open --limit 100 --json title --jq '.[].title' | grep -Fxq "$TITLE"; then
+            python - <<'PY'
+          import json
+          from pathlib import Path
+          m = json.loads(Path("reports/run_meta.json").read_text())
+          body = ("Literature source collection needs attention.\\n\\n" +
+                  f"Date: {m['run_day']}\\n" +
+                  f"Raw retrieved: {m.get('fetched_count')}\\n" +
+                  f"Source counts: {m.get('source_record_counts')}\\n" +
+                  f"Source errors: {m.get('source_errors')}\\n" +
+                  "Check GitHub Actions logs and the committed run_meta.json.")
+          Path("/tmp/literature_health_issue.txt").write_text(body.replace("\\n", "\n"))
+          PY
+            gh issue create --title "$TITLE" --body-file /tmp/literature_health_issue.txt
+          fi
+
+      - name: Close degraded-source alert after recovery
+        if: steps.meta.outputs.health_degraded == 'false'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          gh issue list --state open --limit 100 --json number,title --jq '.[] | select(.title == "Literature tracker health — degraded sources") | .number' | while read -r number; do
+            gh issue close "$number" --comment "Source collection recovered and passed the latest health check."
+          done
       - name: Commit report and state
         shell: bash
         run: |
