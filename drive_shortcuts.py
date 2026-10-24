@@ -203,7 +203,7 @@ def get_file(service, file_id: str) -> dict[str, Any] | None:
             service.files()
             .get(
                 fileId=file_id,
-                fields="id,name,mimeType,parents,trashed,shortcutDetails",
+                fields="id,name,mimeType,parents,trashed,shortcutDetails,md5Checksum",
                 supportsAllDrives=True,
             )
             .execute()
@@ -253,12 +253,11 @@ def ensure_shortcut(
     if not target_id or not display_name:
         return
 
-    # Already has the right shortcut.
+    # First check whether the correct native shortcut already exists.
+    has_shortcut = False
     for item in folder_items:
-        if (
-            item.mime_type == SHORTCUT_MIME
-            and item.shortcut_target_id == target_id
-        ):
+        if item.mime_type == SHORTCUT_MIME and item.shortcut_target_id == target_id:
+            has_shortcut = True
             if item.name != display_name:
                 print(f"  existing shortcut target OK; rename {item.name} -> {display_name}")
                 if not DRY_RUN:
@@ -268,27 +267,41 @@ def ensure_shortcut(
                         fields="id,name",
                         supportsAllDrives=True,
                     ).execute()
+            break
+
+    # Create before deleting any secondary physical copy.
+    if not has_shortcut:
+        shortcut_id = create_shortcut(
+            service,
+            target_id=target_id,
+            folder_id=folder_id,
+            name=display_name,
+        )
+        if not shortcut_id:
             return
+        # Keep in-memory inventory current to avoid creating duplicate shortcuts.
+        folder_items.append(
+            DriveItem(id=shortcut_id, name=display_name,
+                      mime_type=SHORTCUT_MIME, shortcut_target_id=target_id)
+        )
 
-    # Create first. Only remove physical duplicates after shortcut creation succeeds.
-    shortcut_id = create_shortcut(
-        service,
-        target_id=target_id,
-        folder_id=folder_id,
-        name=display_name,
-    )
-    if not shortcut_id:
+    # Remove only byte-identical secondary PDFs. Never infer identity solely
+    # from matching filenames or file sizes: versions can legitimately differ.
+    canonical = get_file(service, target_id)
+    canonical_md5 = (canonical or {}).get("md5Checksum")
+    if not canonical_md5:
+        print(f"  no canonical checksum; preserve secondary PDFs: {display_name}")
         return
-
-    # Delete same-name physical copies in this secondary topic folder.
-    # Never delete the canonical target itself even if it somehow has this parent.
-    for item in folder_items:
-        if (
-            item.id != target_id
-            and item.name == display_name
-            and item.mime_type != SHORTCUT_MIME
-        ):
+    for item in list(folder_items):
+        if item.id == target_id or item.name != display_name or item.mime_type != PDF_MIME:
+            continue
+        candidate = get_file(service, item.id)
+        if candidate and candidate.get("md5Checksum") == canonical_md5:
             delete_file(service, item.id, item.name)
+            if not DRY_RUN:
+                folder_items.remove(item)
+        else:
+            print(f"  preserve potentially different PDF version: {item.name} ({item.id})")
 
 
 def main() -> int:
