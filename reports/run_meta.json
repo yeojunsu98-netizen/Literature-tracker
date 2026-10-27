@@ -1,23 +1,25 @@
 {
-  "run_day": "2026-10-26",
-  "report_path": "reports/2026-10-26.md",
-  "csv_path": "reports/2026-10-26.csv",
-  "new_candidate_count": 544,
-  "fetched_count": 750,
+  "run_day": "2026-10-27",
+  "report_path": "reports/2026-10-27.md",
+  "csv_path": "reports/2026-10-27.csv",
+  "new_candidate_count": 328,
+  "fetched_count": 519,
   "lookback_hours": 40,
   "source_query_counts": {
-    "Semantic Scholar": 12,
+    "Semantic Scholar": 0,
     "Crossref": 12,
     "arXiv": 12
   },
   "source_record_counts": {
-    "Semantic Scholar": 2,
-    "Crossref": 748,
+    "Semantic Scholar": 0,
+    "Crossref": 519,
     "arXiv": 0
   },
-  "source_errors": {},
-  "health_degraded": false,
-  "kept_count": 8,
+  "source_errors": {
+    "Semantic Scholar": "Semantic Scholar query 'thermally activated delayed fluorescence' failed: Request failed after retries: https://api.semanticscholar.org/graph/v1/paper/search/bulk: HTTP 429 rate limit from https://api.semanticscholar.org/graph/v1/paper/search/bulk?query=thermally+activated+delayed+fluorescence&fields=title%2Cabstract%2Cyear%2Cvenue%2Cauthors%2Curl%2CpublicationDate%2CexternalIds&sort=publicationDate%3Adesc"
+  },
+  "health_degraded": true,
+  "kept_count": 17,
   "create_github_issue": true,
   "issue_body_path": "reports/issue_body.md"
 }
