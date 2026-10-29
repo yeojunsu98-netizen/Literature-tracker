@@ -1,25 +1,23 @@
 {
-  "run_day": "2026-10-28",
-  "report_path": "reports/2026-10-28.md",
-  "csv_path": "reports/2026-10-28.csv",
-  "new_candidate_count": 142,
-  "fetched_count": 249,
+  "run_day": "2026-10-29",
+  "report_path": "reports/2026-10-29.md",
+  "csv_path": "reports/2026-10-29.csv",
+  "new_candidate_count": 265,
+  "fetched_count": 398,
   "lookback_hours": 40,
   "source_query_counts": {
-    "Semantic Scholar": 5,
+    "Semantic Scholar": 12,
     "Crossref": 12,
     "arXiv": 12
   },
   "source_record_counts": {
     "Semantic Scholar": 2,
-    "Crossref": 247,
+    "Crossref": 396,
     "arXiv": 0
   },
-  "source_errors": {
-    "Semantic Scholar": "Semantic Scholar query 'photocrosslinkable OLED' failed: Request failed after retries: https://api.semanticscholar.org/graph/v1/paper/search/bulk: HTTP 429 rate limit from https://api.semanticscholar.org/graph/v1/paper/search/bulk?query=photocrosslinkable+OLED&fields=title%2Cabstract%2Cyear%2Cvenue%2Cauthors%2Curl%2CpublicationDate%2CexternalIds&sort=publicationDate%3Adesc"
-  },
-  "health_degraded": true,
-  "kept_count": 5,
+  "source_errors": {},
+  "health_degraded": false,
+  "kept_count": 19,
   "create_github_issue": true,
   "issue_body_path": "reports/issue_body.md"
 }
