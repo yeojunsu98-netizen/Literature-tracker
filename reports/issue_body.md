@@ -1,152 +1,97 @@
-# OLED / TADF Daily Literature Tracker — 2026-11-04
+# OLED / TADF Daily Literature Tracker — 2026-11-05
 
-- **New candidate records across sources:** 178
-- **Papers passing keyword filter:** 11
+- **New candidate records across sources:** 87
+- **Papers passing keyword filter:** 6
 - **Sources:** Semantic Scholar, Crossref, arXiv
 - **Cost:** $0 (no paid API / no LLM)
 
 ## New papers
 
-### 1. [Fine-tuning molecular structure of fluorescein-derived TADF photocatalysts for boosting aerobic oxidation in polar solvents by suppressing non-radiative deactivation](https://doi.org/10.1016/j.cclet.2026.112946)
+### 1. [Recombination-zone position, not charge balance, sets the efficiency ceiling of deep-blue TADF host OLEDs](https://doi.org/10.26434/chemrxiv.15011720/v1)
 
-**Authors:** Haoran Hou, Gaobo Hong, Wenlong Chen, Guangfu Ni, Yingnan Wu, Yanliang Zhao, Jianjun Du, Fengling Song, Xiaojun Peng  
-**Venue/category:** Chinese Chemical Letters  
+**Authors:** Manmohan Dash, M. N. Satyanarayan  
+**Date:** 2026-11-05  
+**DOI:** `10.26434/chemrxiv.15011720/v1`  
+**Source(s):** Crossref  
+**Keyword score:** 20  
+**Matched:** thermally activated delayed fluorescence, tadf, oled, organic light-emitting diode  
+
+**Abstract**
+
+Low efficiency in organic light-emitting diodes (OLEDs) is often blamed on charge balance, yet the device models that could test this are rarely converged or constrained by measured inputs. We solve converged drift–diffusion, transfermatrix and dipole models for three deep-blue thermally activated delayed fluorescence (TADF) phosphine-oxide hosts, S1, S3 and S4, with an open solver verified against a converged commercial reference, and we constrain every hostspecific input by measurement: film optical constants from ellipsometry, film photoluminescence, voltammetric host levels and host transport fitted to quality-gated single-carrier current–voltage data. In every converged model OLED with the fitted transport, and also with a shallow-trap transport alternative and with offsets across their identifiable range, charge balance and host confinement are not the limit. What decides the efficiency is where the recombination zone sits: moving it from the electron-transport interface into the host raises the computed air outcoupling about threefold. The model-conditioned efficiency ceiling is therefore set by zone placement and by the photoluminescence quantum yield, which also fixes the host ranking S1>S4≳S3, and transport engineering becomes an outcoupling lever. Two measurements, thickness-dependent current–voltage and angle-resolved photoluminescence, would pin the remaining model ranges (all device quantities are model outputs).
+
+---
+
+### 2. [Host-Defined Trap Polarity Enables Carrier Buffering and Regulates Exciton Dynamics in Deep-Blue MR-TADF OLEDs](https://doi.org/10.1021/acsami.6c17250)
+
+**Authors:** Yansong Li, Lei Li, Yu Zhang, Zhiqin Liang, Bo Qiao, Dandan Song, Suling Zhao  
+**Venue/category:** ACS Applied Materials & Interfaces  
+**Date:** 2026-11-05  
+**DOI:** `10.1021/acsami.6c17250`  
+**Source(s):** Crossref  
+**Keyword score:** 20  
+**Matched:** thermally activated delayed fluorescence, tadf, oled, organic light-emitting diode  
+
+**Abstract**
+
+Abstract Multi-resonance thermally activated delayed fluorescence (MR-TADF) emitters such as ν-DABNA have enabled highly efficient deep-blue organic light-emitting diodes (OLEDs). However, their device performance is strongly governed by the electronic structure of the host matrix. Here, we demonstrate that ν-DABNA displays a distinct host-dependent reversal of charge-trapping polarity in three representative host matrices—mSiTrz, mCBP, and PhCzBCz in an identical device architecture. Specifically, ν-DABNA behaves as a hole trap in mSiTrz, an electron trap in PhCzBCz, and a bipolar trap in mCBP according to its energy level. The electroluminescence (EL) spectra of ν-DABNA-based devices exhibit nearly identical peak positions around 470 nm, and the mCBP-based device delivers the highest peak EQE at low current density, a relatively serious efficiency roll-off at high current density, and a long device lifetime, indicating the bipolar carrier-buffering effect of doping ν-DABNA. Transient EL measurements reveal a clear decoupling between charge formation and emissive decay processes. The rise dynamics strongly depend on host-dependent trap polarity, leading to a significant variation in turn-on time, while the decay dynamics remain invariant across all devices, confirming that delayed fluorescence is exclusively governed by intrinsic ν-DABNA reverse intersystem crossing (RISC). The temperature-dependent single-carrier current measurement and transient EL decay once again demonstrate the mechanism of carrier trapping and thermal detrapping by ν-DABNA doping in different host systems. Based on these findings, we introduce a host-defined trap-polarity function, ΦH, which quantitatively captures electron–hole transport asymmetry governed by energy-level offsets to link the charge transport and exciton dynamics in ν-DABNA-based MR-TADF OLEDs. This work establishes a universal host-level-controlled trap-assisted emission model for doped MR-TADF OLEDs.
+
+---
+
+### 3. [Ultra-Bright Stretchable Electroluminescent Devices at Low Driving Fields Enabled by a High-Permittivity Elastomer](https://doi.org/10.21203/rs.3.rs-10877542/v1)
+
+**Authors:** Titao Jing, Zupeng Liu, Xia Lei, Di Tan, Zhao Liu, Zugan Zou, Yujue Yang  
+**Date:** 2026-11-05  
+**DOI:** `10.21203/rs.3.rs-10877542/v1`  
+**Source(s):** Crossref  
+**Keyword score:** 14  
+**Matched:** stretchable, intrinsically stretchable  
+
+**Abstract**
+
+Abstract As a crucial interface for human-machine interaction, displays are expected to be stretchable to keep pace with the evolution of next-generation electronics. Intrinsically stretchable alternating current electroluminescence (ACEL) devices are promising for this purpose but are plagued by high driving fields and frequencies due to low-permittivity elastomers. Herein, we incorporated polar vinylethylene carbonate into polyacrylate to boost permittivity up to an exceptional value of 19.6, and maintains high transparency (91%) and large loading capacity that are essential for high-luminance devices. Moreover, the vinylethylene carbonate simultaneously improves the stretchability of the elastomer, avoiding the undesirable rigidification typically induced by strong intermolecular interactions among polar group. The stretchable ACEL devices based on the elastomer thus achieves a record luminance of 2117.6 cd·m⁻² under a low electric field of 3.0 V·μm⁻¹ at 1 kHz, marking a breakthrough for low-field operation. The device performs effectively at a maximum elongation of up to 500% and a cyclical elongation of 200%. We further employ fluorescent electrodes to realize multi-color displays that can vividly convert sensor signals into colorful information, and demonstrate an 8×16-pixel device for dynamic display. These findings represent a considerable advancement in stretchable displays, highlighting their transformative potential for next-generation electronics.
+
+---
+
+### 4. [Measured Host Optical Constants Shift Deep-Blue OLED Outcoupling by up to 14% (Relative) While Leaving the Stack Design Intact](https://doi.org/10.26434/chemrxiv.15011717/v1)
+
+**Authors:** Manmohan Dash, M. N. Satyanarayan  
+**Date:** 2026-11-05  
+**DOI:** `10.26434/chemrxiv.15011717/v1`  
+**Source(s):** Crossref  
+**Keyword score:** 14  
+**Matched:** oled, organic light-emitting diode, blue oled  
+
+**Abstract**
+
+Outcoupling designs for organic light-emitting diodes rest on the complex refractive index of every layer, yet host films are often given a constant index without absorption. We show what measured constants change, and what they do not. Variable-angle spectroscopic ellipsometry of three deep-blue phosphine-oxide host films (S1, S3 and S4), refitted from the raw data with several dispersion models, pins the index of the S1 and S4 films to a model-andspot spread of about ±0.002 (about ±0.004 at 95% once substrate-oxide, incidence-angle and roughness systematics are propagated) and reveals a weak absorption tail in S4 that follows its triphenylamine-centered lowest singlet transition; the S3 film is bracketed. Propagated through a dipole model of a deep-blue stack in which the neat host film is the emitter, the measured constants leave the design itself (best emitter position, optimum electron-transport-layer thickness) unchanged within a few nanometers but shift the predicted outcoupling by up to 14% relative (15.1 against 17.2% at the optimum, about 2 percentage points), with the blue dispersion of the index and, for S4, the absorption tail in the emission band contributing comparably (up to about 7% each). Emitter orientation and the emitter–cathode distance act far more strongly, by factors of 2 to 5. Both films are close to isotropic, yet the calculated transition dipoles of S3 and S4 lie in the molecular plane, so growing these hosts with flat-lying molecules is the clearest route to higher outcoupling, worth about a factor of two in the model.
+
+---
+
+### 5. [Molecular and Nanoscale Control of Exciton Transfer in TADF-Sensitized Fluorescence](https://doi.org/10.1021/acs.nanolett.6c04407)
+
+**Authors:** Tunan Kuang, Chunhui Zhang, Ran Fang, Mengna Yu, Quanyou Feng, Linghai Xie  
+**Venue/category:** Nano Letters  
+**Date:** 2026-11-05  
+**DOI:** `10.1021/acs.nanolett.6c04407`  
+**Source(s):** Crossref  
+**Keyword score:** 12  
+**Matched:** tadf, oled, emissive layer  
+
+**Abstract**
+
+Abstract TADF-sensitized fluorescence (TSF), also known as hyperfluorescence, combines efficient triplet exciton harvesting with the narrowband emission of fluorescent emitters. Yet, its performance depends on the interplay between exciton conversion, energy transfer, and molecular organization across different length scales. Herein, we review recent progress in nanoscale exciton-transfer engineering for TSF, with emphasis on molecular excited-state dynamics, sensitizer-dopant spatial control, diversified energy-transfer pathways, and interlayer sensitization. These approaches regulate exciton conversion and lifetime, balance Förster and Dexter energy transfer, and control exciton distribution within emissive layers and across interfaces. We also discuss emerging directions including kinetic matching, spatial organization, and multiscale modeling for understanding the links between molecular structure, energy-transfer dynamics, and device performance. This Mini-Review provides profound insights into transforming random blend systems into controllable nanoscale exciton-transfer networks, paving the way for efficient narrowband TSF OLEDs.
+
+---
+
+### 6. [Ionic iridium(III) complexes based on ancillary ligands with different lengths of alkoxy chains for solution-processed green OLEDs](https://doi.org/10.1016/j.molstruc.2026.147585)
+
+**Authors:** Shuanglong Yin, Xianxi Liang, Jiangyu Zhu, Baohua Zhang, Song Guo, Yuanli Liu  
+**Venue/category:** Journal of Molecular Structure  
 **Date:** 2027-02-01  
-**DOI:** `10.1016/j.cclet.2026.112946`  
+**DOI:** `10.1016/j.molstruc.2026.147585`  
 **Source(s):** Crossref  
-**Keyword score:** 7  
-**Matched:** tadf  
-
----
-
-### 2. [Design principle for solvent and abrasion resistant polydopamine coating: Intra- vs inter-particle crosslinking via UV-induced nitrene CH insertion](https://doi.org/10.1016/j.porgcoat.2026.110648)
-
-**Authors:** Meng-Hsun Lee, Md Ikramul Hasan, Changhoon Yu, Jinsang Kim  
-**Venue/category:** Progress in Organic Coatings  
-**Date:** 2027-01-01  
-**DOI:** `10.1016/j.porgcoat.2026.110648`  
-**Source(s):** Crossref  
-**Keyword score:** 7  
-**Matched:** crosslink  
-
----
-
-### 3. [Benzoxazine-crosslinked waterborne polyurethane coatings for corrosion protection and emulsion separation](https://doi.org/10.1016/j.porgcoat.2026.110645)
-
-**Authors:** Hui Li, Chenglong Yin, Chunxia Zhao, Yuanpeng Wu, Jianchao Wang, Jinbo Cheng, Haoran Huang  
-**Venue/category:** Progress in Organic Coatings  
-**Date:** 2027-01-01  
-**DOI:** `10.1016/j.porgcoat.2026.110645`  
-**Source(s):** Crossref  
-**Keyword score:** 7  
-**Matched:** crosslink  
-
----
-
-### 4. [Humic acid-crosslinked sodium carboxymethyl cellulose/starch superabsorbent polymers: Swelling kinetics, cytotoxicity, and hygiene applications](https://doi.org/10.1016/j.carres.2026.110122)
-
-**Authors:** Cheera Prasad, Jai Sung Lee, Jae Jun Park, Ji Young Hwang, Dong Hyun Hwang, You-Ree Nam, V. Govinda, Hyeong Yeol Choi  
-**Venue/category:** Carbohydrate Research  
-**Date:** 2026-12-01  
-**DOI:** `10.1016/j.carres.2026.110122`  
-**Source(s):** Crossref  
-**Keyword score:** 7  
-**Matched:** crosslink  
-
----
-
-### 5. [Dual-crosslinked self-healing antimicrobial hydrogels with macrophage modulatory activity for accelerated diabetic wound healing](https://doi.org/10.1016/j.ejpb.2026.115257)
-
-**Authors:** Sixin Liu, Jinhui Zhang, Xiaoyan Sun, Xu Dai, Haifeng Wang, Yanqiu Meng, Lei Li  
-**Venue/category:** European Journal of Pharmaceutics and Biopharmaceutics  
-**Date:** 2026-12-01  
-**DOI:** `10.1016/j.ejpb.2026.115257`  
-**Source(s):** Crossref  
-**Keyword score:** 7  
-**Matched:** crosslink  
-
----
-
-### 6. [Direct ink writing of soft, durable two-phase hybrid films for mechanically tailored stretchable electronics](https://doi.org/10.1016/j.cej.2026.182337)
-
-**Authors:** Cheng Yang, Xuan Wang, Weixi Huang, Yong Lin, Wenqiang He, Ming Wu, Xing Chen, Yanyan Li, Chong Bai, Likang Ding, Xiaoliang Wang, Desheng Kong  
-**Venue/category:** Chemical Engineering Journal  
-**Date:** 2026-12-01  
-**DOI:** `10.1016/j.cej.2026.182337`  
-**Source(s):** Crossref  
-**Keyword score:** 7  
-**Matched:** stretchable  
-
----
-
-### 7. [Carbonic acid assisted preparation of genipin crosslinked chitosan transdermal delivery system supercritically impregnated with 17β-estradiol](https://doi.org/10.1016/j.reactfunctpolym.2026.106934)
-
-**Authors:** Anastasiya A. Pestrikova, Arina A. Komiagina, Polina S. Kazaryan, Margarita S. Rubina, Alexander Y. Nikolaev, Gennadii A. Badun, Ivan S. Chaschin, Marina A. Pigaleva  
-**Venue/category:** Reactive and Functional Polymers  
-**Date:** 2026-12-01  
-**DOI:** `10.1016/j.reactfunctpolym.2026.106934`  
-**Source(s):** Crossref  
-**Keyword score:** 7  
-**Matched:** crosslink  
-
----
-
-### 8. [Amine-functionalized crosslinked methacrylate copolymer: A highly stable and efficient heterogeneous base catalyst for aldol reactions](https://doi.org/10.1016/j.reactfunctpolym.2026.106928)
-
-**Authors:** Zahra Mohammadbagheri, Joris W. Thybaut, Jeroen Lauwaert  
-**Venue/category:** Reactive and Functional Polymers  
-**Date:** 2026-12-01  
-**DOI:** `10.1016/j.reactfunctpolym.2026.106928`  
-**Source(s):** Crossref  
-**Keyword score:** 7  
-**Matched:** crosslink  
-
----
-
-### 9. [The Stretchable and Noise‐Resistant Cables for Connection of Soft Electronics](https://doi.org/10.1002/fle2.70024)
-
-**Authors:** Sancan Han  
-**Venue/category:** FlexTech  
-**Date:** 2026-11-04  
-**DOI:** `10.1002/fle2.70024`  
-**Source(s):** Crossref  
-**Keyword score:** 7  
-**Matched:** stretchable  
-
-**Abstract**
-
-ABSTRACT Flexible electronics with excellent adaptivity to soft tissue have been successfully developed based on the efforts of materials and devices, but the cables for connection of soft electronics are easily overlooked. Xinge Yu and colleagues reported that multi‐scale, recyclable three‐dimensional stretchable core–shell cables (3D‐SCSC) can not only serve as electrically and mechanically reliable interconnects among various soft/rigid/hybrid electronic components but also provide a fundamental platform for the materials design of customized cables.
-
----
-
-### 10. [Recyclable and Leakage-Resistant Phase Change Materials with Reversible Solid-Gel Transition](https://doi.org/10.1021/acsapm.6c03268)
-
-**Authors:** Shuai Fan, Kongying Zhu, Xiaoyan Yuan, Lixia Ren  
-**Venue/category:** ACS Applied Polymer Materials  
-**Date:** 2026-11-04  
-**DOI:** `10.1021/acsapm.6c03268`  
-**Source(s):** Crossref  
-**Keyword score:** 5  
-**Matched:** cross-link  
-
-**Abstract**
-
-Abstract Phase change materials (PCMs) are critical for thermal management but are prone to leakage in the molten state. Cross-linked polymer networks can effectively encapsulate PCMs, but increasing cross-linking density progressively compromises their latent heat. Herein, we present a facile strategy for encapsulating methoxy polyethylene glycol (mPEG) in a reversible solid-gel transition network with tunable cross-linking density. Taking advantage of the high reactivity between anhydride and amino groups, the cross-linking density of the network can be regulated, allowing the minimum network constraint required for leakage resistance while maximizing the mPEG content and latent heat storage capacity. The resulting PCM achieves a high latent heat value of 143.7 J/g with mPEG loading of 97 wt %. Meanwhile, the dynamic and reversible intermolecular interactions within the network endow the material with excellent leakage resistance and recyclability. After at least 50 grinding-reshaping cycles, both leakage resistance and enthalpy remain essentially unchanged. In the thermal management test, a temperature difference of 8.5 °C is achieved between inside and outside of the model during the heating process. During the cooling process, a constant-temperature plateau lasting 50 min is observed. Benefiting from these advantages, the material exhibits promising prospects for thermal management applications.
-
----
-
-### 11. [Preparation and Properties of Deep Eutectic Solvent-Modified Soy Protein and Soy Protein–Chitosan Composite Films](https://doi.org/10.3390/polym18212743)
-
-**Authors:** Huachun Qi, Xiaoqi Wang, Yuetong Lin, Honggang Zhao, Jiuyin Pang, Yaoxing Sun  
-**Venue/category:** Polymers  
-**Date:** 2026-11-04  
-**DOI:** `10.3390/polym18212743`  
-**Source(s):** Crossref  
-**Keyword score:** 5  
-**Matched:** crosslink  
-
-**Abstract**
-
-Conventional non-biodegradable plastic packaging causes severe environmental pollution, driving the demand for degradable biomass food packaging. Chitosan (CS) is an ideal green film material but suffers weak mechanical, water-resistance and antioxidant properties. Soy protein isolate (SPI) is cheap and abundant; however, its compact molecular structure leads to poor miscibility with pure CS. Herein, ultrasonic-assisted deep eutectic solvent (DES) pretreatment was used to unfold SPI’s protein structure and release active sites for stronger SPI–CS interfacial interactions. Citric acid and transglutaminase (TG) served as dual green crosslinkers, while carvacrol (Car) and gallic acid (GA) were added as natural polyphenol antioxidants. Single-factor and Box–Behnken response surface experiments determined the optimal film-forming parameters: a citric acid mass ratio of 0.84, a TG dosage of 2.60 U∙g−1, and a drying temperature of 65 °C. The optimized DES–SPI–CS film possessed a tensile strength of 18.79 MPa and an elongation at break of 41.39%, with greatly enhanced water resistance and thermal stability. After co-loading Car and GA, the composite film reached 79.33% DPPH radical-scavenging activity. Twelve-day cherry tomato preservation tests confirmed its capacity to slow vitamin C loss and fruit decay. This work provides a sustainable integrated strategy combining DES modification, dual crosslinking and natural antioxidant doping to fabricate multifunctional bio-based packaging, offering theoretical support for biodegradable film substitution of disposable plastics.
+**Keyword score:** 10  
+**Matched:** oled, solution-processed  
 
 ---
