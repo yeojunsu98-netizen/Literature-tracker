@@ -1,140 +1,144 @@
-# OLED / TADF Daily Literature Tracker — 2026-11-06
+# OLED / TADF Daily Literature Tracker — 2026-11-07
 
-- **New candidate records across sources:** 173
-- **Papers passing keyword filter:** 10
+- **New candidate records across sources:** 189
+- **Papers passing keyword filter:** 11
 - **Sources:** Semantic Scholar, Crossref, arXiv
 - **Cost:** $0 (no paid API / no LLM)
 
 ## New papers
 
-### 1. [Sound‐Activated Liquid‐Metal Networks for High‐Performance Stretchable LEDs](https://doi.org/10.1002/slct.75135)
+### 1. [Stretchable Antimicrobial Nanomesh Antenna for Robust Epidermal Millimeter‐Wave Wireless Communications](https://doi.org/10.1002/adfm.79552)
 
-**Authors:** Salah Ud Din, Sufaid Shah, Muhammad Kamran Shereen, Ayesha Azeem, Matin Ashurov  
-**Venue/category:** ChemistrySelect  
-**Date:** 2026-11-06  
-**DOI:** `10.1002/slct.75135`  
-**Source(s):** Crossref  
-**Keyword score:** 13  
-**Matched:** stretchable, photopattern  
-
-**Abstract**
-
-ABSTRACT The development of flexible and stretchable light emitting diode (LED) circuits requires conductive materials that maintain electrical continuity during repeated mechanical deformation. However, the reliability of liquid metal conductors is limited due to insulating oxide layers and disrupted particle contacts. This work investigates elastomer‐embedded eutectic gallium‐indium (EGaIn) particle networks for flexible LED interconnects. Conductive pathways are realized based on the combination of sonication‐assisted particle synthesis, screen printing and acoustic activation, photopatterning, and localized laser treatment. Acoustic activation induces nanoscale (∼100 nm) bridges between micrometer‐sized (∼2‐3 µm) particles. The obtained network has an electrical conductivity of 2.10 × 10 6 Sm −1 at 74.4 vol% liquid metal content. Interparticle separations R 2 = 0.989). The integrated LED circuit is powered at 3 V and remains lit during bending and light stretching. These results show the promise of acoustically activated EGaIn networks as conductive interconnects for mechanically adaptive electronic devices.
-
----
-
-### 2. [Textile-based uniformly stretchable OLED for wearable display and biomedical applications](https://doi.org/10.1016/j.cej.2026.182813)
-
-**Authors:** Ye Ji Shin, Sang Jik Kwon, Eou-Sik Cho, Yongmin Jeon  
-**Venue/category:** Chemical Engineering Journal  
-**Date:** 2026-12-01  
-**DOI:** `10.1016/j.cej.2026.182813`  
-**Source(s):** Crossref  
-**Keyword score:** 11  
-**Matched:** oled, stretchable  
-
----
-
-### 3. [Microstructural organization and functionality of transglutaminase-crosslinked casein micelle-based emulsions under pH variation: insights from X-ray microtomography](https://doi.org/10.1016/j.foodhyd.2026.113313)
-
-**Authors:** Gaoussou Karamoko, Emmanuel Ormea, Romdhane Karoui  
-**Venue/category:** Food Hydrocolloids  
-**Date:** 2027-03-01  
-**DOI:** `10.1016/j.foodhyd.2026.113313`  
-**Source(s):** Crossref  
-**Keyword score:** 7  
-**Matched:** crosslink  
-
----
-
-### 4. [A tardigrade-inspired freeze-resistant hydrogel adhesive integrating trehalose/glycerol/betaine deep eutectic solvent and dynamic crosslinks for low-temperature wearable sensing](https://doi.org/10.1016/j.colsurfa.2026.142255)
-
-**Authors:** Decai Zou, Peng Liu, Xinyi Ma, Ning Tang, Changxiu Chen, Lili Gao, Yunwu Yu, Xiangqun Ding  
-**Venue/category:** Colloids and Surfaces A: Physicochemical and Engineering Aspects  
-**Date:** 2027-02-01  
-**DOI:** `10.1016/j.colsurfa.2026.142255`  
-**Source(s):** Crossref  
-**Keyword score:** 7  
-**Matched:** crosslink  
-
----
-
-### 5. [Stretchable, tough, anti-freezing, and high ionic conductivity hydrogel electrolyte with super high-water contents and hierarchical hydrogen-bond-rich network for highly durable dendrite-free zinc ion batteries](https://doi.org/10.1016/j.cej.2026.182312)
-
-**Authors:** Haoran Wang, Zhaoxia Hou, Xudan Wang, Depeng Zhang, Shuting Yin, Wensheng Zong, Haibo Long, Nan Wu, Xiang Zhao, Zhongchao Fu, Bo Wang, Xuewu Liu et al.  
-**Venue/category:** Chemical Engineering Journal  
-**Date:** 2026-12-01  
-**DOI:** `10.1016/j.cej.2026.182312`  
-**Source(s):** Crossref  
-**Keyword score:** 7  
-**Matched:** stretchable  
-
----
-
-### 6. [Highly porous adsorbents based on citric acid-crosslinked chitosan](https://doi.org/10.1016/j.ijbiomac.2026.155026)
-
-**Authors:** Melina Kloster, Norma E. Marcovich, Mirna A. Mosiewicki  
-**Venue/category:** International Journal of Biological Macromolecules  
-**Date:** 2026-12-01  
-**DOI:** `10.1016/j.ijbiomac.2026.155026`  
-**Source(s):** Crossref  
-**Keyword score:** 7  
-**Matched:** crosslink  
-
----
-
-### 7. [Crosslinked agarose-gelatine beads as a substrate for investigating biofilms of bacterial pathogens](https://doi.org/10.1016/j.bioflm.2026.100380)
-
-**Authors:** Dan Roizman, Maren Herzog, Arpita Nath, Nivetha Pachaimuthu, Ahmad Hujeirat, Benno Kuropka, Jens Rolff, Alexandro Rodríguez-Rojas  
-**Venue/category:** Biofilm  
-**Date:** 2026-12-01  
-**DOI:** `10.1016/j.bioflm.2026.100380`  
-**Source(s):** Crossref  
-**Keyword score:** 7  
-**Matched:** crosslink  
-
----
-
-### 8. [Crosslinked 4,4′-methylenediphenyl diisocyanate/aminated graphene oxide/gelatin terpolymer composite as a reusable adsorbent for methylene blue removal](https://doi.org/10.1016/j.ijbiomac.2026.154997)
-
-**Authors:** Mohammed A. Alkhalifah, Abdelazeem Eltaweil, Faisal Mohammed Alkahtani, Mohammed Salah Ayoup, Eman M. Abd El-Monaem  
-**Venue/category:** International Journal of Biological Macromolecules  
-**Date:** 2026-12-01  
-**DOI:** `10.1016/j.ijbiomac.2026.154997`  
-**Source(s):** Crossref  
-**Keyword score:** 7  
-**Matched:** crosslink  
-
----
-
-### 9. [Multilayer Stretchable Electronics: Technological Innovations From Molecular Engineering to Integrated System](https://doi.org/10.1002/adfm.79524)
-
-**Authors:** Yuze Wang, Yuhan Liu, Yuhan Zhou, Lijian Yang, Binlong Deng, Longlu Wang, Pei Song Chee, Salah A. Makhlouf, Wenbo Zhao, Cao Guan  
+**Authors:** Buyun Yu, Hai Lin Wang, Shuxu Wang, Jianbin Deng, Masahito Takakuwa, Chika Okuda, Hongting Chen, Haoyu Ma, Xiaoping Liang, Ruiliu Wang, Chao Zhang, Sunghoon Lee et al.  
 **Venue/category:** Advanced Functional Materials  
-**Date:** 2026-11-06  
-**DOI:** `10.1002/adfm.79524`  
+**Date:** 2026-11-07  
+**DOI:** `10.1002/adfm.79552`  
+**Source(s):** Crossref  
+**Keyword score:** 14  
+**Matched:** stretchable, intrinsically stretchable  
+
+**Abstract**
+
+ABSTRACT Stretchable millimeter‐wave (mmWave) electronics are essential for next‐generation wearable wireless systems. However, intrinsically stretchable mmWave devices remain challenging because it is difficult to fabricate metallic structures that simultaneously combine high conductivity, mechanical stretchability, high‐resolution patterning, and skin biocompatibility for epidermal wireless operation. To bridge this gap, we report a mmWave nanomesh with low sheet resistance of 0.24 Ω/sq and µm‐level patterning precision, and broad‐spectrum antibacterial activity for hygienic epidermal deployment. The proposed nanomesh is compatible with the fabrication of mmWave antennas operating above 20 GHz and supports efficient mmWave radiation. Meanwhile, the nanomesh exhibits mechanical robustness and electrical stability even after 1000 cycles of mechanical deformations. On this basis, we realized a stretchable dual‐unit nanomesh antenna array with a high realized gain of 6.8 dBi at 24 GHz, and demonstrated the first robust mmWave wireless data transmission based on nanomesh electronics. Beyond electromagnetic performance, the nanomesh antenna exhibits long‐lasting and broad‐spectrum antibacterial effects, ensuring hygiene and safety by avoiding epidermal bacterial accumulation. Combining high electromagnetic performance, mechanical‐electrical stability, and antimicrobial ability, the proposed nanomaterial and mmWave device provide a practical strategy for wearable mmWave wireless electronics.
+
+---
+
+### 2. [Biomimetic plant cell wall-inspired biodegradable barrier coatings for food packaging paper: Genipin-crosslinked chitosan networks reinforced by organo-montmorillonite](https://doi.org/10.1016/j.porgcoat.2026.110744)
+
+**Authors:** Jing Wang, Xiuwu Wang, Chenyang Zhang, Tao Chen  
+**Venue/category:** Progress in Organic Coatings  
+**Date:** 2027-02-01  
+**DOI:** `10.1016/j.porgcoat.2026.110744`  
+**Source(s):** Crossref  
+**Keyword score:** 7  
+**Matched:** crosslink  
+
+---
+
+### 3. [Vibration characteristics of perovskite elements: A novel electro-optic-thermo-elastic dependent stretchable model](https://doi.org/10.1016/j.ssc.2026.116669)
+
+**Authors:** Mohanad Hatem Shadhar, Zaid A. Mohammed, Omar Alghazawi, Manjunath H R, Helen Merina Albert, Mohit Sahni, Sanjeev Kumar, Jakhongir Xomidjonov, Abdurakhman Turgunov, Erkin Vokhidov  
+**Venue/category:** Solid State Communications  
+**Date:** 2027-01-01  
+**DOI:** `10.1016/j.ssc.2026.116669`  
 **Source(s):** Crossref  
 **Keyword score:** 7  
 **Matched:** stretchable  
 
-**Abstract**
+---
 
-ABSTRACT Multilayer stretchable electronics with vertically integrated architectures and intrinsic conformability enable system‐level functionality and alleviate the mechanical mismatch between rigid silicon‐based electronics and curvilinear surfaces, holding promise for multimodal sensing, on‐board computing, closed‐loop feedback, and wireless communication under large‐scale deformation. However, the intricate mechanical‐electrical design required for heterogeneous vertical integration introduces coupled challenges in molecular engineering, interfacial reliability, structural topology, and scalable manufacturing. This review presents a synergistic technological framework for multilayer stretchable electronics from molecular engineering to system integration, based on a comprehensive summary of advances in material development, topological design, manufacturing technologies, and application expansion. In particular, key interface‐engineering strategies are examined, including the regulation of thermodynamic compatibility, the design of dynamic self‐healing interfaces, the optimization of interlayer mechano‐electrical coupling, and manufacturing approaches for heterogeneous integration. Finally, unresolved challenges and future directions are discussed, including sustainable materials, advanced manufacturing techniques, and artificial intelligence integration. This review aims to provide a systematic theoretical and methodological reference for next‐generation high‐performance multilayer stretchable electronic systems.
+### 4. [Dual-crosslinked chitosan-based nanosponges loaded with curcumin or quercetin for accelerated wound healing applications](https://doi.org/10.1016/j.reactfunctpolym.2026.106999)
+
+**Authors:** Azza Al-Ghamdi, Essam Kotb, Zainab S. Alghamdi, Fatema Al-Zahrani, Aminah A. Almarshad, Ishah H. Alshehri, Salha Alharthi, Irshad Baig, Salwa J. Kamal, Ibrahim M. Nagy  
+**Venue/category:** Reactive and Functional Polymers  
+**Date:** 2027-01-01  
+**DOI:** `10.1016/j.reactfunctpolym.2026.106999`  
+**Source(s):** Crossref  
+**Keyword score:** 7  
+**Matched:** crosslink  
 
 ---
 
-### 10. [Defect-state engineering via moderate W doping for high-performance solution-processed SnWO/Si heterojunction photodetectors](https://doi.org/10.1088/1361-6463/aeb89c)
+### 5. [Structure–function relationships in zinc- and calcium-crosslinked gelatin–alginate–carnosine macromolecular films: effects on anthocyanin stability in red currant (Ribes rubrum L.)](https://doi.org/10.1016/j.ijbiomac.2026.155161)
 
-**Authors:** Yunxi Luo, Jianwen Yang, Jinying Zeng, Xiaochuang Dai, Huifang Li, Haoyi Lin, Huishan Wang, Wangzhou Shi, Feng Liu  
-**Venue/category:** Journal of Physics D: Applied Physics  
-**Date:** 2026-11-06  
-**DOI:** `10.1088/1361-6463/aeb89c`  
+**Authors:** Renata Dobrucka, Marcin Szymański  
+**Venue/category:** International Journal of Biological Macromolecules  
+**Date:** 2026-12-01  
+**DOI:** `10.1016/j.ijbiomac.2026.155161`  
+**Source(s):** Crossref  
+**Keyword score:** 7  
+**Matched:** crosslink  
+
+---
+
+### 6. [Schiff-base crosslinked photothermal cellulose aerogels with architectural design for synergistic hydrophobicity, photothermal deicing and solar-thermal-electric generation](https://doi.org/10.1016/j.ijbiomac.2026.155079)
+
+**Authors:** Jiawei Wang, Jiaao Meng, Qiangsong Jiang, Lina Tong, Changying Ren, Zhangming Wan, Yongning Tu, Zhongfeng Zhang, Xiaohong Yu, Hong Lei, Zechang Wei, Guomin Zhao  
+**Venue/category:** International Journal of Biological Macromolecules  
+**Date:** 2026-12-01  
+**DOI:** `10.1016/j.ijbiomac.2026.155079`  
+**Source(s):** Crossref  
+**Keyword score:** 7  
+**Matched:** crosslink  
+
+---
+
+### 7. [Genipin-crosslinked cellulose/chitosan/β-cyclodextrin molecularly imprinted hydrogel for green selective extraction of chlorogenic acid and bioactive wound dressing application](https://doi.org/10.1016/j.ijbiomac.2026.155108)
+
+**Authors:** Linan Sun, Maoyu Zhang, Xue Wu, Ming Qu, Chengdong Nie, Han Yang, Yangyang Jiang, Jingru Zhao, Yujie Fu  
+**Venue/category:** International Journal of Biological Macromolecules  
+**Date:** 2026-12-01  
+**DOI:** `10.1016/j.ijbiomac.2026.155108`  
+**Source(s):** Crossref  
+**Keyword score:** 7  
+**Matched:** crosslink  
+
+---
+
+### 8. [Construction of phosphonic acid–quaternary ammonium dual-functionalized porphyrin-crosslinked OPBI structures for high-temperature proton exchange membranes](https://doi.org/10.1016/j.ijhydene.2026.158294)
+
+**Authors:** Penggao Cheng, Jianxiang He, Lei Zhang, Guiying Tian, Yiming Xiao, Na Tang  
+**Venue/category:** International Journal of Hydrogen Energy  
+**Date:** 2026-12-01  
+**DOI:** `10.1016/j.ijhydene.2026.158294`  
+**Source(s):** Crossref  
+**Keyword score:** 7  
+**Matched:** crosslink  
+
+---
+
+### 9. [Chemical-physical-ionic tri-crosslinked hydrogels exhibiting negative gauge factor effect for flexible electronics](https://doi.org/10.1016/j.mtphys.2026.102301)
+
+**Authors:** Xiaolin Xiang, Hao Zhan, Lisi Wei, Gongjie Liu, Dan Lu, Qiuhong Li  
+**Venue/category:** Materials Today Physics  
+**Date:** 2026-12-01  
+**DOI:** `10.1016/j.mtphys.2026.102301`  
+**Source(s):** Crossref  
+**Keyword score:** 7  
+**Matched:** crosslink  
+
+---
+
+### 10. [Fully solution-processed AgBiS2 thin film solar cells with carbon electrodes via stoichiometry-mediated crystal growth](https://doi.org/10.1016/j.solmat.2026.114730)
+
+**Authors:** Ziyang Ren, Yu Mao, Mengyang Wang, Yanmei Deng, Wenjian Chan, Chenyu Zhong, Ening Gu, Yueli Zhang, Xianzhong Lin, Guowei Yang  
+**Venue/category:** Solar Energy Materials and Solar Cells  
+**Date:** 2027-01-01  
+**DOI:** `10.1016/j.solmat.2026.114730`  
 **Source(s):** Crossref  
 **Keyword score:** 6  
 **Matched:** solution-processed  
 
-**Abstract**
+---
 
-Abstract Defect states in oxide/Si heterojunction photodetectors play a critical role in governing carrier transport and transient photoresponse behaviors; however, effectively manipulating these defect states to achieve optimized device performance remains a significant challenge. Herein, solution-processed tungsten-doped tin dioxide (SnWO)/Si heterojunctions were fabricated to systematically investigate the impact of W doping. An optimal 2 at.% W concentration significantly enhances film uniformity and optimizes defect-mediated transport, yielding a photocurrent-to-dark current ratio of 314.3, a responsivity of 0.4 A W −1 , and a specific detectivity of 6.3 × 10 10 Jones under 450 nm illumination at −3 V. Furthermore, W doping modulates the transient photoresponse behaviors, and the phenomena ranging from fast response through spiky overshoot to slow relaxation are tentatively attributed to defect-mediated carrier dynamics. Specifically, the initially empty shallow traps allow transport under the nearly full internal field, giving an overshoot; their subsequent filling partially screens the internal field and returns the current to the steady state. Deep traps, in contrast, capture and slowly release a large fraction of the photocarriers, delaying the photocurrent buildup. After 90 d of ambient storage, both the defect-related and adsorbed oxygen components increase, indicating a reconstruction of the surface states and, in turn, a corresponding change in the transient photoresponse characteristics. Similarly, excessive doping exacerbates structural disorder and introduces recombination centers, ultimately impairing device performance.
+### 11. [Emerging solution-processed semiconductors for light-emitting diodes](https://doi.org/10.1016/j.giant.2026.100432)
+
+**Authors:** Jingsong Zhang, Kai Zhou, Tao Huang, Yuqi Sun  
+**Venue/category:** Giant  
+**Date:** 2026-12-01  
+**DOI:** `10.1016/j.giant.2026.100432`  
+**Source(s):** Crossref  
+**Keyword score:** 6  
+**Matched:** solution-processed  
 
 ---
