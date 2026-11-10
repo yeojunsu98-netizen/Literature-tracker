@@ -1,23 +1,25 @@
 {
-  "run_day": "2026-11-09",
-  "report_path": "reports/2026-11-09.md",
-  "csv_path": "reports/2026-11-09.csv",
-  "new_candidate_count": 469,
-  "fetched_count": 768,
+  "run_day": "2026-11-10",
+  "report_path": "reports/2026-11-10.md",
+  "csv_path": "reports/2026-11-10.csv",
+  "new_candidate_count": 240,
+  "fetched_count": 525,
   "lookback_hours": 40,
   "source_query_counts": {
-    "Semantic Scholar": 12,
+    "Semantic Scholar": 8,
     "Crossref": 12,
     "arXiv": 12
   },
   "source_record_counts": {
     "Semantic Scholar": 1,
-    "Crossref": 767,
+    "Crossref": 524,
     "arXiv": 0
   },
-  "source_errors": {},
-  "health_degraded": false,
-  "kept_count": 22,
+  "source_errors": {
+    "Semantic Scholar": "Semantic Scholar query 'stretchable OLED' failed: Request failed after retries: https://api.semanticscholar.org/graph/v1/paper/search/bulk: HTTP 429 rate limit from https://api.semanticscholar.org/graph/v1/paper/search/bulk?query=stretchable+OLED&fields=title%2Cabstract%2Cyear%2Cvenue%2Cauthors%2Curl%2CpublicationDate%2CexternalIds&sort=publicationDate%3Adesc"
+  },
+  "health_degraded": true,
+  "kept_count": 11,
   "create_github_issue": true,
   "issue_body_path": "reports/issue_body.md"
 }

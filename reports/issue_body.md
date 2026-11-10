@@ -1,304 +1,153 @@
-# OLED / TADF Daily Literature Tracker — 2026-11-09
+# OLED / TADF Daily Literature Tracker — 2026-11-10
 
-- **New candidate records across sources:** 469
-- **Papers passing keyword filter:** 22
+- **New candidate records across sources:** 240
+- **Papers passing keyword filter:** 11
 - **Sources:** Semantic Scholar, Crossref, arXiv
 - **Cost:** $0 (no paid API / no LLM)
 
 ## New papers
 
-### 1. [An Embedded Plasticization Strategy for Flexible Thermally Activated Delayed Fluorescence Polymers with High Luminance](https://doi.org/10.1021/jacs.6c15384)
+### 1. [Intrinsically Stretchable Fully π‐Conjugated Polymer Films Enabled by Supramolecular Plasticized Micro‐Crosslinking‐Network for Flexible Polymer Light‐Emitting Diodes](https://doi.org/10.1002/adma.75688)
 
-**Authors:** Zhao Yang, Wenkang Shi, Cheng Li, Yuang Liu, Zihan Xiong, Zhihao Shao, Jiuyang Wei, Wei Wen, Hanlin Wang, Zhiyuan Zhao, Yunlong Guo, Yunqi Liu  
-**Venue/category:** Journal of the American Chemical Society  
-**Date:** 2026-11-09  
-**DOI:** `10.1021/jacs.6c15384`  
+**Authors:** Dunliang He, Jiabin Liu, Zhiyang Sun, Shuang Li, Tingting Yang, Haixu Zhao, Rui Gao, Zhiqiang Zhuo, Mingjian Ni, Wenyu Chen, Lili Sun, Xiang An et al.  
+**Venue/category:** Advanced Materials  
+**Date:** 2026-11-10  
+**DOI:** `10.1002/adma.75688`  
 **Source(s):** Crossref  
-**Keyword score:** 20  
-**Matched:** thermally activated delayed fluorescence, tadf, oled, organic light-emitting diode  
+**Keyword score:** 24  
+**Matched:** stretchable, intrinsically stretchable, crosslink  
 
 **Abstract**
 
-Abstract Thermally activated delayed fluorescence (TADF) polymers offer the theoretical advantage of achieving 100% internal quantum efficiency. Together with their solution processability, TADF polymers are promising candidates for flexible display technologies. However, emissive polymers that simultaneously combine efficient TADF emission with mechanical flexibility remain rare. Here, we report an embedded plasticized linker strategy for mechanically compliant TADF polymers. Polyethylene glycol (PEG)-based flexible segments are covalently incorporated into acridine–benzophenone–carbazole polymer backbones. This “TADF unit + plasticized linker” design preserves the donor–acceptor electronic structure required for delayed fluorescence while introducing flexibility into the emissive polymer framework. The resulting polymers exhibit small singlet–triplet energy gaps, clear delayed fluorescence, and favorable film deformability. The deformation behavior of the neat polymer films was evaluated on PDMS substrates under an applied substrate strain of 75%. Notably, the optimized rigid organic light-emitting diode (OLED) based on PIDC(2,7)-EO achieves a maximum external quantum efficiency (EQE) of 20.1% and a high luminance of 85 988 cd m–2. This luminance value is among the highest reported for polymer-based TADF OLEDs. Flexible OLEDs fabricated on flexible substrates further deliver a maximum EQE of 14.7%. These results demonstrate efficient electroluminescence from flexible device architectures. This work establishes embedded plasticized linkers as an effective molecular design strategy for high-performance mechanically flexible TADF polymers. This strategy provides a promising route toward next-generation flexible OLED technologies.
+ABSTRACT Stretchable fully π‐conjugated polymers (FπCPs) films with a fantastic optoelectronic property and outstanding deformation tolerance capacity, is a promising candidate for the fabrication of flexible optoelectronics devices. However, previous reported stretchable FπCPs films undergo irreversible chain slippage and alignment upon strain release, leading to plastic deformation, and consequently severe performance degradation during cyclic‐deformation operation. Herein, we proposed a supramolecular soft‐micro‐crosslinked strategy to achieve the stretchable p ‐ n FπCPs (P X ‐OXI 1‐X ‐HDI) films with a recoverable‐deformation ability for the flexible electronics. Three‐dimensional (3D) supramolecular micro‐crosslinked network formed by oxime‐urethane and hydrogen bonds allow for the excellent elastic deformation to dissipate transient stress while fundamentally suppressing permanent chain slippage. Micro‐crosslinked p ‐ n FπCPs free‐standing films achieved an elongation at break of > 40%. Flexible PLED based on P X ‐OXI 1‐X ‐HDI showed a stable green emission with brightness of ∼3300 cd cm −2 . Meanwhile, the performance of transferred PLED based on stretchable micro‐crosslinked films are independent on the tensile ratio (>20%) with a maximum brightness of ∼2000 cd m −2 , revealed the excellent cycle‐deformation‐stability than device based on crosslinked films. Therefore, these supramolecular micro‐crosslinked networks can enhance instantaneous toughness and confer a critical resistance to long‐term stress relaxation and plastic deformation, further ensure the device excellent deformation stability.
 
 ---
 
-### 2. [Supramolecular Crosslinking Based Photosensitizing Nanogels via Host-Guest Assembly for Targeted Photodynamic Therapy](https://doi.org/10.1021/acs.biomac.6c01180.s001)
+### 2. [Rigid D-π-A through-space charge-transfer TADF emitter with high radiative rate and fast reverse intersystem crossing for OLEDs](https://doi.org/10.1016/j.jlumin.2026.122294)
 
-**Date:** 2026-11-09  
-**DOI:** `10.1021/acs.biomac.6c01180.s001`  
+**Authors:** Zhuoyi Xu, Chuang Yao, Xuesong Zhai, Yang Jiang, Fan Zhang, Yanhong Deng, Jinshan Wang  
+**Venue/category:** Journal of Luminescence  
+**Date:** 2027-01-01  
+**DOI:** `10.1016/j.jlumin.2026.122294`  
 **Source(s):** Crossref  
 **Keyword score:** 11  
-**Matched:** crosslink, host-guest  
+**Matched:** tadf, oled  
 
 ---
 
-### 3. [Composition–Property Relationships of Bioplastic Films Valorizing Green, Brown, and Red Macroalgal Polysaccharides, Biodiesel-Derived Bio-Glycerol and Vinegar: A Circular and Blue Economy Approach](https://doi.org/10.3390/su182111443)
+### 3. [Nitrogen-free crosslinked poly(vinylbenzyl chloride) fibers with retained benzyl chloride reactivity](https://doi.org/10.1016/j.polymer.2026.131104)
 
-**Authors:** Hussein N. Nassar, Aya Soliman, Nour Sh. El-Gendy  
-**Venue/category:** Sustainability  
-**Date:** 2026-11-09  
-**DOI:** `10.3390/su182111443`  
-**Source(s):** Crossref  
-**Keyword score:** 10  
-**Matched:** crosslink, cross-link  
-
-**Abstract**
-
-Persistent petroleum-based packaging pollutes marine ecosystems, emits greenhouse gases and threatens human health, whereas starch-based alternatives compete with food crops. In this study, polysaccharides green-extracted from three seaweeds, Ulva fasciata starch (UFS), Sargassum latifolium alginate (SLA), and Pterocladia capillacea agar (PCA), were cast into bioplastic films using only water, biodiesel-derived bio-glycerol and vinegar. Six formulations (three neat polymers and three 1:1 binary blends) were prepared at constant plasticizer and cross-linker levels and characterized for thickness, density, solubility in neutral, acidic and alkaline media, soil-burial mass loss, and spectroscopic, crystallographic, morphological, thermal and mechanical properties. All formulations formed continuous, flexible, and self-supporting films. The neat-alginate film dissolved completely in water within 30 min, whereas its blends with starch or agar retained over 99% of their mass, showing that an insoluble partner polysaccharide can stabilize alginate without calcium crosslinking. The alginate/agar film combined a tensile strength of 1.19 ± 0.35 MPa with an elongation at break of 85.96 ± 2.5% and remained below 1.4% solubility in all media, while neat agar was the most extensible (102.87 ± 3.0%). Soil burial removed 91.8–100% of the initial mass within four weeks, at composition-dependent rates. These films are promising candidates for short-life dry-food packaging in circular and blue bioeconomies.
-
----
-
-### 4. [Near-Infrared Emitting Cu(I) Cluster-Based Metal–Organic Frameworks with Thermally Activated Delayed Fluorescence](https://doi.org/10.1021/acs.inorgchem.6c04743)
-
-**Authors:** Beibei Wang, Yu Wu, Hai-Yan Li, David James Young, Zhi-Gang Ren, Shuang Chen, Hong-Xi Li  
-**Venue/category:** Inorganic Chemistry  
-**Date:** 2026-11-09  
-**DOI:** `10.1021/acs.inorgchem.6c04743`  
-**Source(s):** Crossref  
-**Keyword score:** 9  
-**Matched:** thermally activated delayed fluorescence  
-
-**Abstract**
-
-Abstract Reaction of 4-methylpyrimidine-2-thione (Hmpymt) with excess CuCl or CuCN at 150 °C gave two [Cu6(mpymt)6] cluster-based metal–organic frameworks {(CuCl)4[Cu6(mpymt)6]}n (1) and {(CuCN)4[Cu6(mpymt)6]·2Me2CO}n (2). The solid-state structures of 1 and 2 consisted of three-dimensional frameworks in which quasi-hexagonal [Cu6(mpymt)6] units are connected by [Cu4Cl4] units in 1 and [CuCN]n chains in 2. Compounds 1 and 2 exhibited strong near-infrared emission (λem = 737 and 744 nm) with photoluminescence quantum yields of 18.4% and 25.2% at ambient temperature, respectively. Fitting of the temperature-dependent lifetimes yielded model-derived singlet–triplet energy gap estimates of 0.060 and 0.077 eV for 1 and 2, respectively, with model-derived thermally activated delayed fluorescence contributions of approximately 72% and 66% at 300 K. The corresponding room-temperature emission lifetimes were 3.60 and 4.85 μs. A near-infrared phosphor-converted light-emitting diode device fabricated from 2 demonstrated promise for night-vision and potential near-infrared imaging applications.
-
----
-
-### 5. [Flexible ZnO-based conductive films of TEMPO-oxidized cellulose nanofiber hydrogels crosslinked through alkylamines](https://doi.org/10.1016/j.porgcoat.2026.110736)
-
-**Authors:** Toyoko Imae, Yu-Chien Ma, Yi-Jie Cai  
-**Venue/category:** Progress in Organic Coatings  
-**Date:** 2027-02-01  
-**DOI:** `10.1016/j.porgcoat.2026.110736`  
-**Source(s):** Crossref  
-**Keyword score:** 7  
-**Matched:** crosslink  
-
----
-
-### 6. [Anti-crease-inspired multicomponent crosslinked binder for mechanically robust gas-phase-derived silicon-carbon anodes](https://doi.org/10.1016/j.est.2026.125577)
-
-**Authors:** Linze Lv, Yan Wang, Xingwei Wang, Wenteng Zhang, Hao Sun, Yueyi Liu, Honghe Zheng  
-**Venue/category:** Journal of Energy Storage  
+**Authors:** Valery N. Bliznyuk, Scott M. Husson  
+**Venue/category:** Polymer  
 **Date:** 2027-01-01  
-**DOI:** `10.1016/j.est.2026.125577`  
+**DOI:** `10.1016/j.polymer.2026.131104`  
 **Source(s):** Crossref  
 **Keyword score:** 7  
 **Matched:** crosslink  
 
 ---
 
-### 7. [Suppressing silicon volume expansion with a boric acid-crosslinked 3D dynamic network “chemical spring” binder](https://doi.org/10.1016/j.jpowsour.2026.241420)
+### 4. [Crosslinked galactomannan based polymeric network for sustained drug delivery system](https://doi.org/10.1016/j.nxmate.2026.103851)
 
-**Authors:** Lei Sun, Zhonghao Jiang, Guoyong Wang  
-**Venue/category:** Journal of Power Sources  
-**Date:** 2026-12-01  
-**DOI:** `10.1016/j.jpowsour.2026.241420`  
+**Authors:** Preeti Chauhan, Vineet Kumar, Achala Singh  
+**Venue/category:** Next Materials  
+**Date:** 2027-01-01  
+**DOI:** `10.1016/j.nxmate.2026.103851`  
 **Source(s):** Crossref  
 **Keyword score:** 7  
 **Matched:** crosslink  
 
 ---
 
-### 8. [Spaced-crosslinked non-isocyanate polyurea foams with distanced hydrogen bonds for cryogenic impact resistance](https://doi.org/10.1016/j.cej.2026.184025)
+### 5. [Solvent-Resistant layered MXene/NBR composite films for high-performance electromagnetic interference shielding](https://doi.org/10.1016/j.surfin.2026.111230)
 
-**Authors:** Lijing Han, Jinzhong Ren, Xiaojing Dai, Lixia Li, Jiacheng Xu, Yang Yang, Xunwen Xiao, Ruoyu Zhang  
-**Venue/category:** Chemical Engineering Journal  
+**Authors:** Ziping Wang, Ruxue Yan, Zhenbo Yuan, Zhaochen Jiang, Yanyu Wang, Yingchao Zhang, Wen Li, Yongjie Bi, Bohan Ding, Hongzhen Wang, Yedan Ding, Chao Teng et al.  
+**Venue/category:** Surfaces and Interfaces  
 **Date:** 2026-12-01  
-**DOI:** `10.1016/j.cej.2026.184025`  
+**DOI:** `10.1016/j.surfin.2026.111230`  
+**Source(s):** Crossref  
+**Keyword score:** 7  
+**Matched:** solvent-resistant  
+
+---
+
+### 6. [A one-step constructed flexible dual-crosslinked network conductive Eutectogel for dual-modal pressure and humidity sensing](https://doi.org/10.1016/j.microc.2026.119992)
+
+**Authors:** Huihui Zhu, Yang Chen, Nan Jiang, Pengjia Qi, Lichao Liu  
+**Venue/category:** Microchemical Journal  
+**Date:** 2026-12-01  
+**DOI:** `10.1016/j.microc.2026.119992`  
 **Source(s):** Crossref  
 **Keyword score:** 7  
 **Matched:** crosslink  
 
 ---
 
-### 9. [Fabrication and computational investigation of acetylated cellulose derived from Paraserianthes falcataria crosslinked via epichlorohydrin for antibacterial polymer networks](https://doi.org/10.1016/j.biteb.2026.103196)
+### 7. [Rational Selection of Hole Contacts with an Organic Light-Emitting Diode Industry p-Dopant for Fully Vacuum-Processed Perovskite/Silicon Tandems](https://doi.org/10.1021/acsenergylett.6c03226)
 
-**Authors:** Nur Ikhtiarini, Amani Salsabil Husodo, Muchammad Zainul Anwar, Alyaa Farrah Dibha, Masruri Masruri, Moh Farid Rahman, Fahimah Martak  
-**Venue/category:** Bioresource Technology Reports  
-**Date:** 2026-12-01  
-**DOI:** `10.1016/j.biteb.2026.103196`  
+**Authors:** Su Ji Moon, Sumin Ji, Minjun Cho, Seung-Woo Kim, Moonhoe Kim, Jino Im, JungYup Yang, Nam Joong Jeon, Beom-Soo Kim  
+**Venue/category:** ACS Energy Letters  
+**Date:** 2026-11-10  
+**DOI:** `10.1021/acsenergylett.6c03226`  
+**Source(s):** Crossref  
+**Keyword score:** 7  
+**Matched:** oled, organic light-emitting diode  
+
+**Abstract**
+
+Abstract Translating perovskite/silicon tandems to fully vacuum-based manufacturing requires vacuum-compatible p-doped hole contacts, yet clear selection criteria for doped hole-transport materials (HTMs) remain underdeveloped compared with C60-based electron contacts. Here, we report a fully vacuum-processed perovskite/silicon tandem reaching 29.1% power conversion efficiency, among the highest reported for tandems with fully vacuum-deposited perovskite top cells, enabled by transferring the organic light-emitting diode (OLED)-industry p-dopant NDP-9 and an evaporable arylamine HTM into the perovskite stack. Comparing TaTm, Spiro-TTB, and TAPC shows that contact selection does not follow apparent host–dopant interaction strength derived from theoretical calculations or conventional optical, vibrational, and photoemission spectroscopies. Instead, device-level charge extraction and recombination metrics identify NDP-9-doped TaTm as the most effective contact, also yielding 20.0% in a single-junction 1.70 eV wide-bandgap cell. These results point to transport-based screening as a practical route to selecting vacuum-compatible doped hole contacts.
+
+---
+
+### 8. [Precision Synthesis of Living Anionic Polymer Crosslinked Nanorods in Concentrated Solutions](https://doi.org/10.1021/acs.macromol.6c02135.s001)
+
+**Date:** 2026-11-10  
+**DOI:** `10.1021/acs.macromol.6c02135.s001`  
 **Source(s):** Crossref  
 **Keyword score:** 7  
 **Matched:** crosslink  
 
 ---
 
-### 10. [Dual-crosslinked silicone coatings for sustainable marine antifouling: Controlled thymol release and ecological safety](https://doi.org/10.1016/j.cej.2026.183889)
+### 9. [Optimizing Re-Crosslinkable Preformed Particle Gel Injection Parameters Under Reservoir Uncertainty in Strongly Heterogeneous Carbonate Reservoirs](https://doi.org/10.3390/pr14223632)
 
-**Authors:** Peng-Fei Chen, Liang Ma, Jian-Cai Chen, Xin-Yue Li, Hui-Jing Li, Yan-Chao Wu  
-**Venue/category:** Chemical Engineering Journal  
-**Date:** 2026-12-01  
-**DOI:** `10.1016/j.cej.2026.183889`  
+**Authors:** Hualei Xu, Wei Kuang, Wenqi Zhang, Cheng Cai, Houshun Jiang, Jie Wang  
+**Venue/category:** Processes  
+**Date:** 2026-11-10  
+**DOI:** `10.3390/pr14223632`  
+**Source(s):** Crossref  
+**Keyword score:** 7  
+**Matched:** crosslink  
+
+**Abstract**
+
+Preferential water channeling in strongly heterogeneous carbonate reservoirs causes ineffective water circulation and uneven interlayer sweep, limiting remaining-oil recovery and complicating re-crosslinkable preformed particle gel (RPPG) treatment design. A representative CMG-STARS sector model, informed by field-derived properties and the reported Mishrif Formation architecture at Halfaya, coupled size-dependent RPPG transport, retention, swelling, staged re-crosslinking, and permeability reduction with flow redistribution. Single-factor and orthogonal simulations established injection-parameter ranges. Response-surface modeling, Morris screening, and Sobol variance decomposition quantified sensitivities and interactions among eight formulation and treatment inputs. Injection concentration, rate, timing, and volume were jointly optimized using designed exploration and controlled evolution (DECE) in CMOST, followed by full-physics verification. With optimized injection settings fixed, uncertainty in 18 reservoir and RPPG-retention parameters was propagated using surrogate-assisted Monte Carlo analysis. Results showed the following. (1) All four injection parameters affected recovery factor nonlinearly. Injection volume and timing dominated, with Sobol total-effect indices of 46.1% and 32.6%, respectively. Interactions accounted for approximately 64% of the total effect of injection volume. (2) DECE optimization achieved a final recovery factor of 43.8%, exceeding the orthogonally selected scheme and baseline waterflooding by 1.6 and approximately 6.1 percentage points, respectively. (3) Under the prescribed uncertainty distributions, the probabilities of the final recovery factor equaling or exceeding 40.30%, 43.43%, and 45.58% were 90%, 50%, and 10%, respectively. The deterministic result (43.8%) was close to the median (43.43%) and lay within the main uncertainty-response range, supporting robustness under the assessed conditions. The integrated workflow supports quantitative RPPG treatment design and performance assessment under reservoir uncertainty.
+
+---
+
+### 10. [Ca²⁺/Zn²⁺-dual-crosslinked Gelatin/poly(γ-glutamic acid)–pullulan/alginate Bilayer Films with Terminalia chebula Extract: Mechanical, Barrier, Migration, UV Protection and Active Packaging Properties for Extending the Cold-storage Quality of Spinach and Cherry Tomatoes](https://doi.org/10.1007/s11483-026-10247-0)
+
+**Authors:** Renata Dobrucka, Lukas Vapenka, Marcin Szymański  
+**Venue/category:** Food Biophysics  
+**Date:** 2026-11-10  
+**DOI:** `10.1007/s11483-026-10247-0`  
 **Source(s):** Crossref  
 **Keyword score:** 7  
 **Matched:** crosslink  
 
 ---
 
-### 11. [Design of a salophen-based porous hypercrosslinked polymer for palladium anchoring: An efficient and reusable catalyst for Heck coupling reactions](https://doi.org/10.1016/j.scp.2026.102605)
+### 11. [A Novel Sensitive and Stretchable TPU/MXene Film-Based Strain Sensor](https://doi.org/10.20944/preprints202609.1501.v2)
 
-**Authors:** Meng Yu, Yihan Liu, Zeyu Yang, Qingcong Wei, Jie Gao, Xianbin Jia, Weiwei Zhang, Jiaojiao Zhang, Guiqing Xu, Yuqin Jiang, Zhiguo Hu, Mahmoud Nasrollahzadeh et al.  
-**Venue/category:** Sustainable Chemistry and Pharmacy  
-**Date:** 2026-12-01  
-**DOI:** `10.1016/j.scp.2026.102605`  
-**Source(s):** Crossref  
-**Keyword score:** 7  
-**Matched:** crosslink  
-
----
-
-### 12. [Covalent imine-crosslinked polyurethanes with dynamic adaptability from waste PET-depolymerized monomer and biomass derivatives](https://doi.org/10.1016/j.cej.2026.183911)
-
-**Authors:** Fan Kang, Hui He, Meili Cui, Cheng Zhang  
-**Venue/category:** Chemical Engineering Journal  
-**Date:** 2026-12-01  
-**DOI:** `10.1016/j.cej.2026.183911`  
-**Source(s):** Crossref  
-**Keyword score:** 7  
-**Matched:** crosslink  
-
----
-
-### 13. [A three-in-one strategy to construct self-healing and robust stretchable fluorescent hydrogel films toward Fe3+ detection and information storage encryption](https://doi.org/10.1016/j.cej.2026.183946)
-
-**Authors:** Jiaxin Li, Peng Lv, Xiangting Dong, Yaolin Hu  
-**Venue/category:** Chemical Engineering Journal  
-**Date:** 2026-12-01  
-**DOI:** `10.1016/j.cej.2026.183946`  
+**Authors:** Anbang Chen, Chong Wang, Wentao Jiang  
+**Date:** 2026-11-10  
+**DOI:** `10.20944/preprints202609.1501.v2`  
 **Source(s):** Crossref  
 **Keyword score:** 7  
 **Matched:** stretchable  
 
----
-
-### 14. [Real-World Evidence for Clinical Adoption of a Crosslinked Hyaluronic Acid Dermal Filler](https://doi.org/10.1097/dss.0000000000005450)
-
-**Authors:** Deirdre Hooper, Chris G. Adigun, Jacob Beer, Jason D. Bloom, Susan H. Weinkle  
-**Venue/category:** Dermatologic Surgery  
-**Date:** 2026-11-10  
-**DOI:** `10.1097/dss.0000000000005450`  
-**Source(s):** Crossref  
-**Keyword score:** 7  
-**Matched:** crosslink  
-
 **Abstract**
 
-BACKGROUND Conventional clinical study results may not always translate to meaningful real-world outcomes due to strict patient selection and rigorous study design. OBJECTIVE To evaluate real-world clinical experience with use of a crosslinked hyaluronic acid filler containing 0.3% lidocaine. METHODS A survey was developed containing multiple choice and open-answer questions regarding experience with the crosslinked hyaluronic acid filler (OSM) including syringe characteristics, injection procedures, treatment appearance outcomes, patient satisfaction, and practitioner adoption. RESULTS Overall, 394 unique respondents from 317 different aesthetic practices responded to the survey 611 times. A total of 1,517 injections were administered with the most common injection areas being the nasolabial folds, midface, and the labiomental and prejowl sulci. In total, 81.3% (497/611) reported the extrusion force was “Good” or “Very Good” while 85.6% (523/611) reported the syringe was “Easy” or “Very Easy” to use during the injection procedure. A total of 92.6% (566/611) felt the areas of injection looked “Natural” or “Very Natural” after administration. In total, 92.0% (562/611) believe OSM complements current aesthetic treatment options. CONCLUSION In real-world clinical practice, OSM demonstrated high levels of clinician satisfaction. Overall, this study showcases the importance of real-world evidence generation when making aesthetic product adoption decisions.
-
----
-
-### 15. [Tannic Acid-Complexed Cellulose Nanofiber-Enabled Dynamically Crosslinked Conductive Hydrogel for Reliable Strain Sensing in Extreme Cold Environments](https://doi.org/10.1021/acssuschemeng.6c07862.s001)
-
-**Date:** 2026-11-09  
-**DOI:** `10.1021/acssuschemeng.6c07862.s001`  
-**Source(s):** Crossref  
-**Keyword score:** 7  
-**Matched:** crosslink  
-
----
-
-### 16. [Development and rheological evaluation of a graphene oxide-reinforced AMPS/CMC crosslinked polymer for well-plugging and drilling-fluid applications](https://doi.org/10.1007/s00289-026-06781-z)
-
-**Authors:** Adel Soleimani, Mahsa Rabiee, Mohammad Barmar, Ahmad Rabiee  
-**Venue/category:** Polymer Bulletin  
-**Date:** 2026-11-09  
-**DOI:** `10.1007/s00289-026-06781-z`  
-**Source(s):** Crossref  
-**Keyword score:** 7  
-**Matched:** crosslink  
-
----
-
-### 17. [Cross‐Linked Poly(Styrene‐Co‐Styrene Sulfonate) Membranes: Effect of Crosslinking on Proton Conductivity and Physicochemical Properties](https://doi.org/10.1002/app.71764)
-
-**Authors:** Ramya Raghudharan, Hemant Sodaye, Singaram Vengatesan  
-**Venue/category:** Journal of Applied Polymer Science  
-**Date:** 2026-11-09  
-**DOI:** `10.1002/app.71764`  
-**Source(s):** Crossref  
-**Keyword score:** 7  
-**Matched:** crosslink  
-
-**Abstract**
-
-ABSTRACT In the present study, cross‐linked poly(styrene‐co‐styrene sulfonate), poly(Sty‐co‐StyS) membranes are prepared using divinylbenzene (DVB) cross‐linker at different weight percentages via free‐radical polymerization in order to achieve desirable proton conductivity and mechanical properties for proton exchange membrane (PEM) water electrolyzer applications. The role of crosslinker in the membrane is also investigated by conducting a comparison study using the membrane without cross‐linker. The cross‐linked poly(Sty‐co‐StyS) membrane exhibits enhanced thermal stability compared to the non‐cross‐linked membrane as revealed by thermal analysis. The sulfonated copolymer showed good solubility and film formation ability in a suitable solvent and composition. The proton conductivities of all the synthesized membranes range between 10 −3 and 10 −2 S/cm, and the other physico‐chemical properties of the membranes were also studied. Among all the membranes, the cross‐linked poly(Sty‐co‐StyS) membrane with 1% crosslinker showed the proton conductivity as high as 1.57 × 10 −2 S/cm, water uptake of 38.2%, and ion exchange capacity of 2.7 mmol/g and excellent thermal stability up to 450°C.
-
----
-
-### 18. [Solution-processed Al-doped ZnO nanowire arrays/CuSCN lateral heterojunctions for low-intensity ultraviolet photodetection](https://doi.org/10.1007/s10854-026-18869-3)
-
-**Authors:** Yu Xu, Zhaolin Yuan, Jianfeng He, Xueyuan Wang, Zhixiang Ye, Dongfang Pei  
-**Venue/category:** Journal of Materials Science: Materials in Electronics  
-**Date:** 2026-11-09  
-**DOI:** `10.1007/s10854-026-18869-3`  
-**Source(s):** Crossref  
-**Keyword score:** 6  
-**Matched:** solution-processed  
-
----
-
-### 19. [Annealing-Temperature-Dependent Electrical and Optical Performance of Solution-Processed Amorphous IGZO TFTs](https://doi.org/10.3390/technologies14110742)
-
-**Authors:** Kamale Tuokedaerhan, Jialeen Sairike, Raikhan Azamat, Alisher Skabylov, Rong Wu, Jianxi Liu, Yerulan Sagidolda, Nurzhan Ussipov, Sayat Akhtanov, Bakyt Khaniyev  
-**Venue/category:** Technologies  
-**Date:** 2026-11-09  
-**DOI:** `10.3390/technologies14110742`  
-**Source(s):** Crossref  
-**Keyword score:** 6  
-**Matched:** solution-processed  
-
-**Abstract**
-
-Solution-processed amorphous InGaZnO (IGZO) thin-film transistors (TFTs) were investigated across a higher-Ga composition regime to examine the relationship between annealing-induced structural changes, film properties, and TFT performance. IGZO precursor solutions were prepared using a sol–gel process, and the films were annealed at 300, 350, and 400 °C. After determining a suitable annealing condition, the effect of the In:Ga:Zn ratio was examined using three compositions: 3:3:3, 3:4:3, and 3:5:3. The films and TFTs were characterised using structural, surface, optical, and electrical measurements. The results show that higher annealing temperatures promote structural changes and the onset of crystallisation, while annealing at 300 °C provides a suitable condition for maintaining the amorphous structure and high optical transparency of the IGZO layer. Changing the metal composition also affects the electrical behaviour of the devices: increasing the Ga content reduces the off-state current, but excessive Ga content leads to a reduction in carrier mobility. The device with an In:Ga:Zn ratio of 3:4:3 exhibited the best overall performance, with an on/off current ratio of 1.31 × 107, a subthreshold swing of 0.31 V/dec, a threshold voltage of −0.56 V, an off-state current of 2.25 × 10−13 A, and a field-effect mobility of 20.32 cm2 V−1 s−1. The corresponding IGZO film showed an average optical transmittance above 90%. The combination of high transparency, low off-state current, and good switching characteristics makes the optimised IGZO TFTs promising for sensor applications, transparent electronics, and emerging artificial intelligence related electronic systems.
-
----
-
-### 20. [A differential model for coupled heat conduction in highly porous polymer networks](https://doi.org/10.1515/tp-2026-0131)
-
-**Authors:** Nhan Phan-Thien, Quang M.N. Phan, Duc Hoa Ton Le, Hai M. Duong  
-**Venue/category:** Transport Phenomena  
-**Date:** 2026-11-10  
-**DOI:** `10.1515/tp-2026-0131`  
-**Source(s):** Crossref  
-**Keyword score:** 5  
-**Matched:** cross-link  
-
-**Abstract**
-
-Abstract Highly porous polymer networks combine a continuous solid skeleton with a gas-filled pore space and may exhibit effective thermal conductivities close to, or below, that of the unconfined gas. Predicting this conductivity from independently measurable material properties remains difficult because heat is transported through the polymer skeleton, the confined gas, and thermal radiation, while each contribution depends differently on density and microstructure. A differential framework is developed in which the nonporous polymer or multicomponent solid is taken as the initial material and gas-filled pores are introduced incrementally. This construction preserves the connected character of the solid skeleton and couples solid and gas conduction within a single effective-medium equation. Unlike conventional decompositions that add separately estimated solid and gas contributions, the confined gas is homogenized directly into the evolving connected skeleton. In addition, the commonly fitted density exponent is predicted from the pore depolarization factors and can be evaluated from a measured pore-shape distribution. The conductivity of the pore gas is allowed to depend on temperature, pressure, and pore size through Knudsen suppression, while pore shape is represented by the depolarization factors of randomly oriented spheroids. Thermal radiation is added through an independently measurable infrared extinction coefficient. For spherical nonconducting pores, the model recovers the density scaling with exponent 3/2 associated with the classical differential effective-medium result; for nonspherical pores, the corresponding exponent follows directly from pore geometry. Multicomponent polymer, cross-linker, and particulate skeletons are incorporated through a fixed-composition differential homogenization at the solid-skeleton scale. The resulting model requires bulk constituent conductivities, skeletal and apparent densities, gas properties, an effective pore size or pore-size distribution, and at most a small number of microstructural parameters. It therefore provides a practical basis for comparing different polymer aerogels and for predicting the effects of composition, porosity, pore geometry, gas pressure, and temperature.
-
----
-
-### 21. [Water Hyacinth Cellulose for Polymer Composites and Bioplastics: A Review of Extraction, Formulation and Applications](https://doi.org/10.3390/polym18212797)
-
-**Authors:** Oluwaseyi Matthew Abioye, Oluwaseun Temitope Faloye, Timothy Adesoye Adekanye, Matthew Folorunsho Amodu, Abiodun Afolabi Okunola, Oluwafemi E. Adeyeri, Laemthong Laokhongthavorn, Viroon Kamchoom  
-**Venue/category:** Polymers  
-**Date:** 2026-11-09  
-**DOI:** `10.3390/polym18212797`  
-**Source(s):** Crossref  
-**Keyword score:** 5  
-**Matched:** crosslink  
-
-**Abstract**
-
-Petroleum-based plastics generate over 400 million tonnes of waste annually, posing severe ecological threats to terrestrial and aquatic environments. Concurrently, water hyacinth (Eichhornia crassipes, Mart.) infests over 50 countries, disrupting waterways, fisheries, and riparian economies. This review proposes that both challenges can be addressed within a single material strategy: valorizing water hyacinth biomass into cellulose-derived bioplastics, nanocellulose composites, and functional hydrogels. To organize the evidence, the review uses a conceptual Harvest–Extract–Formulate–Deploy (HEFD) scheme that follows the value chain from field harvest through cellulose extraction, composite formulation and crosslinking to end use. The scheme is a structuring device and not a validated model. The review draws on the peer-reviewed literature published between 2018 and 2026 and examines composition, mechanical and thermal performance, synthesis routes, and applications in packaging, agriculture and biomedicine. Water hyacinth is not a plastic in itself but a variable lignocellulosic raw material, and the properties of materials made from it depend mainly on the matrix polymer, filler content, and the interface between the two. Reported tensile strengths are modest and elongation at break is far below that of low-density polyethylene (LDPE), so equivalence with LDPE has not been shown. Mass loss in soil-burial tests ranges from a few percent to near-complete disintegration depending on the formulation, and few studies measure mineralization. Feedstock may be cheap, or even paid for, where removal is publicly funded, but no peer-reviewed techno-economic study has confirmed this advantage. A decentralized small-scale production model is proposed for tropical smallholder settings, and clear gaps remain in life-cycle assessment, standardization, and regulation.
-
----
-
-### 22. [Stiffness Gradient 3D-Printed Polymeric Scaffolds for Directed Cell Migration and Osteochondral Differentiation](https://doi.org/10.1021/acsapm.6c02889)
-
-**Authors:** Nitish Kumar, Dritimoni Narzary, Anju Sangwan, Neetu Singh  
-**Venue/category:** ACS Applied Polymer Materials  
-**Date:** 2026-11-09  
-**DOI:** `10.1021/acsapm.6c02889`  
-**Source(s):** Crossref  
-**Keyword score:** 5  
-**Matched:** cross-link  
-
-**Abstract**
-
-Abstract Multilayered 3D-printed hydrogels with stiffness gradients were developed as platforms for osteochondral tissue engineering, recapitulating native ECM heterogeneity through varying stiffness, porosity, and biochemical cues to regulate cellular migration, behavior, and differentiation. In this study, we created a stiffness gradient scaffold by dual-cross-linked hydrogel scaffolds that were fabricated via initial photo-cross-linking followed by ionic cross-linking with Ca2+, creating stiffness gradients by treating half the scaffold area by chelating Ca2+ from the opposing, using EDTA; Ca2+-cross-linked regions exhibited significantly higher stiffness than EDTA-treated regions. The engineered gradient scaffolds demonstrated cytocompatibility, low protein adsorption, and hemocompatibility, making them suitable for tissue engineering applications. MG-63 cells exhibited stiffness gradient-directed migration from soft to stiff regions via mechanotransduction gene expression. Immunomodulation studies revealed enhanced M0-to-M2 macrophage polarization ratios, promoting osteoimmunomodulation that showed hBMSCs into osteogenic differentiation. Furthermore, hBMSCs seeded on gradient scaffolds underwent spatially controlled differentiation into osteogenic (stiff region) and chondrogenic (soft region) lineages, confirmed by OCN/COL2A marker expression, flow cytometry, alizarin red S mineralization, and Alcian blue staining. Collectively, these findings highlight the gradient hydrogel’s ability to mimic the osteochondral ECM microenvironment, facilitating directed cell migration, lineage-specific differentiation, and functional tissue maturation.
+The emergence of embodiment intelligence raises an immediate demand for high-performance strain sensors with adjustable large working ranges to enable precise deformation measurements. Herein, a high-performance strain sensor based on TPU/MXene composite films is fabricated via an ultrasonic anchoring strategy, and its sensing mechanism is investigated based on the piezoresistive effect. Benefiting from the synergistic sensing effect of the embedded conductive network constructed by ultrasonic anchoring and the reversible sliding behavior of surface conductive units, the proposed sensor successfully overcomes the narrow strain range limitation of conventional MXene-based strain sensors. The resulting TPU/MXene sensor delivers an ultra-wide sensing range of 0-330 % with a maximum gauge factor of 196.4. In the low-strain region (0-100 %), it exhibits reliable linearity (R² ≈ 0.99), and its signal output remains stable after 1000 tensile cycles. Besides, the optimized TPU/MXene sensor is demonstrated for bending‑deformation measurement on a silicone rod under different cyclic bending angles. This work provides a feasible preparation strategy for high-stretchability and high-sensitivity MXene-based flexible strain sensors, and shows great application potential in flexible deformation monitoring.
 
 ---
