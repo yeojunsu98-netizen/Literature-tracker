@@ -1,153 +1,100 @@
-# OLED / TADF Daily Literature Tracker — 2026-11-10
+# OLED / TADF Daily Literature Tracker — 2026-11-11
 
-- **New candidate records across sources:** 240
-- **Papers passing keyword filter:** 11
+- **New candidate records across sources:** 7
+- **Papers passing keyword filter:** 7
 - **Sources:** Semantic Scholar, Crossref, arXiv
 - **Cost:** $0 (no paid API / no LLM)
 
 ## New papers
 
-### 1. [Intrinsically Stretchable Fully π‐Conjugated Polymer Films Enabled by Supramolecular Plasticized Micro‐Crosslinking‐Network for Flexible Polymer Light‐Emitting Diodes](https://doi.org/10.1002/adma.75688)
+### 1. [Reductive co-deposition of multiple nanomaterials on PU fibers for stretchable strain sensors](https://doi.org/10.1016/j.compositesa.2026.110305)
 
-**Authors:** Dunliang He, Jiabin Liu, Zhiyang Sun, Shuang Li, Tingting Yang, Haixu Zhao, Rui Gao, Zhiqiang Zhuo, Mingjian Ni, Wenyu Chen, Lili Sun, Xiang An et al.  
-**Venue/category:** Advanced Materials  
-**Date:** 2026-11-10  
-**DOI:** `10.1002/adma.75688`  
-**Source(s):** Crossref  
-**Keyword score:** 24  
-**Matched:** stretchable, intrinsically stretchable, crosslink  
-
-**Abstract**
-
-ABSTRACT Stretchable fully π‐conjugated polymers (FπCPs) films with a fantastic optoelectronic property and outstanding deformation tolerance capacity, is a promising candidate for the fabrication of flexible optoelectronics devices. However, previous reported stretchable FπCPs films undergo irreversible chain slippage and alignment upon strain release, leading to plastic deformation, and consequently severe performance degradation during cyclic‐deformation operation. Herein, we proposed a supramolecular soft‐micro‐crosslinked strategy to achieve the stretchable p ‐ n FπCPs (P X ‐OXI 1‐X ‐HDI) films with a recoverable‐deformation ability for the flexible electronics. Three‐dimensional (3D) supramolecular micro‐crosslinked network formed by oxime‐urethane and hydrogen bonds allow for the excellent elastic deformation to dissipate transient stress while fundamentally suppressing permanent chain slippage. Micro‐crosslinked p ‐ n FπCPs free‐standing films achieved an elongation at break of > 40%. Flexible PLED based on P X ‐OXI 1‐X ‐HDI showed a stable green emission with brightness of ∼3300 cd cm −2 . Meanwhile, the performance of transferred PLED based on stretchable micro‐crosslinked films are independent on the tensile ratio (>20%) with a maximum brightness of ∼2000 cd m −2 , revealed the excellent cycle‐deformation‐stability than device based on crosslinked films. Therefore, these supramolecular micro‐crosslinked networks can enhance instantaneous toughness and confer a critical resistance to long‐term stress relaxation and plastic deformation, further ensure the device excellent deformation stability.
-
----
-
-### 2. [Rigid D-π-A through-space charge-transfer TADF emitter with high radiative rate and fast reverse intersystem crossing for OLEDs](https://doi.org/10.1016/j.jlumin.2026.122294)
-
-**Authors:** Zhuoyi Xu, Chuang Yao, Xuesong Zhai, Yang Jiang, Fan Zhang, Yanhong Deng, Jinshan Wang  
-**Venue/category:** Journal of Luminescence  
+**Authors:** Lien-Chiang Hung, Po-Chun Huang, Shiau-Wu Lai, Ming-Che Chen, Wan-Jung Chang, Ying-Nien Chou  
+**Venue/category:** Composites Part A: Applied Science and Manufacturing  
 **Date:** 2027-01-01  
-**DOI:** `10.1016/j.jlumin.2026.122294`  
-**Source(s):** Crossref  
-**Keyword score:** 11  
-**Matched:** tadf, oled  
-
----
-
-### 3. [Nitrogen-free crosslinked poly(vinylbenzyl chloride) fibers with retained benzyl chloride reactivity](https://doi.org/10.1016/j.polymer.2026.131104)
-
-**Authors:** Valery N. Bliznyuk, Scott M. Husson  
-**Venue/category:** Polymer  
-**Date:** 2027-01-01  
-**DOI:** `10.1016/j.polymer.2026.131104`  
+**DOI:** `10.1016/j.compositesa.2026.110305`  
 **Source(s):** Crossref  
 **Keyword score:** 7  
-**Matched:** crosslink  
+**Matched:** stretchable  
 
 ---
 
-### 4. [Crosslinked galactomannan based polymeric network for sustained drug delivery system](https://doi.org/10.1016/j.nxmate.2026.103851)
+### 2. [Flexible, stretchable and transparent PDMS/AgNPs/Cu/PDMS films with embedded zigzag metal meshes for electromagnetic interference shielding and Joule heating](https://doi.org/10.1016/j.compositesa.2026.110300)
 
-**Authors:** Preeti Chauhan, Vineet Kumar, Achala Singh  
-**Venue/category:** Next Materials  
+**Authors:** Xinru Chen, Mingyu Li, Tao Yang, Tong Sun, Bing Zhou, Zhiqiang Yao, Jian Han, Chuntai Liu  
+**Venue/category:** Composites Part A: Applied Science and Manufacturing  
 **Date:** 2027-01-01  
-**DOI:** `10.1016/j.nxmate.2026.103851`  
+**DOI:** `10.1016/j.compositesa.2026.110300`  
 **Source(s):** Crossref  
 **Keyword score:** 7  
-**Matched:** crosslink  
+**Matched:** stretchable  
 
 ---
 
-### 5. [Solvent-Resistant layered MXene/NBR composite films for high-performance electromagnetic interference shielding](https://doi.org/10.1016/j.surfin.2026.111230)
+### 3. [Highly stretchable sodium alginate/polyvinyl alcohol hydrogel films incorporating cinnamaldehyde/tannic acid/zinc acetate nanoparticles for strawberry preservation and humidity regulation](https://doi.org/10.1016/j.foodchem.2026.151833)
 
-**Authors:** Ziping Wang, Ruxue Yan, Zhenbo Yuan, Zhaochen Jiang, Yanyu Wang, Yingchao Zhang, Wen Li, Yongjie Bi, Bohan Ding, Hongzhen Wang, Yedan Ding, Chao Teng et al.  
-**Venue/category:** Surfaces and Interfaces  
+**Authors:** Gang Wu, Wei Su, Jianhua Wei, Lini Huo, Haiyi Zhong, Peiyuan Li  
+**Venue/category:** Food Chemistry  
 **Date:** 2026-12-01  
-**DOI:** `10.1016/j.surfin.2026.111230`  
+**DOI:** `10.1016/j.foodchem.2026.151833`  
 **Source(s):** Crossref  
 **Keyword score:** 7  
-**Matched:** solvent-resistant  
+**Matched:** stretchable  
 
 ---
 
-### 6. [A one-step constructed flexible dual-crosslinked network conductive Eutectogel for dual-modal pressure and humidity sensing](https://doi.org/10.1016/j.microc.2026.119992)
+### 4. [Role of Cattaneo–Christov heat flux on MHD Sutterby fluid flow with radiation over a melting stretchable sheet with activation energy](https://doi.org/10.1080/02286203.2026.2760647)
 
-**Authors:** Huihui Zhu, Yang Chen, Nan Jiang, Pengjia Qi, Lichao Liu  
-**Venue/category:** Microchemical Journal  
-**Date:** 2026-12-01  
-**DOI:** `10.1016/j.microc.2026.119992`  
+**Authors:** B. Shankar Goud, Dharmaiah G, Mohamed Ali  
+**Venue/category:** International Journal of Modelling and Simulation  
+**Date:** 2026-11-11  
+**DOI:** `10.1080/02286203.2026.2760647`  
 **Source(s):** Crossref  
 **Keyword score:** 7  
-**Matched:** crosslink  
+**Matched:** stretchable  
 
 ---
 
-### 7. [Rational Selection of Hole Contacts with an Organic Light-Emitting Diode Industry p-Dopant for Fully Vacuum-Processed Perovskite/Silicon Tandems](https://doi.org/10.1021/acsenergylett.6c03226)
+### 5. [Recent progress in wearable electronics-based stretchable organic solar cells: A mini review](https://doi.org/10.1007/s12039-026-02595-8)
 
-**Authors:** Su Ji Moon, Sumin Ji, Minjun Cho, Seung-Woo Kim, Moonhoe Kim, Jino Im, JungYup Yang, Nam Joong Jeon, Beom-Soo Kim  
-**Venue/category:** ACS Energy Letters  
-**Date:** 2026-11-10  
-**DOI:** `10.1021/acsenergylett.6c03226`  
+**Authors:** Sneha Lata, Anuradha Mohitkar, Jayanty Subbalakshmi  
+**Venue/category:** Journal of Chemical Sciences  
+**Date:** 2026-11-11  
+**DOI:** `10.1007/s12039-026-02595-8`  
 **Source(s):** Crossref  
 **Keyword score:** 7  
-**Matched:** oled, organic light-emitting diode  
+**Matched:** stretchable  
+
+---
+
+### 6. [Double Electrophilic Borylative Cyclization of a Pyridine Core Enables a Narrowband Ultraviolet B/N/O MR-TADF Emitter](https://doi.org/10.1021/acs.orglett.6c04656)
+
+**Authors:** Yue Wang, Jie Li, Zhangli Cheng, Xi Zhang, Maike Lin, Lingwei Qu, Zebin Chen, Kai Wang, Jun Ye  
+**Venue/category:** Organic Letters  
+**Date:** 2026-11-11  
+**DOI:** `10.1021/acs.orglett.6c04656`  
+**Source(s):** Crossref  
+**Keyword score:** 7  
+**Matched:** tadf  
 
 **Abstract**
 
-Abstract Translating perovskite/silicon tandems to fully vacuum-based manufacturing requires vacuum-compatible p-doped hole contacts, yet clear selection criteria for doped hole-transport materials (HTMs) remain underdeveloped compared with C60-based electron contacts. Here, we report a fully vacuum-processed perovskite/silicon tandem reaching 29.1% power conversion efficiency, among the highest reported for tandems with fully vacuum-deposited perovskite top cells, enabled by transferring the organic light-emitting diode (OLED)-industry p-dopant NDP-9 and an evaporable arylamine HTM into the perovskite stack. Comparing TaTm, Spiro-TTB, and TAPC shows that contact selection does not follow apparent host–dopant interaction strength derived from theoretical calculations or conventional optical, vibrational, and photoemission spectroscopies. Instead, device-level charge extraction and recombination metrics identify NDP-9-doped TaTm as the most effective contact, also yielding 20.0% in a single-junction 1.70 eV wide-bandgap cell. These results point to transport-based screening as a practical route to selecting vacuum-compatible doped hole contacts.
+Abstract A pyridine-embedded boron/nitrogen/oxygen multiple-resonance emitter, tBuBOPy, was synthesized on gram scale via methoxy-directed tandem borylation at the pyridine C3 and C5 positions. The incorporation of pyridine blue-shifts the emission by preferentially stabilizing the highest occupied molecular orbital. It also modifies the excited-state character, reducing hole–electron overlap and lowering the singlet–triplet energy gap. As a result, tBuBOPy exhibits ultraviolet TADF at 383 nm, with an fwhm of 25 nm and a high PLQY of 89%.
 
 ---
 
-### 8. [Precision Synthesis of Living Anionic Polymer Crosslinked Nanorods in Concentrated Solutions](https://doi.org/10.1021/acs.macromol.6c02135.s001)
+### 7. [Crack-driven electrical response in stretchable electronics: an original multi-scale characterization](https://doi.org/10.1088/2058-8585/aebbcd)
 
-**Date:** 2026-11-10  
-**DOI:** `10.1021/acs.macromol.6c02135.s001`  
-**Source(s):** Crossref  
-**Keyword score:** 7  
-**Matched:** crosslink  
-
----
-
-### 9. [Optimizing Re-Crosslinkable Preformed Particle Gel Injection Parameters Under Reservoir Uncertainty in Strongly Heterogeneous Carbonate Reservoirs](https://doi.org/10.3390/pr14223632)
-
-**Authors:** Hualei Xu, Wei Kuang, Wenqi Zhang, Cheng Cai, Houshun Jiang, Jie Wang  
-**Venue/category:** Processes  
-**Date:** 2026-11-10  
-**DOI:** `10.3390/pr14223632`  
-**Source(s):** Crossref  
-**Keyword score:** 7  
-**Matched:** crosslink  
-
-**Abstract**
-
-Preferential water channeling in strongly heterogeneous carbonate reservoirs causes ineffective water circulation and uneven interlayer sweep, limiting remaining-oil recovery and complicating re-crosslinkable preformed particle gel (RPPG) treatment design. A representative CMG-STARS sector model, informed by field-derived properties and the reported Mishrif Formation architecture at Halfaya, coupled size-dependent RPPG transport, retention, swelling, staged re-crosslinking, and permeability reduction with flow redistribution. Single-factor and orthogonal simulations established injection-parameter ranges. Response-surface modeling, Morris screening, and Sobol variance decomposition quantified sensitivities and interactions among eight formulation and treatment inputs. Injection concentration, rate, timing, and volume were jointly optimized using designed exploration and controlled evolution (DECE) in CMOST, followed by full-physics verification. With optimized injection settings fixed, uncertainty in 18 reservoir and RPPG-retention parameters was propagated using surrogate-assisted Monte Carlo analysis. Results showed the following. (1) All four injection parameters affected recovery factor nonlinearly. Injection volume and timing dominated, with Sobol total-effect indices of 46.1% and 32.6%, respectively. Interactions accounted for approximately 64% of the total effect of injection volume. (2) DECE optimization achieved a final recovery factor of 43.8%, exceeding the orthogonally selected scheme and baseline waterflooding by 1.6 and approximately 6.1 percentage points, respectively. (3) Under the prescribed uncertainty distributions, the probabilities of the final recovery factor equaling or exceeding 40.30%, 43.43%, and 45.58% were 90%, 50%, and 10%, respectively. The deterministic result (43.8%) was close to the median (43.43%) and lay within the main uncertainty-response range, supporting robustness under the assessed conditions. The integrated workflow supports quantitative RPPG treatment design and performance assessment under reservoir uncertainty.
-
----
-
-### 10. [Ca²⁺/Zn²⁺-dual-crosslinked Gelatin/poly(γ-glutamic acid)–pullulan/alginate Bilayer Films with Terminalia chebula Extract: Mechanical, Barrier, Migration, UV Protection and Active Packaging Properties for Extending the Cold-storage Quality of Spinach and Cherry Tomatoes](https://doi.org/10.1007/s11483-026-10247-0)
-
-**Authors:** Renata Dobrucka, Lukas Vapenka, Marcin Szymański  
-**Venue/category:** Food Biophysics  
-**Date:** 2026-11-10  
-**DOI:** `10.1007/s11483-026-10247-0`  
-**Source(s):** Crossref  
-**Keyword score:** 7  
-**Matched:** crosslink  
-
----
-
-### 11. [A Novel Sensitive and Stretchable TPU/MXene Film-Based Strain Sensor](https://doi.org/10.20944/preprints202609.1501.v2)
-
-**Authors:** Anbang Chen, Chong Wang, Wentao Jiang  
-**Date:** 2026-11-10  
-**DOI:** `10.20944/preprints202609.1501.v2`  
+**Authors:** Marie Goizet, Raphaël Passas, Guillaume Krosnicki, Julien Bras, Aurore Denneulin  
+**Venue/category:** Flexible and Printed Electronics  
+**Date:** 2026-11-11  
+**DOI:** `10.1088/2058-8585/aebbcd`  
 **Source(s):** Crossref  
 **Keyword score:** 7  
 **Matched:** stretchable  
 
 **Abstract**
 
-The emergence of embodiment intelligence raises an immediate demand for high-performance strain sensors with adjustable large working ranges to enable precise deformation measurements. Herein, a high-performance strain sensor based on TPU/MXene composite films is fabricated via an ultrasonic anchoring strategy, and its sensing mechanism is investigated based on the piezoresistive effect. Benefiting from the synergistic sensing effect of the embedded conductive network constructed by ultrasonic anchoring and the reversible sliding behavior of surface conductive units, the proposed sensor successfully overcomes the narrow strain range limitation of conventional MXene-based strain sensors. The resulting TPU/MXene sensor delivers an ultra-wide sensing range of 0-330 % with a maximum gauge factor of 196.4. In the low-strain region (0-100 %), it exhibits reliable linearity (R² ≈ 0.99), and its signal output remains stable after 1000 tensile cycles. Besides, the optimized TPU/MXene sensor is demonstrated for bending‑deformation measurement on a silicone rod under different cyclic bending angles. This work provides a feasible preparation strategy for high-stretchability and high-sensitivity MXene-based flexible strain sensors, and shows great application potential in flexible deformation monitoring.
+Abstract Emerging applications in electronics require devices capable of conforming to complex three-dimensional geometries, such as wearable systems. Stretchable electronics must remain functional under mechanical deformation. In this work, stretchable conductive inks with innovative formulation are proposed, using silver flakes as the conductive material and bio-based binders, namely hydroxypropylmethyl cellulose (HPMC) and TEMPO-oxidized cellulose nanofibrils (CNFt). The choice of binder significantly influences the stretchability of the printed conductive tracks and the crack formation under strain. To investigate the initiation and evolution of microcracks over deformations, we employ an original experimental approach combining in-situ scanning electron microscopy tensile testing with direct observation of microstructural evolution. This technique provides key insights into the underlying mechanisms governing crack pattern formation under realistic loading conditions. The results show that HPMC promotes the formation of a limited number of large cracks, whereas CNFt leads to the formation of numerous thin cracks. Combining both binder materials enables control over crack formation (morphology and distribution). This is critical, as microstructural evolution under strain is the predominant factor governing the relative change in electrical resistance. Overall, this approach establishes a powerful methodology for linking microstructural evolution to functional electrical performance, thereby enabling the rational design of highly reliable stretchable conductive materials.
 
 ---

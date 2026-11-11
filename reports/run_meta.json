@@ -1,25 +1,25 @@
 {
-  "run_day": "2026-11-10",
-  "report_path": "reports/2026-11-10.md",
-  "csv_path": "reports/2026-11-10.csv",
-  "new_candidate_count": 240,
-  "fetched_count": 525,
+  "run_day": "2026-11-11",
+  "report_path": "reports/2026-11-11.md",
+  "csv_path": "reports/2026-11-11.csv",
+  "new_candidate_count": 7,
+  "fetched_count": 22,
   "lookback_hours": 40,
   "source_query_counts": {
-    "Semantic Scholar": 8,
+    "Semantic Scholar": 2,
     "Crossref": 12,
     "arXiv": 12
   },
   "source_record_counts": {
-    "Semantic Scholar": 1,
-    "Crossref": 524,
+    "Semantic Scholar": 2,
+    "Crossref": 20,
     "arXiv": 0
   },
   "source_errors": {
-    "Semantic Scholar": "Semantic Scholar query 'stretchable OLED' failed: Request failed after retries: https://api.semanticscholar.org/graph/v1/paper/search/bulk: HTTP 429 rate limit from https://api.semanticscholar.org/graph/v1/paper/search/bulk?query=stretchable+OLED&fields=title%2Cabstract%2Cyear%2Cvenue%2Cauthors%2Curl%2CpublicationDate%2CexternalIds&sort=publicationDate%3Adesc"
+    "Semantic Scholar": "Semantic Scholar query 'polymer TADF' failed: Request failed after retries: https://api.semanticscholar.org/graph/v1/paper/search/bulk: HTTP 429 rate limit from https://api.semanticscholar.org/graph/v1/paper/search/bulk?query=polymer+TADF&fields=title%2Cabstract%2Cyear%2Cvenue%2Cauthors%2Curl%2CpublicationDate%2CexternalIds&sort=publicationDate%3Adesc"
   },
   "health_degraded": true,
-  "kept_count": 11,
+  "kept_count": 7,
   "create_github_issue": true,
   "issue_body_path": "reports/issue_body.md"
 }
