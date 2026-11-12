@@ -1,100 +1,35 @@
-# OLED / TADF Daily Literature Tracker — 2026-11-11
+# OLED / TADF Daily Literature Tracker — 2026-11-12
 
-- **New candidate records across sources:** 7
-- **Papers passing keyword filter:** 7
+- **New candidate records across sources:** 2
+- **Papers passing keyword filter:** 2
 - **Sources:** Semantic Scholar, Crossref, arXiv
 - **Cost:** $0 (no paid API / no LLM)
 
 ## New papers
 
-### 1. [Reductive co-deposition of multiple nanomaterials on PU fibers for stretchable strain sensors](https://doi.org/10.1016/j.compositesa.2026.110305)
+### 1. [Tailored Stereo‐Configuration of Crosslinkable Polyester‐Based Solid Polymer Electrolytes for All‐Solid‐State and Binder‐Free Li Metal Batteries (Adv. Sci. 63/2026)](https://doi.org/10.1002/advs.78470)
 
-**Authors:** Lien-Chiang Hung, Po-Chun Huang, Shiau-Wu Lai, Ming-Che Chen, Wan-Jung Chang, Ying-Nien Chou  
-**Venue/category:** Composites Part A: Applied Science and Manufacturing  
-**Date:** 2027-01-01  
-**DOI:** `10.1016/j.compositesa.2026.110305`  
+**Authors:** Hyun Jun Song, Jeong Yoon Kim, Sungpyo Hong, Yong Hui Kim, Myeong Gyun Nam, Jeong‐Won Ho, Min Gi Kang, Hye Seon Kim, Chaeyeon Ha, Sang Uck Lee, Pil J. Yoo, Patrice Rannou  
+**Venue/category:** Advanced Science  
+**Date:** 2026-11-12  
+**DOI:** `10.1002/advs.78470`  
 **Source(s):** Crossref  
 **Keyword score:** 7  
-**Matched:** stretchable  
+**Matched:** crosslink  
 
 ---
 
-### 2. [Flexible, stretchable and transparent PDMS/AgNPs/Cu/PDMS films with embedded zigzag metal meshes for electromagnetic interference shielding and Joule heating](https://doi.org/10.1016/j.compositesa.2026.110300)
+### 2. [Direct integration of stretchable modules for implantable bioelectronics](https://doi.org/10.21203/rs.3.rs-11293766/v1)
 
-**Authors:** Xinru Chen, Mingyu Li, Tao Yang, Tong Sun, Bing Zhou, Zhiqiang Yao, Jian Han, Chuntai Liu  
-**Venue/category:** Composites Part A: Applied Science and Manufacturing  
-**Date:** 2027-01-01  
-**DOI:** `10.1016/j.compositesa.2026.110300`  
-**Source(s):** Crossref  
-**Keyword score:** 7  
-**Matched:** stretchable  
-
----
-
-### 3. [Highly stretchable sodium alginate/polyvinyl alcohol hydrogel films incorporating cinnamaldehyde/tannic acid/zinc acetate nanoparticles for strawberry preservation and humidity regulation](https://doi.org/10.1016/j.foodchem.2026.151833)
-
-**Authors:** Gang Wu, Wei Su, Jianhua Wei, Lini Huo, Haiyi Zhong, Peiyuan Li  
-**Venue/category:** Food Chemistry  
-**Date:** 2026-12-01  
-**DOI:** `10.1016/j.foodchem.2026.151833`  
-**Source(s):** Crossref  
-**Keyword score:** 7  
-**Matched:** stretchable  
-
----
-
-### 4. [Role of Cattaneo–Christov heat flux on MHD Sutterby fluid flow with radiation over a melting stretchable sheet with activation energy](https://doi.org/10.1080/02286203.2026.2760647)
-
-**Authors:** B. Shankar Goud, Dharmaiah G, Mohamed Ali  
-**Venue/category:** International Journal of Modelling and Simulation  
-**Date:** 2026-11-11  
-**DOI:** `10.1080/02286203.2026.2760647`  
-**Source(s):** Crossref  
-**Keyword score:** 7  
-**Matched:** stretchable  
-
----
-
-### 5. [Recent progress in wearable electronics-based stretchable organic solar cells: A mini review](https://doi.org/10.1007/s12039-026-02595-8)
-
-**Authors:** Sneha Lata, Anuradha Mohitkar, Jayanty Subbalakshmi  
-**Venue/category:** Journal of Chemical Sciences  
-**Date:** 2026-11-11  
-**DOI:** `10.1007/s12039-026-02595-8`  
-**Source(s):** Crossref  
-**Keyword score:** 7  
-**Matched:** stretchable  
-
----
-
-### 6. [Double Electrophilic Borylative Cyclization of a Pyridine Core Enables a Narrowband Ultraviolet B/N/O MR-TADF Emitter](https://doi.org/10.1021/acs.orglett.6c04656)
-
-**Authors:** Yue Wang, Jie Li, Zhangli Cheng, Xi Zhang, Maike Lin, Lingwei Qu, Zebin Chen, Kai Wang, Jun Ye  
-**Venue/category:** Organic Letters  
-**Date:** 2026-11-11  
-**DOI:** `10.1021/acs.orglett.6c04656`  
-**Source(s):** Crossref  
-**Keyword score:** 7  
-**Matched:** tadf  
-
-**Abstract**
-
-Abstract A pyridine-embedded boron/nitrogen/oxygen multiple-resonance emitter, tBuBOPy, was synthesized on gram scale via methoxy-directed tandem borylation at the pyridine C3 and C5 positions. The incorporation of pyridine blue-shifts the emission by preferentially stabilizing the highest occupied molecular orbital. It also modifies the excited-state character, reducing hole–electron overlap and lowering the singlet–triplet energy gap. As a result, tBuBOPy exhibits ultraviolet TADF at 383 nm, with an fwhm of 25 nm and a high PLQY of 89%.
-
----
-
-### 7. [Crack-driven electrical response in stretchable electronics: an original multi-scale characterization](https://doi.org/10.1088/2058-8585/aebbcd)
-
-**Authors:** Marie Goizet, Raphaël Passas, Guillaume Krosnicki, Julien Bras, Aurore Denneulin  
-**Venue/category:** Flexible and Printed Electronics  
-**Date:** 2026-11-11  
-**DOI:** `10.1088/2058-8585/aebbcd`  
+**Authors:** Yesol Kim, Hoechang Chung, Chanhui Park, Seonghyeon Nam, Sung-Hyuk Sunwoo, Dae-Hyeong Kim  
+**Date:** 2026-11-12  
+**DOI:** `10.21203/rs.3.rs-11293766/v1`  
 **Source(s):** Crossref  
 **Keyword score:** 7  
 **Matched:** stretchable  
 
 **Abstract**
 
-Abstract Emerging applications in electronics require devices capable of conforming to complex three-dimensional geometries, such as wearable systems. Stretchable electronics must remain functional under mechanical deformation. In this work, stretchable conductive inks with innovative formulation are proposed, using silver flakes as the conductive material and bio-based binders, namely hydroxypropylmethyl cellulose (HPMC) and TEMPO-oxidized cellulose nanofibrils (CNFt). The choice of binder significantly influences the stretchability of the printed conductive tracks and the crack formation under strain. To investigate the initiation and evolution of microcracks over deformations, we employ an original experimental approach combining in-situ scanning electron microscopy tensile testing with direct observation of microstructural evolution. This technique provides key insights into the underlying mechanisms governing crack pattern formation under realistic loading conditions. The results show that HPMC promotes the formation of a limited number of large cracks, whereas CNFt leads to the formation of numerous thin cracks. Combining both binder materials enables control over crack formation (morphology and distribution). This is critical, as microstructural evolution under strain is the predominant factor governing the relative change in electrical resistance. Overall, this approach establishes a powerful methodology for linking microstructural evolution to functional electrical performance, thereby enabling the rational design of highly reliable stretchable conductive materials.
+Abstract Stretchable implantable bioelectronics enable mechanically compliant operation on deforming tissues, yet system-level integration remains challenging. Integrating electrode, interconnect, and circuit modules often requires additional adhesive or conductive bonding layers at their junctions, complicating fabrication and potentially compromising mechanical robustness. Here, we introduce an interlayer-free integration strategy that combines self-healing polymer substrates with liquid metal conductors. Healing-mediated interfacial reconstruction of the polymer substrates forms mechanically cohesive junctions within minutes of contact, while fluidic reconnection of the liquid metal establishes electrical continuity between modules. These junctions exhibit an interfacial toughness of 600 N m − 1 and maintain electrical continuity at tensile strains of approximately 1,000%. Electrode impedance and charge storage capacity show limited changes after repeated stretching. Self-healing between overlapping regions of the polymer substrate further secures electrodes wrapped around the heart and sciatic nerve. The assembled wireless systems deliver cardiac and sciatic nerve stimulation in rat models, demonstrating their stable operation in vivo. Together, these results extend self-healing beyond damage repair to system assembly and tissue fixation, enabling stretchable bioelectronics to function on dynamically moving organs.
 
 ---
