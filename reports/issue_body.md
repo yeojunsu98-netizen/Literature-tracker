@@ -1,72 +1,52 @@
-# OLED / TADF Daily Literature Tracker — 2026-11-13
+# OLED / TADF Daily Literature Tracker — 2026-11-14
 
-- **New candidate records across sources:** 5
-- **Papers passing keyword filter:** 4
+- **New candidate records across sources:** 3
+- **Papers passing keyword filter:** 3
 - **Sources:** Semantic Scholar, Crossref, arXiv
 - **Cost:** $0 (no paid API / no LLM)
 
 ## New papers
 
-### 1. [Intracameral Injection of a Photocrosslinkable Methacrylated Hyaluronic Acid Hydrogel to Establish a Mouse Model of Chronic Ocular Hypertension](https://doi.org/10.3390/biomedicines14112619)
+### 1. [Photocrosslinkable dECM-Methacrylate Composite Hydrogel for Enhanced Chondrogenic Differentiation and Cartilage Regeneration](https://doi.org/10.1093/rb/rbag237)
 
-**Authors:** Jingchao Li, Shuiqian Wen, Feixiang He, Yuting Gao, Ting Liu  
-**Venue/category:** Biomedicines  
-**Date:** 2026-11-13  
-**DOI:** `10.3390/biomedicines14112619`  
+**Authors:** Chao Li, Yunze Zhang, Jiahao Liu, Yinwei Yang, Pei Guo, Haolin Xie, Haoyu Zhai, Lin Dong, Lingrui Li, Shushan Li, Li Yin, Haitao Wang et al.  
+**Venue/category:** Regenerative Biomaterials  
+**Date:** 2026-11-14  
+**DOI:** `10.1093/rb/rbag237`  
 **Source(s):** Crossref  
 **Keyword score:** 17  
 **Matched:** crosslink, photocrosslink  
 
 **Abstract**
 
-Background/Objectives: Chronic ocular hypertension (COH) models are essential for glaucoma research. In this study, we established a mouse COH model by in situ photocrosslinking of methacrylated hyaluronic acid (MAHA). Methods: A 2% (w/v) MAHA precursor containing the photoinitiator LAP was injected into the anterior chamber of C57BL/6J mice and crosslinked under 405 nm light to obstruct aqueous outflow. Hydrogel properties, cytocompatibility, intraocular pressure (IOP), Brn3a retinal flat mounts, flash visual evoked potentials (FVEPs), and serum cytokines were assessed; sham-operated and irradiation-only pilot controls were included. Results: The precursor gelled within 30 s (storage modulus ~4100 Pa), lost 97% cell viability. IOP rose from 11.5 ± 0.20 mmHg at baseline to a peak of 24.40 ± 0.67 mmHg (day 12) and remained elevated for 28 days (success rate 60%; failures were surgical complications). Retinal ganglion cell (RGC) loss was ~17% at day 14 and 24–31% at day 28; FVEP P2 amplitude decreased by ~50% with ~30% longer latency; and serum cytokines were unchanged. Pilot controls showed no IOP elevation or RGC loss. Conclusions: A single intracameral MAHA injection induces sustained ocular hypertension with progressive RGC loss and visual pathway dysfunction, without acute ischemic injury, providing a practical model for glaucoma research and neuroprotective drug screening.
+Abstract Decellularized extracellular matrix (dECM) provides tissue-specific biochemical cues essential for cartilage regeneration, yet its application has been largely restricted to an auxiliary role due to the inability to directly form stable crosslinked networks. In this study, we developed a photocrosslinkable composite hydrogel by modifying dECM with methacrylate groups to obtain dECM-MA and incorporating poly(ethylene glycol) diacrylate (PEGDA). Upon UV irradiation, these components form a stable, covalently co-crosslinked network. The resulting scaffold exhibited favorable 3D printability, optimized degradation kinetics, and robust mechanical behavior. Importantly, the incorporation of dECM-MA significantly enhanced BMSC viability, proliferation, and chondrogenic differentiation, resulting in an approximately 3-fold upregulation of cartilage-specific protein expression (Col II, SOX9, and ACAN). In a rat cartilage defect model, dECM-MA-rich scaffolds promoted superior hyaline-like cartilage regeneration and increased glycosaminoglycan deposition. Crucially, the regenerated tissue achieved a physiological weight-bearing compression modulus of approximately 10 MPa at 12 w while effectively suppressing fibrotic remodeling. These findings demonstrate that multiscale PEGDA/dECM-MA composite scaffolds with excellent mechanical properties and biocompatibility can be used for cartilage tissue engineering.
 
 ---
 
-### 2. [Coupling Axial Chirality with Through‐Space Charge‐Transfer‐Involved Excited‐State Regulation in Bicarbazole‐Based Blue CP‐OLED Emitters](https://doi.org/10.1002/adom.72040)
+### 2. [A stretchable, room-temperature curable polyurethane antifouling coating for flexible substrates](https://doi.org/10.1016/j.colsurfa.2026.141839)
 
-**Authors:** Si‐Wei Chen, Zijian Chen, Weihao Liu, Mengke Li, Qianyu He, Yingrui Tian, Yu Fu, Xuewei Nie, Juntao Hu, Lu Zhou, Shaofu Chen, Qingyue Guo et al.  
-**Venue/category:** Advanced Optical Materials  
-**Date:** 2026-11-13  
-**DOI:** `10.1002/adom.72040`  
-**Source(s):** Crossref  
-**Keyword score:** 10  
-**Matched:** thermally activated delayed fluorescence, oled  
-
-**Abstract**
-
-ABSTRACT Blue circularly polarized organic light‐emitting diodes (CP‐OLEDs) remain challenging because efficient triplet harvesting and strong electroluminescence dissymmetry must be achieved within a single chiral emitter. Herein, an axial‐chirality‐assisted thermally activated delayed fluorescence emitter, Zooey‐TRZ, is developed by incorporating a sterically constrained bicarbazole‐based chiral axis with the triazine acceptor. The axially locked bicarbazole scaffold participates directly in the electronic structure, giving rise to through‐space charge‐transfer‐involved excited states, a reduced singlet‐triplet energy gap, and spin‐orbit coupling‐active triplet‐to‐singlet conversion pathways. In doped films, concentration‐ and host‐polarity‐dependent interactions regulate excited‐state energetics and reverse intersystem crossing, while stronger environmental polarity weakens circularly polarized luminescence, revealing a balance between triplet harvesting and chiroptical response. Single‐crystal analysis suggests slipped donor‐acceptor packing consistent with J‐aggregation‐like interactions. Enantiopure CP‐OLEDs exhibit blue electroluminescence at 455 nm, maximum external quantum efficiencies of 21.14% and 20.42%, and opposite electroluminescence dissymmetry factors of +7.03 × 10 −3 and −7.05 × 10 −3 . These results establish axially locked bicarbazole as an effective platform for excited‐state engineering in efficient blue circularly polarized emitters.
-
----
-
-### 3. [Stretchable helical fiber sensor with human motion monitoring capability for mandibular motion assessment in temporomandibular disorders](https://doi.org/10.3389/fchem.2026.1995089)
-
-**Authors:** Bingran Du, Yue Zhai, Ankang Du, Fang Li, Mengfei Zhu, Mingbo Tian, Lijun Lu  
-**Venue/category:** Frontiers in Chemistry  
-**Date:** 2026-11-13  
-**DOI:** `10.3389/fchem.2026.1995089`  
+**Authors:** Decheng Hua, Haihang Luo, Heng Li, Qiang Gao, Haojun Fan, Jun Xiang  
+**Venue/category:** Colloids and Surfaces A: Physicochemical and Engineering Aspects  
+**Date:** 2027-01-01  
+**DOI:** `10.1016/j.colsurfa.2026.141839`  
 **Source(s):** Crossref  
 **Keyword score:** 7  
 **Matched:** stretchable  
 
-**Abstract**
-
-Temporomandibular disorders (TMDs) are prevalent musculoskeletal conditions affecting the orofacial region. Wearable monitoring of mandibular motion may facilitate clinical assessment of TMDs. To satisfy this critical demand, this work proposes a highly stretchable and sensitive sensing strategy via the integration of a graphite nanosheet conductive ink with flexible fibers featuring a unique helical architecture, enabling the construction of a stretchable helical fiber sensor (HFS). The effective integration between the conductive layer and the fiber substrate was confirmed by microscopic morphological characterization. Performance evaluations demonstrated that the HFS possesses a low strain-detection limit of 0.5%, a rapid response time of 33 ms, and excellent stability over 10,000 deformation cycles. In practical demonstrations, the HFS recorded different motion-related signals from blinking to jumping and mandibular-motion-related strain signals in three illustrative cases (one with bilaterally normal temporomandibular joints and two with unilateral disc displacement with reduction). These findings support the preliminary feasibility of the HFS as a wearable tool for the adjunctive assessment of TMD-related mandibular motion, although validation in larger cohorts using established reference methods is required.
-
 ---
 
-### 4. [Piezoelectric and optical fluorescent stretchable electrospun nanocomposite: part of secured-solar room](https://doi.org/10.1117/12.3116954)
+### 3. [Highly Efficient Organic Scintillators With Low Detection Limits via Cascade Energy Transfer in TADF‐Sensitized Fluorescence](https://doi.org/10.1002/ange.1049230)
 
-**Authors:** Remya Nair, Dania Hosny, Fatemah Abuelhassan, Basil Alothman, Mohamed Trabelsi, Marwa Saad, Sneha Bhagyaraj, Germein Magdy, Patrik Sobolciak, Anton Popelka, Zainab Abelhassan, Nader Shehata  
-**Venue/category:** Sensors and Communication Technologies in the 1 GHz to 10 THz Band III  
-**Date:** 2026-11-13  
-**DOI:** `10.1117/12.3116954`  
+**Authors:** Qi Wang, Yang Zhang, Ziyang Wang, Tianyu Huang, Lian Duan, Dongdong Zhang  
+**Venue/category:** Angewandte Chemie  
+**Date:** 2026-11-14  
+**DOI:** `10.1002/ange.1049230`  
 **Source(s):** Crossref  
 **Keyword score:** 7  
-**Matched:** stretchable  
+**Matched:** tadf  
 
 **Abstract**
 
-Cerium Oxide (ceria) nanoparticle is considered one of the most promising optoelectronic materials due to optical visible fluorescence emission and its wide applications in optical sensors and biomarkers as free radical scavengers. Ceria has been added in different nanofibers to form optoelectronic multi-functional nanocomposite. Among different organic nanofibers, polyvinylidene fluoride (PVDF) has a remarkable electroactive β-sheets as a promising piezoelectric mat that can be used in sustainable energy-harvesting devices and vibration sensors. The optical fluorescence of a ceria nanoparticle nanocomposite inserted during-situ within electrospun PVDF nanofibers is examined in this study. A blue shift in the ceria NPs' bandgap was discovered by optical absorbance analysis, which also improved UV absorption in the PVDF polymer in the vicinity of 3 eV. Luminosity investigation showed a progressive fluorescence effect at some additive doses, with a visible emission of 520 nm under optical stimulation of 430 nm. In addition, ceria nanoparticles improve the piezoelectric response of the nanocomposite as a nucleating agent for better dipole alignment of PVDF with β-sheets concentration of around 60%. Mechanical properties of the formed nanocomposite allow a breaking elongation more than 50%, which is much more stretchability enhanced compared to pure PVDF nanofibers mat. The synthesized nanocomposite therefore provides a multifunctional platform for piezoelectric energy harvesting and optical sensing in cyber-secured smart environments. To extend the material-level characterization toward practical application, a Solar Room framework is demonstrated in which a 5 × 5 PZT footstep matrix provides supplementary harvested energy through power conditioning and storage for low-power IoT monitoring, while secure telemetry mechanisms support cyber-secured operation. This multilevel framework connects flexible nanocomposite functionality with the practical requirements of harvested-energy utilization and secure IoT integration.
+ABSTRACT Organic scintillators have experienced notable advancements in performance, garnering considerable attention and demonstrating promising potential for diverse applications. However, an ideal scintillator requires efficient radiation absorption, rapid radiative decay, excellent stability, and a high light yield; it still remains challenging to simultaneously fulfill these criteria for a single organic material. Here, we propose to fabricate energy transfer cascade organic scintillators based on the TADF‐sensitized fluorescence (TSF) mechanism, in which the functions of x‐ray energy absorption, triplet exciton up‐conversion, and singlet exciton radiative transition are decoupled by three components cooperating to break through intrinsic shackles. As a result, a highlight output of 28.90 times that of anthracene crystal, a record detection limit as low as 17.69 nGy air s −1 , and an imaging resolution of 23.3 lp mm −1 were achieved. This work validates the universality and potential of the TSF mechanism to boost the performance of organic scintillators and is expected to advance the rapid development of organic scintillators.
 
 ---
