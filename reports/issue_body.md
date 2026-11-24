@@ -1,155 +1,96 @@
 # OLED / TADF Daily Literature Tracker — 2026-11-24
 
-- **New candidate records across sources:** 485
-- **Papers passing keyword filter:** 12
+- **New candidate records across sources:** 73
+- **Papers passing keyword filter:** 7
 - **Sources:** Semantic Scholar, Crossref, arXiv
 - **Cost:** $0 (no paid API / no LLM)
 
 ## New papers
 
-### 1. [Near-Infrared Emitting Cu(I) Cluster-Based MetalOrganic Frameworks with Thermally Activated Delayed Fluorescence](https://doi.org/10.1021/acs.inorgchem.6c04743.s001)
+### 1. [Multivalent poly(β-cyclodextrin)/cholic acid-derived host–guest crosslinked polyacrylamide hydrogels with high mechanical strength](https://doi.org/10.1016/j.colsurfa.2026.142399)
 
-**Date:** 2026-11-23  
-**DOI:** `10.1021/acs.inorgchem.6c04743.s001`  
-**Source(s):** Crossref  
-**Keyword score:** 9  
-**Matched:** thermally activated delayed fluorescence  
-
----
-
-### 2. [Oxidized hyaluronic acid/gelatin-based dual-crosslinked hydrogel co-delivering 26SCS and EUK134 for diabetic wound healing](https://doi.org/10.1016/j.bioadv.2026.215314)
-
-**Authors:** Hong Hu, Pin Luo, Zhibin Qiu, Mei Tu, Shenyu Yang, Tao Huang  
-**Venue/category:** Biomaterials Advances  
-**Date:** 2027-03-01  
-**DOI:** `10.1016/j.bioadv.2026.215314`  
+**Authors:** Yingli Zhu, Lanying Guo, Jinsong Zhao, Pengfei Ren  
+**Venue/category:** Colloids and Surfaces A: Physicochemical and Engineering Aspects  
+**Date:** 2027-02-01  
+**DOI:** `10.1016/j.colsurfa.2026.142399`  
 **Source(s):** Crossref  
 **Keyword score:** 7  
 **Matched:** crosslink  
 
 ---
 
-### 3. [Printing on Stretchable Textiles in Design Practice: A Systematic Review of Processes, Materials, and Projectual Applications](https://doi.org/10.1007/978-3-032-41117-4_23)
+### 2. [In situ covalent-ionic crosslinked thin film composite nanofiltration membrane for selective Li+/Mg2+ separation](https://doi.org/10.1016/j.memsci.2026.126412)
 
-**Authors:** Ana Ribeiro, Demétrio Matos  
-**Venue/category:** Springer Series in Design and Innovation  
-**Date:** 2027-02-02  
-**DOI:** `10.1007/978-3-032-41117-4_23`  
+**Authors:** Rajnish Jat, Soumen Samanta, Suresh K. Jewrajka  
+**Venue/category:** Journal of Membrane Science  
+**Date:** 2027-02-01  
+**DOI:** `10.1016/j.memsci.2026.126412`  
 **Source(s):** Crossref  
 **Keyword score:** 7  
-**Matched:** stretchable  
+**Matched:** crosslink  
 
 ---
 
-### 4. [Preparation and properties of B-N coordination-synergistic dual dynamic self-healing polyurethane crosslinked by oxime-carbamate and boroxine](https://doi.org/10.1016/j.eurpolymj.2026.115227)
+### 3. [Urethane-Crosslinked polyisobutylene elastomers: Mechanical properties and in vitro biological evaluation](https://doi.org/10.1016/j.eurpolymj.2026.115222)
 
-**Authors:** Jingguo Chen, Xinmin Shen, Wenqiang Peng, Shuwei Zhao, Zhongzhe Gao, Qunzhang Tu  
+**Authors:** Qiyao Zhang, Yu Jiang, Yujia Cui, Shuxian Shi, Wenjun Chen, Zhi Chen, Xiaonong Chen  
 **Venue/category:** European Polymer Journal  
 **Date:** 2027-01-01  
-**DOI:** `10.1016/j.eurpolymj.2026.115227`  
+**DOI:** `10.1016/j.eurpolymj.2026.115222`  
 **Source(s):** Crossref  
 **Keyword score:** 7  
 **Matched:** crosslink  
 
 ---
 
-### 5. [Structural, morphological, and electrical properties of citric acid-crosslinked poly(vinyl alcohol)/chitosan blend films for alkaline polymer electrolyte application](https://doi.org/10.1016/j.cscee.2026.101523)
+### 4. [Simultaneous enhancement of flame retardancy and mechanical properties of poly (lactic acid) via phytic acid dynamically crosslinked bio-elastomeric toughener](https://doi.org/10.1016/j.polymdegradstab.2026.112608)
 
-**Authors:** Pramahadi Febriyanto, Hary Devianto, Pramujo Widiatmoko, Heri Rustamaji, Tirto Prakoso  
-**Venue/category:** Case Studies in Chemical and Environmental Engineering  
-**Date:** 2026-12-01  
-**DOI:** `10.1016/j.cscee.2026.101523`  
+**Authors:** Ruilai Liu, Shuyuan Xue, Jixi Chen, Huawei Qiao, Shuqiong Liu, Yuhuan Su, Zhengfeng Wang, Fangfang Wu, Botuo Zheng, Huagui Zhang  
+**Venue/category:** Polymer Degradation and Stability  
+**Date:** 2027-01-01  
+**DOI:** `10.1016/j.polymdegradstab.2026.112608`  
 **Source(s):** Crossref  
 **Keyword score:** 7  
 **Matched:** crosslink  
 
 ---
 
-### 6. [Partially bio-based tannic acid-containing AESO-75%GSA UV-crosslinked coating for antifouling and salt-selective polyethersulfone membranes](https://doi.org/10.1016/j.jece.2026.125854)
+### 5. [High-temperature energy storage performance of polyimide-based polymer dielectrics enhanced via crosslinked network with dual electron-withdrawing groups](https://doi.org/10.1016/j.cej.2026.184101)
 
-**Authors:** Ziying Zhao, Ganwei Zhang, Shusu Shen, Dapeng Liu, Xiaoji Zhou  
-**Venue/category:** Journal of Environmental Chemical Engineering  
-**Date:** 2026-12-01  
-**DOI:** `10.1016/j.jece.2026.125854`  
-**Source(s):** Crossref  
-**Keyword score:** 7  
-**Matched:** crosslink  
-
----
-
-### 7. [Multi-site cooperative catalysis in 4,4′-bipyridine-based hyper-crosslinked ionic polymers for one-pot two-step conversion of CO2 to dimethyl carbonate](https://doi.org/10.1016/j.jece.2026.125994)
-
-**Authors:** Jiquan Liang, Linyan Cheng, Jingya Yang, Cheng Fang, Gongde Wu, Hongping Li, Jing Ding, Hui Wan, Lijin Zhou, Guofeng Guan  
-**Venue/category:** Journal of Environmental Chemical Engineering  
-**Date:** 2026-12-01  
-**DOI:** `10.1016/j.jece.2026.125994`  
-**Source(s):** Crossref  
-**Keyword score:** 7  
-**Matched:** crosslink  
-
----
-
-### 8. [Hierarchical dual-crosslinked alginate interlayer for structurally uniform thin-film composite nanofiltration membranes](https://doi.org/10.1016/j.cej.2026.182304)
-
-**Authors:** Ho Jun Lee, Mun Suk Seong, Kyungwon Seo, Cheol Lee, Chanwung Mun, Hyosung An, Jong Suk Lee  
+**Authors:** Jun Sun, Yu Feng, Dongyu Hou, Yu Teng, Wenchao Zhang, Dong Yue, Yuanhang Yao  
 **Venue/category:** Chemical Engineering Journal  
 **Date:** 2026-12-01  
-**DOI:** `10.1016/j.cej.2026.182304`  
+**DOI:** `10.1016/j.cej.2026.184101`  
 **Source(s):** Crossref  
 **Keyword score:** 7  
 **Matched:** crosslink  
 
 ---
 
-### 9. [Expression of Concern: “Enzymatically crosslinked pectin–silk fibroin hydrogel with embedded ZnO@Gallic acid nanoparticles: An injectable, self-healing, and antibacterial wound dressing” [Int. J. Biol. Macromol. 349 (2026), 150823](https://doi.org/10.1016/j.ijbiomac.2026.154712)
+### 6. [Biomimetic, dual-crosslinked boronate composite membranes with self-healing and antifouling properties for oily wastewater purification](https://doi.org/10.1016/j.seppur.2026.140172)
 
-**Venue/category:** International Journal of Biological Macromolecules  
+**Authors:** Hong Guo, Boyang Hu, Kaiwei Wang, Zhen Li, Huiting Shan, Xipeng Li  
+**Venue/category:** Separation and Purification Technology  
 **Date:** 2026-12-01  
-**DOI:** `10.1016/j.ijbiomac.2026.154712`  
+**DOI:** `10.1016/j.seppur.2026.140172`  
 **Source(s):** Crossref  
 **Keyword score:** 7  
 **Matched:** crosslink  
 
 ---
 
-### 10. [ZrO-Embedded Crosslinked Poly(aryl piperidinium) Membranes with Enhanced Mechanical and Alkaline Stability for Anion Exchange Membrane Water Electrolyzer](https://doi.org/10.1021/acsaem.6c02981.s001)
+### 7. [Co-Precipitation Preparation of Chitosan Biopolymer (x%)-Encapsulated Thiourea/Formaldehyde Composite: Chemical Analysis and Application for the Adsorption of Acid Blue 25 from Water](https://doi.org/10.3390/polym18232951)
 
-**Date:** 2026-11-23  
-**DOI:** `10.1021/acsaem.6c02981.s001`  
+**Authors:** Masseoud Othmani, Nouha Sebeia, Mahjoub Jabli  
+**Venue/category:** Polymers  
+**Date:** 2026-11-24  
+**DOI:** `10.3390/polym18232951`  
 **Source(s):** Crossref  
-**Keyword score:** 7  
-**Matched:** crosslink  
-
----
-
-### 11. [Crosslinking‐Regulated Hydroxyl Accessibility Enables Humidity‐Resistant Cellulose Triboelectric Nanogenerators for Fruit Transportation Monitoring](https://doi.org/10.1002/cssc.71257)
-
-**Authors:** Yuhang Wang, Tianshuang Bao, Kai Liu, Qingxian Miao, Jian Du  
-**Venue/category:** ChemSusChem  
-**Date:** 2026-11-23  
-**DOI:** `10.1002/cssc.71257`  
-**Source(s):** Crossref  
-**Keyword score:** 7  
+**Keyword score:** 5  
 **Matched:** crosslink  
 
 **Abstract**
 
-Cellulose‐based triboelectric nanogenerators (TENGs) suffer from severe performance degradation under humid conditions because of abundant polar hydroxyl groups, resulting in rapid triboelectric charge dissipation. Herein, a surface hydroxyl regulation strategy is proposed to fabricate a humidity‐resistant cellulose‐based TENG through glutaraldehyde‐induced crosslinking of chitosan onto cellulose paper. The crosslinked network consumes surface hydroxyl groups, suppresses water adsorption, and effectively inhibits humidity‐induced charge loss. The optimized composite exhibits a water contact angle of 103.6° and delivers an open‐circuit voltage of 123 V at 90% relative humidity with an output attenuation below 4%. A maximum power density of 82.17 mW m −2 , approximately 4‐fold that of pristine cellulose, is achieved, while stable electrical output is maintained after 10,000 operation cycles under high humidity. Furthermore, the humidity‐resistant TENG is integrated into fruit packaging for self‐powered collision monitoring, enabling reliable detection of transportation‐induced impacts associated with fruit mechanical damage. This work demonstrates an effective route to humidity‐resistant triboelectric materials through surface hydroxyl regulation and provides a promising strategy for self‐powered monitoring in intelligent food logistics.
-
----
-
-### 12. [A Dual-Crosslinked Coating with a Stable Self-generating Hydrogel Surface and Suppressed Water Permeation for Intrinsic Marine Antifouling](https://doi.org/10.1021/acsami.6c18863)
-
-**Authors:** Haofeng Xiao, Kai Zhang, Taijiang Gui, Shuxue Zhou  
-**Venue/category:** ACS Applied Materials & Interfaces  
-**Date:** 2026-11-23  
-**DOI:** `10.1021/acsami.6c18863`  
-**Source(s):** Crossref  
-**Keyword score:** 7  
-**Matched:** crosslink  
-
-**Abstract**
-
-Abstract To address the challenge of simultaneously achieving optimal antifouling efficacy and service durability for hydrogel coatings, dual-crosslinkable coatings were facilely fabricated from a polyacrylate bearing three functional groups (trimethoxysilyl, triisopropylsilyl ester, and ethyl acetoacetate groups) and a blended curing agent (amino-silane and branched polyethyleneimine). Upon seawater immersion, the coatings could rapidly self-generate an underwater superoleophobic surface characterized by hydrogel or porous structures, depending on their composition. Remarkably, the optimized coating (T14K14A14/15%P) maintained its hydrogel layer at the surface during 30 d of both static and dynamic immersion tests, indicating suppressed water permeation and hydrolysis within the coating and hence outstanding durability in service. This behavior was attributed to the barrier effect of the dense dual-crosslinked networks and the osmotic potential of the salt-entrapped hydrogel layer. Although no antifouling agent was incorporated, the T14K14A14/15%P coating exhibited an initial sterilization rate above 99%, which remained above 90% after 30 d of immersion, with protein and algal adhesion reductions of 93.5 and 93.1%, respectively. Through direct immersion and electrochemical impedance spectroscopy, the coating also demonstrated decent anticorrosion performance even after long-term immersion, further verifying the suppressed water permeation. This work provides a strategy for designing durable hydrogel antifouling coatings without compromising antifouling performance.
+In this work, a series of chitosan (x%)-encapsulated Thiourea/Formaldehyde composites (CS(x%)/TU/FAs) and a reference Thiourea–Formaldehyde (TU/FA) were prepared and systematically characterized. The composites were prepared by varying the mass of chitosan biopolymer (from 0.25 to 0.75 w/v) in order to evaluate how the encapsulation of chitosan can affect the morphology, surface chemistry, crystallinity, and thermal stability. The prepared composites were analytically characterized using SEM, particle size distribution, FT-IR, XRD, and TGA/DTG analyses. The morphology analysis showed that pre-mixing chitosan biopolymer reinforced the thiourea network and promoted the formation of a rougher, more porous surface. The particle size distribution analysis revealed that the incorporation of chitosan in TU/FA affected the TU/FA polycondensation kinetics by promoting nucleation while limiting particle growth. The XRD analysis of TU/FA composite exhibited relatively intense and sharp peaks, indicating a partially crystalline structure. After the incorporation of chitosan in TU/FA, the diffractograms were slightly changed. The main peaks were broadening, chemically shifted, and decreased in intensity, indicating that the chemical modification with chitosan disrupted the internal hydrogen bonding and crystalline arrangement of the resulting composite. The thermal decomposition of TU/FA composite started at 221.2 °C and ended at 586.3 °C. However, the thermal decomposition of CS(0.5%)/TU/FA composite started at 212.9 °C and ended at 599 °C. It is clear that the incorporation of chitosan in TU/FA composite led to a higher thermal stability due to the crosslinking effect and the establishment of more hydrogen bonding. The CS(0.5%)/TU/FA material exhibited the highest adsorption capacity for Acid Blue 25 (110 mg/g), approximately 2.5-fold higher than that of TU/FA (43 mg/g), due to the higher density of amine and hydroxyl groups facilitating electrostatic attraction. The adsorption process was dependent on many experimental factors including pH, time, initial dye concentration, and temperature. Kinetic data followed a pseudo-second-order model, implying a chemisorption process. Langmuir isotherm suggested monolayer adsorption. Thermodynamic analysis indicated an exothermic, non-spontaneous mechanism. Overall, the TU/PAA-5/FA composite combines enhanced structural stability with high adsorption efficiency, highlighting its potential as a promising material for the elimination of anionic dyes from textile effluents.
 
 ---
