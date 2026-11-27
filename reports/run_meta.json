@@ -1,9 +1,9 @@
 {
-  "run_day": "2026-11-26",
-  "report_path": "reports/2026-11-26.md",
-  "csv_path": "reports/2026-11-26.csv",
-  "new_candidate_count": 41,
-  "fetched_count": 144,
+  "run_day": "2026-11-27",
+  "report_path": "reports/2026-11-27.md",
+  "csv_path": "reports/2026-11-27.csv",
+  "new_candidate_count": 60,
+  "fetched_count": 302,
   "lookback_hours": 40,
   "source_query_counts": {
     "Semantic Scholar": 12,
@@ -12,12 +12,12 @@
   },
   "source_record_counts": {
     "Semantic Scholar": 2,
-    "Crossref": 140,
-    "arXiv": 2
+    "Crossref": 300,
+    "arXiv": 0
   },
   "source_errors": {},
   "health_degraded": false,
-  "kept_count": 7,
+  "kept_count": 5,
   "create_github_issue": true,
   "issue_body_path": "reports/issue_body.md"
 }
